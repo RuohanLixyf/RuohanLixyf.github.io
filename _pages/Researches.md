@@ -5,20 +5,14 @@ permalink: /Researches/
 author_profile: true
 ---
 
-Research on the Traffic Capacity of Highway Region Ecological Environment—— A Case of G30 Zhangye,Sept.2021- Jun.2023 
+Map-Matching, Sep.2023 - Now
 ======
-* Objective: To study the impact of highway traffic on the surrounding environment, calculate the carrying capacity of traffic
-* Delivery: A postgraduate thesis, and a paper titled The Maximum Traffic Capacity of Highway Region: Under Road Region Environment Constrains
-  
-<div align=center>
-<br/><img src='/images/picture_1.png'>    
-   
-Figure.1 
+* As part of generating Complete Trip data, the map-matching method based on the HMM model is used to perform map matching on human location service (LBS) data, aligning human movement trajectories with a digital map, such as Open Street Map (OSM).
+* 
+<iframe   src="规定在 iframe 中显示的文档的 URL" width="" height=""   frameborder="1/0"  name="iframe名称"     scrolling="yes/no/auto">   
+</iframe>
 
-<br/><img src='/images/picture_2.png'>
-Figure.2 
-</div>
-  
+
 Intelligent quality detection of lane rendering data,Aug.2022- Sept.2022 
 ======
 * Objective: To efficiently detect whether there are defects in the rendered generated map data for navigation
@@ -45,7 +39,21 @@ Figure.2
 <br/><img src='/images/challenge_result1.jpg'>
 Figure.3 
 </div>
+
+Research on the Traffic Capacity of Highway Region Ecological Environment—— A Case of G30 Zhangye,Sept.2021- Jun.2023 
+======
+* Objective: To study the impact of highway traffic on the surrounding environment, calculate the carrying capacity of traffic
+* Delivery: A postgraduate thesis, and a paper titled The Maximum Traffic Capacity of Highway Region: Under Road Region Environment Constrains
   
+<div align=center>
+<br/><img src='/images/picture_1.png'>    
+   
+Figure.1 
+
+<br/><img src='/images/picture_2.png'>
+Figure.2 
+</div>
+    
 Research on ecological risk assessment and traffic carrying capacity of road areas in ecological function zones,Sep.2021 - Sep.2022
 ======
 Lanzhou Jiaotong University | Research Assistant
@@ -64,22 +72,4 @@ Figure.1 Time series data (NDVI) using Landsat8 remote sensing images.
 <br/><img src='/images/4.png'>
 Figure.2 Correlation analysis between NDVI value and meteorology indexes.
 </div>
-
-Research on the mechanism of the rural roads on the revitalization of rural industries in Gansu Province,Sep.2020 - Aug.2021
-======
-Lanzhou Jiaotong University | Research Assistant
-* Objective: To investigate the impact of rural roads on the industry in rural areas, taking rural roads as the main research object, revealing the mechanism of the role of the rural roads in the revitalization of the industry
-* The evaluation index system was established to analyze the relationship between the rural roads and agricultural industries
-* Utilized the entropy value method and Analytic Hierarchy Process(AHP) method to comprehensively assign weights to the index system, and calculated coupling coordination. 
-* It is concluded that rural roads and agricultural industries in the study area are in a high degree of coupling, and county roads are developed in a point-axis pattern.
-* Delivery: Completed a research report, and a research paper titled Research on Coordination Relationship between Development of Rural Roads and Industrial Structure of Agriculture
-
-Air pollutant concentration prediction based on LSTM-CNN,Sept.2021- Oct.2021
-======
-* Objective: To accurate weather forecasting, a second forecast is made based on the first forecast to improve forecast accuracy
-* The influence of meteorological conditions on the distribution of pollutant concentrations was studied using the pearson correlation coefficient method in combination with heat maps
-* Build a secondary forecast model based on LSTM on the basis of the first forecast data
-* Considering regional coordinated prediction of weather using LSTM-CNN to mine the temporal and spatial characteristics of pollutants between multiple sites
-* Test comparing LSTM and LSTM-CNN, and the prediction results with different hyperparameters
-* Delivery: Participated in The 18th China Post-Graduate Mathematical Contest in Modeling, won the 3rd prize
-                           
+    
