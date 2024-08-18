@@ -1,49 +1,34 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Ruohan Li short bio"
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+I am a Ph.D. Student and Graduate Research Assistant at the Department of Civil and Environmental Engineering, College of Engineering, [Villanova University](https://www1.villanova.edu/university.html), PA, USA. I am the menber of the [Villanova Human Mobility Data Lab (NovaMobility)](https://cfxiong.github.io/data-lab/) supervised by [Dr. Chenfeng Xiong](https://cfxiong.github.io/). I am passionate about everything related to transportation and various advanced applications that are technology-oriented. I care about cutting-edge technological applications in transportation, such as map matching for human travel trajectories and lane detection in autonomous driving. I also focus on the environmental impact of transportation, such as the effect of vehicle-generated air pollutants on road areas. Currently, I am mainly involved in the generation and processing of human mobility data, with a primary focus on the application of map matching technology in human mobility data. I am passionate about applying the latest technologies, such as machine learning, deep learning, reinforcement learning, and various software and tools, to address transportation issues.
+<span style="color:Blue"> *If you are interested in my research, Feel free to contact me for research discussion and possible collaboration!* </span>
 
-A data-driven personal website
+
+News 
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+- 08/2024: Finally rearranged part of my graduate thesis and submitted it to [Atmospheric Pollution Research](https://www.sciencedirect.com/journal/atmospheric-pollution-research): A Novel Highway Traffic Capacity Analysis Method under Road Region Atmospheric Environment Constraints Based on a Computational Fluid Dynamics Model. 
+- 07/2024: My paper have been submitted and is currently under review by [The Transportation Research Board (TRB) 104nd Annual Meeting](https://trb-annual-meeting.nationalacademies.org/): Sup-HMM Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach. Working on the map-matching continues. This work is part of our team's Complete Trips Project.
+- 06/2024: My paper have been accepted by [Conference in Emerging Technologies in Transportation Systems (TRC-30)](https://trc-30.epfl.ch/): Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach. Very excited for the presentation in Crete, Greece in September!
+- 06/2024: The computer software have been submitted and is currently under review by Computer Software Copyright Registration in China: Lane Line Detection Software Based on Image Sequence Mask Pre-Training.
+- 04/2024: My paper have been submitted and is currently under review by [Conference in Emerging Technologies in Transportation Systems (TRC-30)](https://trc-30.epfl.ch/): Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach. <span style="color:GoldenRod"> I'm current working on the map matching for the human mobility data. </span>
+- 10/2023: <span style="color:Green">Two of my TRB paper were accepted.</span>
+  * [A Novel Highway Traffic Capacity Analyzing Method under Road Region Atmospheric Environment Constrains Based on Computational Fluid Dynamics Model](http://dx.doi.org/10.13140/RG.2.2.24853.50405). <var>The Transportation Research Board (TRB) 103nd Annual Meeting</var>. 2023. [Accepted] **Rank 1st.**
+  * [Intelligent Anomaly Detection for Lane Rendering Using Transformer with Self-Supervised Pre-Training and Customized Fine-Tuning](http://dx.doi.org/10.13140/RG.2.2.28243.35360). <var>The Transportation Research Board (TRB) 103nd Annual Meeting</var>. 2023. [Accepted] Rank 3rd.
+- 09/2023: The article, "The Highway Region Boundary Based on Multi-Environmental Factors," can accessed Now! to view the article from [here!](https://doi.org/10.1061/9780784484869.014)
+- 09/2023: Starting the Ph.D study at Villanova University!
+- 08/2023: The article, "Robust Lane Detection Through Self Pre-Training With Masked Sequential Autoencoders and Fine-Tuning With Customized PolyLoss," has been finalized and posted to the "Early Access" area on IEEE Xplore! Now, to view the article abstract page from [here!](https://ieeexplore.ieee.org/document/10226453)
+- 07/2023: I received my <span style="color:GoldenRod">Ph.D. offer </span> from Villanova University! I'm looking forward to my new researches and life at Villanova!
+- 07/2023: My paper [Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss](https://arxiv.org/abs/2305.17271) is accepted by the journal of *IEEE Transactions on Intelligent Transportation Systems* !
+- 06/2023: I received my <span style="color:GoldenRod">M.Eng. degree </span> in traffic and transportation from Lanzhou Jiaotong University!
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+                     
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=2db8dd&w=a&t=tt&d=t3RFq-d0ZvyNcMOXmNGt6JTnByrbHW0lSUzD_8Yfss4&co=ffffff&cmn=5bf35b&ct=161616'></script>
+        

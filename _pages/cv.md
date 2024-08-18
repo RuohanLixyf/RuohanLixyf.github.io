@@ -9,56 +9,41 @@ redirect_from:
 
 {% include base_path %}
 
+* <a href="/_pages/CV_Ruohan Li.pdf" download> CV in PDF</a>
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.Eng. College of Traffic and Transportation, Lanzhou Jiaotong University, 2023
+* B.Eng. College of Traffic and Transportation, Lanzhou Jiaotong University, 2020
 
-Work experience
+Organization activities & Volunteering
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+  * School Basketball Team, Captain,	Sept.2016-Jan.2019
+    * Responsible for helping the coach to organize and manage the daily basketball practice 
+    * Assist coaches in basketball tournaments and lead teams in basketball tournaments
+  * School Taekwondo Club, Teaching department, Coach, Sept.2016-Jun.2018
+    * Organize daily taekwondo training for club members
+    * Organize and plan activities, and lead the performance team in the evening show
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Programming Languages:
+  * Python/PyTorch
+  * C/C++
+  * C#
+* Machine Learning:
+  * CNN
+  * LSTM
+  * AutoEncoder
+  * Masked Image Modeling
+  * Transformer
+  * U-Net
+* Software:
+  * PyCharm/Spyder
+  * ArcGIS
+  * ENVI
+  * Vissim
+  * Revit/Auto CAD
+  * ADAM
+  * SPSS
+       
