@@ -7,15 +7,15 @@ author_profile: true
 
 Map-Matching, Sep.2023 - Now
 ======
-* As part of generating Complete Trip data, the map-matching method based on the HMM model is used to perform map matching on human location service (LBS) data, aligning human movement trajectories with a digital map, such as Open Street Map (OSM).
-
+* As part of generating Complete Trip data, the map-matching method based on the HMM model is used to perform map matching on human Location-based Service (LBS) data, aligning human movement trajectories with a digital map, such as Open Street Map (OSM).
+   
 <div align=center>
 Map-Matching Sample
 <iframe src="/files/Map-Matching-Sample_DC_17.html" width="900" height="550" frameborder="1" name="Map-Matching-Sample_DC_10" scrolling="auto" style="display: block; margin: 0 auto;"></iframe>
-     
+        
 <iframe src="/files/Map-Matching-Sample_DC_10.html" width="900" height="550" frameborder="1" name="Map-Matching-Sample_DC_10" scrolling="auto" style="display: block; margin: 0 auto;"></iframe>
 </div>
-    
+      
 Intelligent quality detection of lane rendering data,Aug.2022- Sept.2022 
 ======
 * Objective: To efficiently detect whether there are defects in the rendered generated map data for navigation
