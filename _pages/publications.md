@@ -7,7 +7,7 @@ author_profile: true
 
 Selected Publications
 ======
-
+{% bibliography %}
 
 Under Review
 ======
