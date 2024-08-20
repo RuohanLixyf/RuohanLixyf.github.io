@@ -3,16 +3,7 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
-nav: true
-nav_order: 2
-selected_papers: true # includes a list of papers marked as "selected={true}"
 ---
-
-Selected Publications
-======
-
-{% bibliography %}
-
 
 Under Review
 ======
