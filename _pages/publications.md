@@ -3,10 +3,13 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+nav: true
+nav_order: 2
 ---
 
 Selected Publications
 ======
+
 {% bibliography %}
 
 Under Review
