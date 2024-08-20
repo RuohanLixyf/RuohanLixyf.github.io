@@ -6,11 +6,15 @@ author_profile: true
 nav: true
 nav_order: 2
 ---
+<!-- _pages/publications.md -->
+<div class="publications">
 
 Selected Publications
 ======
 
 {% bibliography %}
+
+</div>
 
 Under Review
 ======
