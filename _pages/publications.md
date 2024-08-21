@@ -33,3 +33,4 @@ Patent
 * Vision-Based Lane Detection System With Self-supervised Pre-training Through Masked Sequential Auto-encoders (VLD_SP-MSAE) (Computer Software Copyright Registration in China, 2024R11L1180902, submitted and under review).
 * Automated lane detection (IDF OCT-22-060, granted on May 25, 2024, Patent number 2033551)
                        
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=t3RFq-d0ZvyNcMOXmNGt6JTnByrbHW0lSUzD_8Yfss4&cl=ffffff&w=a"></script>
