@@ -1,5 +1,5 @@
 ---
-title: "Map=Matching Sample..."
+title: "Sample"
 excerpt: ""
 collection: solving
 ---
