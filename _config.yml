@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Ruohan Li"
   avatar           : "Ruohan_GIT3.jpg"
-  bio              : "Ph.D. Student and Graduate Research Assistant at Villanova"
+  bio              : "Ph.D. Student and Graduate Research Assistant at Villanova University"
   location         : "Villanova, PA, USA"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -109,7 +109,7 @@ author:
   stackoverflow    : #http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "https://twitter.com/RuohanLi"
+  twitter          : #"https://twitter.com/RuohanLi"
   vine             :
   weibo            :
   xing             :
