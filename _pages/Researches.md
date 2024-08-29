@@ -10,7 +10,7 @@ Map-Matching, Sep.2023 - Now
 * As part of generating Complete Trip data, the map-matching method based on the HMM model is used to perform map matching on human Location-based Service (LBS) data, aligning human movement trajectories with a digital map, such as Open Street Map (OSM).
    
 <div align=center>
-Map-Matching Sample 1
+Map-Matching Sample 1 
 <iframe src="/files/Trajectory_best_Seattle_1100001_net.html" width="900" height="550" frameborder="1" name="Map-Matching-Sample_DC_10" scrolling="auto" style="display: block; margin: 0 auto;"></iframe>
 </div>
       
