@@ -20,7 +20,7 @@ News
 - 08/2024: Finally rearranged part of my graduate thesis and submitted it to [Atmospheric Pollution Research](https://www.sciencedirect.com/journal/atmospheric-pollution-research): A Novel Highway Traffic Capacity Analysis Method under Road Region Atmospheric Environment Constraints Based on a Computational Fluid Dynamics Model. 
 - 07/2024: My paper have been submitted and is currently under review by [The Transportation Research Board (TRB) 104nd Annual Meeting](https://trb-annual-meeting.nationalacademies.org/): Sup-HMM Map-Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach. Working on the map-matching continues. This work is part of our team's Complete Trips Project.
 <div align=center>
-Map-Matching Sample
+Map-Matching Sample 
 <iframe src="/files/Hof_13.html" width="700" height="400" frameborder="1" name="Map-Matching-Sample_DC_10" scrolling="auto" style="display: block; margin: 0 auto;"></iframe>
 </div>
      
