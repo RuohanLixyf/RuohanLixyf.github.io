@@ -12,7 +12,7 @@ I am a Ph.D. Student and Graduate Research Assistant at the Department of Civil 
 <span style="color:Blue"> *If you are interested in my research, Feel free to contact me for research discussion and possible collaboration!* </span>
   
 Open Source Project:
-* Lane Detection (coming soon)
+* [Lane Detection](https://github.com/RuohanLixyf/Lane-Detection-Self-Supervised-MSAE)
 * [Intelligent Anomaly Detection](https://github.com/lxm/digix-2022)
 
 News 
