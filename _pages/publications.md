@@ -7,8 +7,8 @@ author_profile: true
 
 Under Review
 ======
-* **Ruohan Li**, Hualan Wang*. A Novel Highway Traffic Capacity Analysis Method under Road Region Atmospheric Environment Constraints Based on a Computational Fluid Dynamics Model . <var>Atmospheric Pollution Research</var>. 2024. [Submitted to Journal]
-* **Ruohan Li**, Arash Tavakoli, C. Nataraja, Chenfeng Xiong*. Sup-HMM Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach . <var>The Transportation Research Board (TRB) 104nd Annual Meeting</var>. 2024. [Under Review]
+* **Ruohan Li**, Hualan Wang*. A Novel Highway Traffic Capacity Analysis Method under Road Region Atmospheric Environment Constraints Based on a Computational Fluid Dynamics Model . <var>Atmospheric Pollution Research</var>. 2024. [Under Review]
+* **Ruohan Li**, Arash Tavakoli, C. Nataraja, Chenfeng Xiong*. Sup-HMM Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach . <var>Transportation Research Part C: Emerging Technologies</var>. 2024. [Prepare to submit]
   
 Journal Publications
 ======
