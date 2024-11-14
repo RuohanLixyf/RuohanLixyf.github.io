@@ -19,7 +19,7 @@ Journal Publications
 
 Conference
 ======
-* **Ruohan Li**, Chenfeng Xiong*, Arash Tavakoli, C. Nataraja. Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach . <var>Conference in Emerging Technologies in Transportation Systems (TRC-30)</var>. 2024. [Accepted on 12 Jun. Presentation]
+* **Ruohan Li**, Chenfeng Xiong*, Arash Tavakoli, C. Nataraja. Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach . <var>Conference in Emerging Technologies in Transportation Systems (TRC-30)</var>. 2024. [Accepted on 12 Jun. Presentation](https://trc-30.epfl.ch/wp-content/uploads/2024/09/TRC-30_paper_260.pdf)
 * **Ruohan Li**, Hualan Wang*, Qiyang Zhang, Ting Nie. A Novel Highway Traffic Capacity Analyzing Method under Road Region Atmospheric Environment Constrains Based on Computational Fluid Dynamics Model. <var>The Transportation Research Board (TRB) 103nd Annual Meeting</var>. 2023. [Accepted on 02 Oct. 2023]
 * Yongqi Dong#, Xingmin Lu#, **Ruohan Li**, Wei Song*, Bart van Arem, Haneen Farah. Intelligent Anomaly Detection for Lane Rendering Using Transformer with Self-Supervised Pre-Training and Customized Fine-Tuning. <var>The Transportation Research Board (TRB) 103nd Annual Meeting</var>. 2023. [Accepted on 27 Sep. 2023]
 * Yongqi Dong#, **Ruohan Li**#, Haneen Farah*. Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss. <var>The Transportation Research Board (TRB) 102nd Annual Meeting</var>. **[TRB 2023 poster](https://repository.tudelft.nl/islandora/object/uuid:62690e30-572d-44c2-aa8f-f0b1cb835f29?collection=research).**
