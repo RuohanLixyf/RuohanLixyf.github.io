@@ -17,6 +17,7 @@ Open Source Project:
 
 News 
 ======
+- 01/2025: My paper have been submitted and is currently under review by [26th International Symposium on Transportation and Traffic Theory (ISTTT26)](https://www.isttt2026.vtk.ed.tum.de/index.html): Layered Trajectory Map-Matching Theory: Hierarchical Decomposition Method. Working on the map-matching continues. This work follows my previews Sup-HMM map-matching model.
 - 09/2024: The Computer Software Copyright Registration in China: Vision-Based Lane Detection System With Self-supervised Pre-training Through Masked Sequential Auto-encoders (VLD_SP-MSAE), granted on Sep. 11, 2024, Patent number 2024R11L1180902. And we have published our [open source Lane Detection Code](https://github.com/RuohanLixyf/Lane-Detection-Self-Supervised-MSAE) on GitHub, including models and dataset.
 - 09/2024: I present my recent work: Sup-HMM Map-Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach at TRC-30 conference. A nice trip on Crete.
 - 08/2024: Finally rearranged part of my graduate thesis and submitted it to [Atmospheric Pollution Research](https://www.sciencedirect.com/journal/atmospheric-pollution-research): A Novel Highway Traffic Capacity Analysis Method under Road Region Atmospheric Environment Constraints Based on a Computational Fluid Dynamics Model. 
