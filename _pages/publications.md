@@ -9,7 +9,7 @@ Under Review
 ======
 * **Ruohan Li#**, Xin Wu#, Weiyu Luo, Chenfeng Xiong*. Layered Trajectory Map-Matching Theory: Hierarchical Decomposition Method. <var>26th International Symposium on Transportation and Traffic Theory (ISTTT26)</var>. 2025. [Under Review]
 * **Ruohan Li**, Hualan Wang*. A Novel Highway Traffic Capacity Analysis Method under Road Region Atmospheric Environment Constraints Based on a Computational Fluid Dynamics Model . <var>Atmospheric Pollution Research</var>. 2024. [Under Review]
-* **Ruohan Li**, Arash Tavakoli, C. Nataraja, Chenfeng Xiong*. Sup-HMM Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach . <var>Transportation Research Part C: Emerging Technologies</var>. 2024. [Prepare to submit]
+* **Ruohan Li**, Weiyu Luo, Arash Tavakoli, C. Nataraja, Chenfeng Xiong*. Sup-HMM Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach . <var>Transportation Research Part C: Emerging Technologies</var>. 2024. [Prepare to submit]
 * Yongqi Dong#*, Xingmin Lu#, **Ruohan Li**, Wei Song*, Bart van Arem, Haneen Farah. Intelligent Anomaly Detection for Lane Rendering Using Transformer with Self-Supervised Pre-Training and Customized Fine-Tuning. <var>Transportation Research Record</var>. 2023. [Revised]
   
 Journal Publications
