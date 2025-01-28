@@ -15,6 +15,14 @@ Open Source Project:
 * [Lane Detection](https://github.com/RuohanLixyf/Lane-Detection-Self-Supervised-MSAE)
 * [Intelligent Anomaly Detection](https://github.com/lxm/digix-2022)
 
+<script src="https://utteranc.es/client.js"
+        repo="RuohanLixyf.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
 News 
 ======
 - 01/2025: My paper have been submitted and is currently under review by [26th International Symposium on Transportation and Traffic Theory (ISTTT26)](https://www.isttt2026.vtk.ed.tum.de/index.html): Layered Trajectory Map-Matching Theory: Hierarchical Decomposition Method. Working on the map-matching continues. This work follows my previews Sup-HMM map-matching model.
@@ -42,11 +50,4 @@ Map-Matching Sample
 
                      
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=2db8dd&w=a&t=tt&d=t3RFq-d0ZvyNcMOXmNGt6JTnByrbHW0lSUzD_8Yfss4&co=ffffff&cmn=5bf35b&ct=161616'></script>
-        
-<script src="https://utteranc.es/client.js"
-        repo="RuohanLixyf/RuohanLixyf.github.io"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+         
