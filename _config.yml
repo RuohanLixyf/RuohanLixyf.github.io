@@ -84,9 +84,9 @@ author:
   avatar           : "Ruohan_GIT3.jpg"
   bio              : "Ph.D. Student and Graduate Research Assistant at Villanova University"
   location         : "Villanova, PA, USA"
-  employer         :Open Source Project:
-* [Lane Detection](https://github.com/RuohanLixyf/Lane-Detection-Self-Supervised-MSAE)
-* [Intelligent Anomaly Detection](https://github.com/lxm/digix-2022)
+  opensource       : "Open Source Project:"
+  opensource       : "* [Lane Detection](https://github.com/RuohanLixyf/Lane-Detection-Self-Supervised-MSAE)"
+  opensource       : "* [Intelligent Anomaly Detection](https://github.com/lxm/digix-2022)"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=aORBRHkAAAAJ"
   email            : "ruohanli373@gmail.com"
