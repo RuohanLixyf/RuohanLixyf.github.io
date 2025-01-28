@@ -115,7 +115,7 @@ author:
   youtube          :
   wikipedia        :
   opensource:
-    title          : "Open Source Projects"
+    title          : "🚀 Open Source Projects"
     projects:
       - name: "Lane Detection"
         url: "https://github.com/RuohanLixyf/Lane-Detection-Self-Supervised-MSAE"
