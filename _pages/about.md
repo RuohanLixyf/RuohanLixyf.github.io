@@ -25,10 +25,14 @@ News
 ======
 <div style="width: 100%; height: 600px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px;">
 
-  - 01/2025: My paper have been submitted and is currently under review by [26th International Symposium on Transportation and Traffic Theory (ISTTT26)](https://www.isttt2026.vtk.ed.tum.de/index.html): Layered Trajectory Map-Matching Theory: Hierarchical Decomposition Method. Working on the map-matching continues. This work follows my previews Sup-HMM map-matching model.
+- 01/2025: My paper have been submitted and is currently under review by [26th International Symposium on Transportation and Traffic Theory (ISTTT26)](https://www.isttt2026.vtk.ed.tum.de/index.html): Layered Trajectory Map-Matching Theory: Hierarchical Decomposition Method. Working on the map-matching continues. This work follows my previews Sup-HMM map-matching model.
+  
 - 09/2024: The Computer Software Copyright Registration in China: Vision-Based Lane Detection System With Self-supervised Pre-training Through Masked Sequential Auto-encoders (VLD_SP-MSAE), granted on Sep. 11, 2024, Patent number 2024R11L1180902. And we have published our [open source Lane Detection Code](https://github.com/RuohanLixyf/Lane-Detection-Self-Supervised-MSAE) on GitHub, including models and dataset.
+  
 - 09/2024: I present my recent work: Sup-HMM Map-Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach at TRC-30 conference. A nice trip on Crete.
-- 08/2024: Finally rearranged part of my graduate thesis and submitted it to [Atmospheric Pollution Research](https://www.sciencedirect.com/journal/atmospheric-pollution-research): A Novel Highway Traffic Capacity Analysis Method under Road Region Atmospheric Environment Constraints Based on a Computational Fluid Dynamics Model. 
+  
+- 08/2024: Finally rearranged part of my graduate thesis and submitted it to [Atmospheric Pollution Research](https://www.sciencedirect.com/journal/atmospheric-pollution-research): A Novel Highway Traffic Capacity Analysis Method under Road Region Atmospheric Environment Constraints Based on a Computational Fluid Dynamics Model.
+  
 - 07/2024: My paper have been submitted and is currently under review by [The Transportation Research Board (TRB) 104nd Annual Meeting](https://trb-annual-meeting.nationalacademies.org/): Sup-HMM Map-Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach. Working on the map-matching continues. This work is part of our team's Complete Trips Project.
 <div align=center>
 Map-Matching Sample 
@@ -37,15 +41,23 @@ Map-Matching Sample
      
 - 06/2024: My paper have been accepted by [Conference in Emerging Technologies in Transportation Systems (TRC-30)](https://trc-30.epfl.ch/): Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach. Very excited for the presentation in Crete, Greece in September!
 - 06/2024: The computer software have been submitted and is currently under review by Computer Software Copyright Registration in China: Lane Line Detection Software Based on Image Sequence Mask Pre-Training.
+  
 - 04/2024: My paper have been submitted and is currently under review by [Conference in Emerging Technologies in Transportation Systems (TRC-30)](https://trc-30.epfl.ch/): Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach. <span style="color:GoldenRod"> I'm current working on the map matching for the human mobility data. </span>
+
 - 10/2023: <span style="color:Green">Two of my TRB paper were accepted.</span>
   * [A Novel Highway Traffic Capacity Analyzing Method under Road Region Atmospheric Environment Constrains Based on Computational Fluid Dynamics Model](http://dx.doi.org/10.13140/RG.2.2.24853.50405). <var>The Transportation Research Board (TRB) 103nd Annual Meeting</var>. 2023. [Accepted] **Rank 1st.**
   * [Intelligent Anomaly Detection for Lane Rendering Using Transformer with Self-Supervised Pre-Training and Customized Fine-Tuning](http://dx.doi.org/10.13140/RG.2.2.28243.35360). <var>The Transportation Research Board (TRB) 103nd Annual Meeting</var>. 2023. [Accepted] Rank 3rd.
+    
 - 09/2023: The article, "The Highway Region Boundary Based on Multi-Environmental Factors," can accessed Now! to view the article from [here!](https://doi.org/10.1061/9780784484869.014)
+  
 - 09/2023: Starting the Ph.D study at Villanova University!
+  
 - 08/2023: The article, "Robust Lane Detection Through Self Pre-Training With Masked Sequential Autoencoders and Fine-Tuning With Customized PolyLoss," has been finalized and posted to the "Early Access" area on IEEE Xplore! Now, to view the article abstract page from [here!](https://ieeexplore.ieee.org/document/10226453)
+  
 - 07/2023: I received my <span style="color:GoldenRod">Ph.D. offer </span> from Villanova University! I'm looking forward to my new researches and life at Villanova!
+  
 - 07/2023: My paper [Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss](https://arxiv.org/abs/2305.17271) is accepted by the journal of *IEEE Transactions on Intelligent Transportation Systems* !
+  
 - 06/2023: I received my <span style="color:GoldenRod">M.Eng. degree </span> in traffic and transportation from Lanzhou Jiaotong University!
   
 </div>
