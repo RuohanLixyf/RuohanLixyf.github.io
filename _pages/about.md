@@ -38,7 +38,9 @@ Map-Matching Sample
 </div>
 
 ## More News
+
 <details>
+  
   <summary>Click to expand more updates</summary>
 
 - **06/2024**: My paper has been accepted by [Conference in Emerging Technologies in Transportation Systems (TRC-30)](https://trc-30.epfl.ch/): *Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach.* Very excited for the presentation in Crete, Greece, in September!
