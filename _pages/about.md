@@ -23,7 +23,11 @@ I am a Ph.D. Student and Graduate Research Assistant at the Department of Civil 
 
 News 
 ======
-- 01/2025: My paper have been submitted and is currently under review by [26th International Symposium on Transportation and Traffic Theory (ISTTT26)](https://www.isttt2026.vtk.ed.tum.de/index.html): Layered Trajectory Map-Matching Theory: Hierarchical Decomposition Method. Working on the map-matching continues. This work follows my previews Sup-HMM map-matching model.
+<details>
+  <summary>Click to expand latest updates</summary>
+  <div style="max-height: 200px; overflow-y: auto; border: 1px solid #ccc; padding: 10px;">
+  
+  - 01/2025: My paper have been submitted and is currently under review by [26th International Symposium on Transportation and Traffic Theory (ISTTT26)](https://www.isttt2026.vtk.ed.tum.de/index.html): Layered Trajectory Map-Matching Theory: Hierarchical Decomposition Method. Working on the map-matching continues. This work follows my previews Sup-HMM map-matching model.
 - 09/2024: The Computer Software Copyright Registration in China: Vision-Based Lane Detection System With Self-supervised Pre-training Through Masked Sequential Auto-encoders (VLD_SP-MSAE), granted on Sep. 11, 2024, Patent number 2024R11L1180902. And we have published our [open source Lane Detection Code](https://github.com/RuohanLixyf/Lane-Detection-Self-Supervised-MSAE) on GitHub, including models and dataset.
 - 09/2024: I present my recent work: Sup-HMM Map-Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach at TRC-30 conference. A nice trip on Crete.
 - 08/2024: Finally rearranged part of my graduate thesis and submitted it to [Atmospheric Pollution Research](https://www.sciencedirect.com/journal/atmospheric-pollution-research): A Novel Highway Traffic Capacity Analysis Method under Road Region Atmospheric Environment Constraints Based on a Computational Fluid Dynamics Model. 
@@ -45,6 +49,10 @@ Map-Matching Sample
 - 07/2023: I received my <span style="color:GoldenRod">Ph.D. offer </span> from Villanova University! I'm looking forward to my new researches and life at Villanova!
 - 07/2023: My paper [Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss](https://arxiv.org/abs/2305.17271) is accepted by the journal of *IEEE Transactions on Intelligent Transportation Systems* !
 - 06/2023: I received my <span style="color:GoldenRod">M.Eng. degree </span> in traffic and transportation from Lanzhou Jiaotong University!
+  
+  </div>
+</details>
+
 
                      
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=2db8dd&w=a&t=tt&d=t3RFq-d0ZvyNcMOXmNGt6JTnByrbHW0lSUzD_8Yfss4&co=ffffff&cmn=5bf35b&ct=161616'></script>
