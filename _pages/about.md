@@ -37,11 +37,12 @@ Map-Matching Sample
 <iframe src="/files/Hof_13.html" width="700" height="400" frameborder="1" name="Map-Matching-Sample_DC_10" scrolling="auto" style="display: block; margin: 0 auto;"></iframe>
 </div>
 
+   
 More News  
 ======  
 <details>
   <summary>Click to expand more updates</summary>
-
+   
 - **06/2024**: My paper has been accepted by [Conference in Emerging Technologies in Transportation Systems (TRC-30)](https://trc-30.epfl.ch/): *Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach.* Very excited for the presentation in Crete, Greece, in September!
 - **06/2024**: The computer software has been submitted and is currently under review by Computer Software Copyright Registration in China: *Lane Line Detection Software Based on Image Sequence Mask Pre-Training.*
 - **04/2024**: My paper has been submitted and is currently under review by [Conference in Emerging Technologies in Transportation Systems (TRC-30)](https://trc-30.epfl.ch/): *Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach.* I'm currently working on map matching for human mobility data.
@@ -54,7 +55,7 @@ More News
 - **07/2023**: I received my Ph.D. offer from Villanova University! Looking forward to new research and life at Villanova!
 - **07/2023**: My paper [Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss](https://arxiv.org/abs/2305.17271) is accepted by the journal of *IEEE Transactions on Intelligent Transportation Systems*!
 - **06/2023**: I received my M.Eng. degree in traffic and transportation from Lanzhou Jiaotong University!
-
+   
 </details>
 
                      
