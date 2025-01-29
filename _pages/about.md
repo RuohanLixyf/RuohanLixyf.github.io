@@ -36,12 +36,10 @@ News
 Map-Matching Sample 
 <iframe src="/files/Hof_13.html" width="700" height="400" frameborder="1" name="Map-Matching-Sample_DC_10" scrolling="auto" style="display: block; margin: 0 auto;"></iframe>
 </div>
-     
-
+       
 <details>
   <summary>Click to expand more updates</summary>
-  <div style="max-height: 200px; overflow-y: auto; border: 1px solid #ccc; padding: 10px;">
-  
+
   - 06/2024: My paper have been accepted by [Conference in Emerging Technologies in Transportation Systems (TRC-30)](https://trc-30.epfl.ch/): Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach. Very excited for the presentation in Crete, Greece in September!
 - 06/2024: The computer software have been submitted and is currently under review by Computer Software Copyright Registration in China: Lane Line Detection Software Based on Image Sequence Mask Pre-Training.
   
@@ -63,8 +61,6 @@ Map-Matching Sample
   
 - 06/2023: I received my <span style="color:GoldenRod">M.Eng. degree </span> in traffic and transportation from Lanzhou Jiaotong University!
 
-  
-  </div>
 </details>
 
                      
