@@ -1,10 +1,10 @@
 ---
 layout: archive
-title: "Silent Scribbles - xyf"
-permalink: /Silent Scribbles - xyf/
+title: "Silent Scribbles"
+permalink: /Silent Scribbles/
 author_profile: true
 ---
-# Silent Scribbles
+# Silent Scribbles - xyf
 
 Something will happen here...
   
