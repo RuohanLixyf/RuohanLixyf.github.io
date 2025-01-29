@@ -4,7 +4,6 @@ title: "Silent Scribbles"
 permalink: /Silent Scribbles/
 author_profile: true
 ---
-# Silent Scribbles - xyf
 
 Something will happen here...
   
