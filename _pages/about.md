@@ -36,30 +36,26 @@ News
 Map-Matching Sample 
 <iframe src="/files/Hof_13.html" width="700" height="400" frameborder="1" name="Map-Matching-Sample_DC_10" scrolling="auto" style="display: block; margin: 0 auto;"></iframe>
 </div>
-       
+
+## More News
 <details>
   <summary>Click to expand more updates</summary>
 
-  - 06/2024: My paper have been accepted by [Conference in Emerging Technologies in Transportation Systems (TRC-30)](https://trc-30.epfl.ch/): Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach. Very excited for the presentation in Crete, Greece in September!
-- 06/2024: The computer software have been submitted and is currently under review by Computer Software Copyright Registration in China: Lane Line Detection Software Based on Image Sequence Mask Pre-Training.
-  
-- 04/2024: My paper have been submitted and is currently under review by [Conference in Emerging Technologies in Transportation Systems (TRC-30)](https://trc-30.epfl.ch/): Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach. <span style="color:GoldenRod"> I'm current working on the map matching for the human mobility data. </span>
-
-- 10/2023: <span style="color:Green">Two of my TRB paper were accepted.</span>
-  * [A Novel Highway Traffic Capacity Analyzing Method under Road Region Atmospheric Environment Constrains Based on Computational Fluid Dynamics Model](http://dx.doi.org/10.13140/RG.2.2.24853.50405). <var>The Transportation Research Board (TRB) 103nd Annual Meeting</var>. 2023. [Accepted] **Rank 1st.**
-  * [Intelligent Anomaly Detection for Lane Rendering Using Transformer with Self-Supervised Pre-Training and Customized Fine-Tuning](http://dx.doi.org/10.13140/RG.2.2.28243.35360). <var>The Transportation Research Board (TRB) 103nd Annual Meeting</var>. 2023. [Accepted] Rank 3rd.
-    
-- 09/2023: The article, "The Highway Region Boundary Based on Multi-Environmental Factors," can accessed Now! to view the article from [here!](https://doi.org/10.1061/9780784484869.014)
-  
-- 09/2023: Starting the Ph.D study at Villanova University!
-  
-- 08/2023: The article, "Robust Lane Detection Through Self Pre-Training With Masked Sequential Autoencoders and Fine-Tuning With Customized PolyLoss," has been finalized and posted to the "Early Access" area on IEEE Xplore! Now, to view the article abstract page from [here!](https://ieeexplore.ieee.org/document/10226453)
-  
-- 07/2023: I received my <span style="color:GoldenRod">Ph.D. offer </span> from Villanova University! I'm looking forward to my new researches and life at Villanova!
-  
-- 07/2023: My paper [Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss](https://arxiv.org/abs/2305.17271) is accepted by the journal of *IEEE Transactions on Intelligent Transportation Systems* !
-  
-- 06/2023: I received my <span style="color:GoldenRod">M.Eng. degree </span> in traffic and transportation from Lanzhou Jiaotong University!
+- **06/2024**: My paper has been accepted by [Conference in Emerging Technologies in Transportation Systems (TRC-30)](https://trc-30.epfl.ch/): *Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach.* Very excited for the presentation in Crete, Greece, in September!
+- **06/2024**: The computer software has been submitted and is currently under review by Computer Software Copyright Registration in China: *Lane Line Detection Software Based on Image Sequence Mask Pre-Training.*
+- **04/2024**: My paper has been submitted and is currently under review by [Conference in Emerging Technologies in Transportation Systems (TRC-30)](https://trc-30.epfl.ch/): *Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach.*  
+  <span style="color:GoldenRod">I'm currently working on map matching for human mobility data.</span>
+- **10/2023**: <span style="color:Green">Two of my TRB papers were accepted.</span>  
+  - [A Novel Highway Traffic Capacity Analyzing Method under Road Region Atmospheric Environment Constraints Based on Computational Fluid Dynamics Model](http://dx.doi.org/10.13140/RG.2.2.24853.50405).  
+    <var>The Transportation Research Board (TRB) 103rd Annual Meeting</var>. 2023. [Accepted] **Rank 1st.**
+  - [Intelligent Anomaly Detection for Lane Rendering Using Transformer with Self-Supervised Pre-Training and Customized Fine-Tuning](http://dx.doi.org/10.13140/RG.2.2.28243.35360).  
+    <var>The Transportation Research Board (TRB) 103rd Annual Meeting</var>. 2023. [Accepted] Rank 3rd.
+- **09/2023**: The article, "The Highway Region Boundary Based on Multi-Environmental Factors," can now be accessed! View the article [here](https://doi.org/10.1061/9780784484869.014).
+- **09/2023**: Starting my Ph.D. studies at Villanova University!
+- **08/2023**: The article, "Robust Lane Detection Through Self Pre-Training With Masked Sequential Autoencoders and Fine-Tuning With Customized PolyLoss," has been finalized and posted in the "Early Access" area on IEEE Xplore! View the article [here](https://ieeexplore.ieee.org/document/10226453).
+- **07/2023**: I received my <span style="color:GoldenRod">Ph.D. offer</span> from Villanova University! Looking forward to new research and life at Villanova!
+- **07/2023**: My paper [Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss](https://arxiv.org/abs/2305.17271) is accepted by the journal of *IEEE Transactions on Intelligent Transportation Systems*!
+- **06/2023**: I received my <span style="color:GoldenRod">M.Eng. degree</span> in traffic and transportation from Lanzhou Jiaotong University!
 
 </details>
 
