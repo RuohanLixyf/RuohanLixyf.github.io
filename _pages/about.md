@@ -23,8 +23,6 @@ I am a Ph.D. Student and Graduate Research Assistant at the Department of Civil 
 
 News 
 ======
-<div style="width: 100%; height: 600px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px;">
-
 - 01/2025: My paper have been submitted and is currently under review by [26th International Symposium on Transportation and Traffic Theory (ISTTT26)](https://www.isttt2026.vtk.ed.tum.de/index.html): Layered Trajectory Map-Matching Theory: Hierarchical Decomposition Method. Working on the map-matching continues. This work follows my previews Sup-HMM map-matching model.
   
 - 09/2024: The Computer Software Copyright Registration in China: Vision-Based Lane Detection System With Self-supervised Pre-training Through Masked Sequential Auto-encoders (VLD_SP-MSAE), granted on Sep. 11, 2024, Patent number 2024R11L1180902. And we have published our [open source Lane Detection Code](https://github.com/RuohanLixyf/Lane-Detection-Self-Supervised-MSAE) on GitHub, including models and dataset.
@@ -39,7 +37,12 @@ Map-Matching Sample
 <iframe src="/files/Hof_13.html" width="700" height="400" frameborder="1" name="Map-Matching-Sample_DC_10" scrolling="auto" style="display: block; margin: 0 auto;"></iframe>
 </div>
      
-- 06/2024: My paper have been accepted by [Conference in Emerging Technologies in Transportation Systems (TRC-30)](https://trc-30.epfl.ch/): Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach. Very excited for the presentation in Crete, Greece in September!
+
+<details>
+  <summary>Click to expand more updates</summary>
+  <div style="max-height: 200px; overflow-y: auto; border: 1px solid #ccc; padding: 10px;">
+  
+  - 06/2024: My paper have been accepted by [Conference in Emerging Technologies in Transportation Systems (TRC-30)](https://trc-30.epfl.ch/): Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach. Very excited for the presentation in Crete, Greece in September!
 - 06/2024: The computer software have been submitted and is currently under review by Computer Software Copyright Registration in China: Lane Line Detection Software Based on Image Sequence Mask Pre-Training.
   
 - 04/2024: My paper have been submitted and is currently under review by [Conference in Emerging Technologies in Transportation Systems (TRC-30)](https://trc-30.epfl.ch/): Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach. <span style="color:GoldenRod"> I'm current working on the map matching for the human mobility data. </span>
@@ -59,9 +62,10 @@ Map-Matching Sample
 - 07/2023: My paper [Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss](https://arxiv.org/abs/2305.17271) is accepted by the journal of *IEEE Transactions on Intelligent Transportation Systems* !
   
 - 06/2023: I received my <span style="color:GoldenRod">M.Eng. degree </span> in traffic and transportation from Lanzhou Jiaotong University!
-  
-</div>
 
+  
+  </div>
+</details>
 
                      
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=2db8dd&w=a&t=tt&d=t3RFq-d0ZvyNcMOXmNGt6JTnByrbHW0lSUzD_8Yfss4&co=ffffff&cmn=5bf35b&ct=161616'></script>
