@@ -24,7 +24,18 @@ layout: compress
         {% include footer.html %}
       </footer>
     </div>
-
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.getElementById("translateButton").addEventListener("click", async function() {
+            let content = document.getElementById("content").innerText;
+            let url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=zh-CN&tl=en&dt=t&q=${encodeURIComponent(content)}`;
+            
+            let response = await fetch(url);
+            let data = await response.json();
+            document.getElementById("content").innerText = data[0].map(item => item[0]).join("");
+        });
+    });
+    </script>
     {% include scripts.html %}
 
   </body>
