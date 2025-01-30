@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     translateButton.addEventListener("click", async function() {
         if (!isTranslated) {
-            if (!translatedText) { // Fetch only once
+            if (!translatedText) { // Fetch translation only once
                 let url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=zh-CN&tl=en&dt=t&q=${encodeURIComponent(contentElement.innerText)}`;
 
                 try {
