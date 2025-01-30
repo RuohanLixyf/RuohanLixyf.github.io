@@ -37,34 +37,30 @@ Something will happen here...
 </div>
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
+async function translateText(text, targetLang = "EN") {
+    const response = await fetch(`https://api-free.deepl.com/v2/translate?text=${encodeURIComponent(text)}&target_lang=${targetLang}`, {
+        headers: { "Authorization": "Bearer YOUR_API_KEY" }
+    });
+    const data = await response.json();
+    return data.translations[0].text;
+}
+
+document.addEventListener("DOMContentLoaded", () => {
     let translateButton = document.getElementById("translateButton");
     let contentElement = document.getElementById("content");
     let originalText = contentElement.innerHTML; // Save the original HTML structure
-    let translatedText = ""; // Store translated text
     let isTranslated = false;
 
     translateButton.addEventListener("click", async function() {
         if (!isTranslated) {
-            if (!translatedText) { // Fetch translation only once
-                let url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=zh-CN&tl=en&dt=t&q=${encodeURIComponent(contentElement.textContent)}`;
-
-                try {
-                    let response = await fetch(url);
-                    let data = await response.json();
-                    translatedText = data[0].map(item => item[0]).join(""); 
-                } catch (error) {
-                    console.error("Translation failed:", error);
-                    return;
-                }
-            }
+            let translatedText = await translateText(contentElement.innerText, "EN");
             contentElement.innerHTML = `<span style="font-family: 'KaiTi';">${translatedText}</span>`;  
             translateButton.innerHTML = `<span>🔄</span> <span>Back to Chinese</span>`;
         } else {
             contentElement.innerHTML = originalText; // Restore original HTML structure
             translateButton.innerHTML = `<span>🔄</span> <span>Translate to English</span>`;
         }
-        isTranslated = !isTranslated; // Toggle the translation state
+        isTranslated = !isTranslated;
     });
 });
 </script>
