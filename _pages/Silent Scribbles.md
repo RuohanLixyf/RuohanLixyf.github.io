@@ -3,6 +3,7 @@ layout: archive
 title: "Silent Scribbles"
 permalink: /Silent Scribbles/
 author_profile: true
+avatar: "/images/WeChate519fabc347513c0a8a3c15c45ba0466.jpg"
 ---
 
 Something will happen here...
