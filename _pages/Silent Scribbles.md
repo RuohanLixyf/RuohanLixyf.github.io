@@ -10,18 +10,23 @@ Something will happen here...
 
 <button id="translateButton" 
         style="
-        background: linear-gradient(135deg, #007BFF, #00D4FF);
-        border: none;
-        color: white;
-        padding: 10px 20px;
+        background: #1E1E1E;
+        color: #00D4FF;
+        border: 2px solid #00D4FF;
+        padding: 12px 24px;
         font-size: 16px;
         font-weight: bold;
-        border-radius: 8px;
+        border-radius: 10px;
         cursor: pointer;
         transition: all 0.3s ease-in-out;
-        box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+        box-shadow: 0 0 10px rgba(0, 212, 255, 0.6);
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        gap: 8px;
         ">
-    🔄 Translate to English
+    <span>🔄</span> <span>Translate to English</span>
 </button>
 
 <div id="content">
