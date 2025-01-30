@@ -11,8 +11,11 @@ Something will happen here...
 <html>
   <head>
     <style>
-      #chinese-content, #english-content {
-        display: none;
+      #chinese-content {
+        display: block;  /* Show Chinese content by default */
+      }
+      #english-content {
+        display: none;  /* Hide English content initially */
       }
     </style>
   </head>
