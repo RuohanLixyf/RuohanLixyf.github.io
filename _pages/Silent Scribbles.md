@@ -10,16 +10,15 @@ Something will happen here...
 
 <button id="translateButton" 
         style="
-        background: linear-gradient(135deg, #f3faff, #d6eaff);
+        background: none;
         color: #007bff;
-        border: 2px solid #007bff;
-        padding: 10px 20px;
+        border: none;
+        padding: 8px 15px;
         font-size: 16px;
         font-weight: bold;
-        border-radius: 8px;
         cursor: pointer;
-        transition: all 0.3s ease-in-out;
-        box-shadow: 0 2px 5px rgba(0, 123, 255, 0.2);
+        transition: color 0.3s ease;
+        text-transform: uppercase;
         display: flex;
         align-items: center;
         gap: 8px;
@@ -57,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
             contentElement.innerHTML = `<span style="font-family: 'KaiTi';">${translatedText}</span>`;  
             translateButton.innerHTML = `<span>🔄</span> <span>Back to Chinese</span>`;
         } else {
-            contentElement.innerHTML = originalText; // Restore original HTML structure
+            contentElement.innerHTML = originalText; // Directly restore the original content
             translateButton.innerHTML = `<span>🔄</span> <span>Translate to English</span>`;
         }
         isTranslated = !isTranslated;
