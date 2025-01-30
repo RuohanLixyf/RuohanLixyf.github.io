@@ -10,18 +10,16 @@ Something will happen here...
 
 <button id="translateButton" 
         style="
-        background: #1E1E1E;
-        color: #00D4FF;
-        border: 2px solid #00D4FF;
-        padding: 12px 24px;
+        background: linear-gradient(135deg, #f3faff, #d6eaff);
+        color: #007bff;
+        border: 2px solid #007bff;
+        padding: 10px 20px;
         font-size: 16px;
         font-weight: bold;
-        border-radius: 10px;
+        border-radius: 8px;
         cursor: pointer;
         transition: all 0.3s ease-in-out;
-        box-shadow: 0 0 10px rgba(0, 212, 255, 0.6);
-        letter-spacing: 1px;
-        text-transform: uppercase;
+        box-shadow: 0 2px 5px rgba(0, 123, 255, 0.2);
         display: flex;
         align-items: center;
         gap: 8px;
@@ -60,17 +58,16 @@ document.addEventListener("DOMContentLoaded", function() {
                     return;
                 }
             }
-            contentElement.innerText = translatedText; 
-            translateButton.innerText = "🔄 Back to Chinese";
+            contentElement.innerHTML = `<span style="font-family: 'KaiTi';">${translatedText}</span>`;  
+            translateButton.innerHTML = `<span>🔄</span> <span>Back to Chinese</span>`;
         } else {
-            contentElement.innerHTML = originalText; // Restore HTML
-            translateButton.innerText = "🔄 Translate to English";
+            contentElement.innerHTML = originalText; // Restore original HTML structure
+            translateButton.innerHTML = `<span>🔄</span> <span>Translate to English</span>`;
         }
         isTranslated = !isTranslated;
     });
 });
 </script>
-
 
 <section id="comments">
   <script src="https://utteranc.es/client.js"
