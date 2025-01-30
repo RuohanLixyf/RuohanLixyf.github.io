@@ -37,31 +37,31 @@ Something will happen here...
 document.addEventListener("DOMContentLoaded", function() {
     let translateButton = document.getElementById("translateButton");
     let contentElement = document.getElementById("content");
-    let originalHTML = contentElement.innerHTML; // Save original content with formatting
+    let originalText = contentElement.innerHTML; // Save the original HTML structure
+    let translatedText = ""; // Store translated text
     let isTranslated = false;
 
     translateButton.addEventListener("click", async function() {
         if (!isTranslated) {
-            let originalText = contentElement.innerText.trim(); // Trim spaces
-            let url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=zh-CN&tl=en&dt=t&q=${encodeURIComponent(originalText.slice(0, 5000))}`;
-            
-            try {
-                let response = await fetch(url);
-                let data = await response.json();
-                let translatedText = data[0].map(item => item[0]).join("");
+            if (!translatedText) { // Fetch only once
+                let url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=zh-CN&tl=en&dt=t&q=${encodeURIComponent(contentElement.innerText)}`;
 
-                // Replace only the text, preserving structure
-                contentElement.innerHTML = `<span style="font-family: 'Arial';">${translatedText}</span>`; 
-                translateButton.innerText = "🔄 Back to Chinese";
-                isTranslated = true;
-            } catch (error) {
-                console.error("Translation failed:", error);
+                try {
+                    let response = await fetch(url);
+                    let data = await response.json();
+                    translatedText = data[0].map(item => item[0]).join(""); 
+                } catch (error) {
+                    console.error("Translation failed:", error);
+                    return;
+                }
             }
+            contentElement.innerText = translatedText; 
+            translateButton.innerText = "🔄 Back to Chinese";
         } else {
-            contentElement.innerHTML = originalHTML; // Restore original content
+            contentElement.innerHTML = originalText; // Restore HTML
             translateButton.innerText = "🔄 Translate to English";
-            isTranslated = false;
         }
+        isTranslated = !isTranslated;
     });
 });
 </script>
