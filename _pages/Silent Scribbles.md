@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
     translateButton.addEventListener("click", async function() {
         if (!isTranslated) {
             if (!translatedText) { // Fetch translation only once
-                let url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=zh-CN&tl=en&dt=t&q=${encodeURIComponent(contentElement.innerText)}`;
+                let url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=zh-CN&tl=en&dt=t&q=${encodeURIComponent(contentElement.textContent)}`;
 
                 try {
                     let response = await fetch(url);
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function() {
             contentElement.innerHTML = originalText; // Restore original HTML structure
             translateButton.innerHTML = `<span>🔄</span> <span>Translate to English</span>`;
         }
-        isTranslated = !isTranslated;
+        isTranslated = !isTranslated; // Toggle the translation state
     });
 });
 </script>
