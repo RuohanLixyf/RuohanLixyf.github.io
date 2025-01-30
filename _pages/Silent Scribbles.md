@@ -26,12 +26,14 @@ Something will happen here...
         <br><br>
         - Jan.29.2025: “年龄越大，经验越丰富。” 我们可以举出局部最优的例子来推翻这样的话语，还有就是RELU function中，负数为0也可以来推翻这样话，用梯度消失来反驳。没想到哲学真的能够囊括一切，有趣。（注：这里的哲学指的是普世哲理）。 
     </span></p> 
-      <p>您可以在这里放置所有中文内容。</p>
+      
     </div>
     
     <div id="english-content">
-      <p>This is the Chinese content translated to English.</p>
-      <p>You can place all the translated content here.</p>
+      <p>I will put some of my personal, simple, and unthought-out ideas or insights on this page, maybe some interesting things, or even news of paper rejections… Maybe I’ll start a novel later? I’m not sure, because I feel like I haven’t read enough books, and writing feels like a distraction. Maybe it’ll be a pastime? Recently, I’ve felt a sense of ‘mission’? But actually, not really. I can’t help but think of the themes of the novels I used to write in middle and high school. I actually focused on war and killing, which now seems utterly absurd. I can sort of understand why adults used to say, ‘Kids are still young, immature, they don’t understand anything.’ At 28, my understanding of the world and its rules is completely different from when I was 13. The 13-year-old me was like someone who just registered a game account, still in the tutorial phase. While there was some freedom to explore, it was limited to the beginner’s village. Now, looking back, even though I wouldn’t mock my own immaturity, I do look at my younger self as though I were watching a child. In any case, if I were to start writing a novel, I would open a separate page for it, and the rest of the ideas will just be hasty notes. It’ll be a form of distraction from coding～ (Please ignore any possible typos, careless mistakes, or errors…)</p>
+      <p>
+      <br><br>
+      - Jan. 29, 2025: ‘The older you get, the more experience you gain.’ We can provide examples of local optima to counter this statement, and also, in the RELU function, where negative numbers are set to 0, we can use gradient vanishing to refute it. I didn’t expect philosophy to truly encompass everything—interesting. (Note: The philosophy here refers to universal truths.)</p>
     </div>
 
     <script>
