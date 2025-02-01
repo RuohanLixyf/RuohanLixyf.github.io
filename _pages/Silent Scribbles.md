@@ -8,7 +8,7 @@ avatar: "/images/WeChate519fabc347513c0a8a3c15c45ba0466.jpg"
 
 Something will happen here...
 
-[Read Story](./_posts/Story.md)
+[Read Story](/_posts/Story.md)
         
 <html>
   <head>
