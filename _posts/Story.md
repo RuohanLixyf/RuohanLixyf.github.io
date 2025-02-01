@@ -1,20 +1,16 @@
 ---
-title: 'Blog Post number 2'
-date: 2013-08-14
-permalink: /posts/2013/08/blog-post-2/
+title: 'Story'
+date: 2025-02-01
+permalink: /posts/
 tags:
-  - cool posts
+  - Story
   - category1
-  - category2
 ---
 
-This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool.
+Something will happen here...
 
-Headings are cool
+test
 ======
 
-You can have many headings
-======
-
-Aren't headings cool?
+test
 ------
