@@ -2,6 +2,8 @@
 title: "Map Matching..."
 excerpt: "some references"
 collection: solving
+layout: archive
+author_profile: true
 ---
  
 1. [Matlab算法案例--- 基于隐马尔科夫模型(HMM)的地图匹配(Map-Matching)](https://zhuanlan.zhihu.com/p/108804163?utm_id=0)

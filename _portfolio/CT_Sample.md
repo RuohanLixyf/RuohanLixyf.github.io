@@ -2,6 +2,8 @@
 title: "CT_Sample"
 excerpt: ""
 collection: solving
+layout: archive
+author_profile: true
 ---
 
 <div align=center>

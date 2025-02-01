@@ -2,6 +2,8 @@
 title: "Bayesian Optimization Package"
 excerpt: "some error when using pymc"
 collection: solving
+layout: archive
+author_profile: true
 ---
 
 

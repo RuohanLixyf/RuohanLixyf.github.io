@@ -2,6 +2,8 @@
 title: "Install spark environment under Conda"
 excerpt: "Install the spark under the Conda environment, some details you may loss... <br/><img src='/images/spark.png' width='500' height='300'>"
 collection: solving
+layout: archive
+author_profile: true
 ---
 
 1. JAVA, need setting environment variables path.

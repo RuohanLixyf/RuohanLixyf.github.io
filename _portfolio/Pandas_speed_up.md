@@ -2,6 +2,8 @@
 title: "Pandas speed up..."
 excerpt: "don't use for always!"
 collection: solving
+layout: archive
+author_profile: true
 ---
 
 for will loop always slows things down, and these operations can take anywhere from a few days to a few seconds.

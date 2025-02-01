@@ -2,6 +2,8 @@
 title: "Visualization..."
 excerpt: "will some references... but not now..."
 collection: solving
+layout: archive
+author_profile: true
 ---
 
 
