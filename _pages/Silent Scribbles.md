@@ -28,7 +28,7 @@ Something will happen here...
 
         <br><br>
         - 贰零贰伍年二月一日：“大人们都没有了鲜明的情感，他们就像是机器人一样。他们口口声声说的“道德”，似乎也在他们身上看不见了”
-        
+        <br><br>
         - 贰零贰伍年一月二十九日: “年龄越大，经验越丰富。” 我们可以举出局部最优的例子来推翻这样的话语，还有就是RELU function中，负数为0也可以来推翻这样话，用梯度消失来反驳。没想到哲学真的能够囊括一切，有趣。（注：这里的哲学指的是普世哲理）。 
     </span></p> 
       
@@ -39,7 +39,7 @@ Something will happen here...
       
       <br><br>
       - Feb. 1, 2025: “The adults no longer have vivid emotions; they are like robots. The ‘morality’ they keep talking about seems to be nowhere to be found in them.”
-      
+      <br><br>
       - Jan. 29, 2025: ‘The older you get, the more experience you gain.’ We can provide examples of local optima to counter this statement, and also, in the RELU function, where negative numbers are set to 0, we can use gradient vanishing to refute it. I didn’t expect philosophy to truly encompass everything—interesting. (Note: The philosophy here refers to universal truths.)</p>
     </div>
 
