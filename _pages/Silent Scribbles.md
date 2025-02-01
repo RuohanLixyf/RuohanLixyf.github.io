@@ -63,7 +63,7 @@ avatar: "/images/WeChate519fabc347513c0a8a3c15c45ba0466.jpg"
 
 Something will happen here...
 
-[Read Story](/Story/)
+[不会写小说的博士生不是一个好的Ph.D. Student. Read Story here](/Story/)
 
 <section id="comments">
   <script src="https://utteranc.es/client.js"
