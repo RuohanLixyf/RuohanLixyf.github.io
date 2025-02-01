@@ -6,10 +6,6 @@ author_profile: true
 avatar: "/images/WeChate519fabc347513c0a8a3c15c45ba0466.jpg"
 ---
 
-Something will happen here...
-
-[Read Story](/_posts/Story.md)
-        
 <html>
   <head>
     <style>
@@ -65,6 +61,10 @@ Something will happen here...
   </body>
 </html>
 
+Something will happen here...
+
+[Read Story](/_posts/Story.md)
+        
 <section id="comments">
   <script src="https://utteranc.es/client.js"
           repo="RuohanLixyf/RuohanLixyf.github.io"
