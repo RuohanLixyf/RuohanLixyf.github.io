@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: 'Story'
+title: '如果她是一条狗 / If She Were a Dog'
 permalink: /Story/
 author_profile: true
 avatar: "/images/WeChate519fabc347513c0a8a3c15c45ba0466.jpg"
@@ -8,11 +8,29 @@ avatar: "/images/WeChate519fabc347513c0a8a3c15c45ba0466.jpg"
 
 Something will happen here...
 
+<div style="position: fixed; right: 10px; top: 50px; width: 200px; border-left: 2px solid #ddd; padding-left: 10px;">
+    <h3>章节导航</h3>
+    <ul>
+        <li><a href="#chapter1">序言</a></li>
+        <li><a href="#chapter1">第一章</a></li>
+        <li><a href="#chapter2">第二章</a></li>
+        <li><a href="#chapter3">第三章</a></li>
+        <li><a href="#chapter4">第四章</a></li>
+    </ul>
+</div>
+
+<h2 id="chapter1">序言</h2>
+我想写一个故事，一条狗的故事。是狗，也不是狗。
+
 <!--
+<h2 id="chapter1">第一章：起点</h2>
+
+<h2 id="chapter2">第二章：旅途</h2>
+
+
 test
 ======
 没有人教过我们爱是什么，也没有人告诉我们爱情和友情的区别。从小我们开始摸索着二者，但是大部分人到死都无法区别。或许大人用性来区分爱情和友情，但真的如此吗？
-
 test
 ------
 她说她有一只小狗就好了。
