@@ -8,7 +8,7 @@ avatar: "/images/WeChate519fabc347513c0a8a3c15c45ba0466.jpg"
 
 Something will happen here...
 
-<div style="position: fixed; right: 50px; top: 250px; width: 250px; border-left: 20px solid #ddd; padding-left: 10px;">
+<div style="position: fixed; right: 50px; top: 250px; width: 250px; border-left: 2px solid #ddd; padding-left: 10px;">
     <h3>章节导航 | Chapter Outline</h3>
     <ul>
         <li><a href="#chapter1">序言 | Prologue</a></li>
