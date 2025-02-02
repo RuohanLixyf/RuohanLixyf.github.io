@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: '如果她是一条狗 / If She Were a Dog'
+title: '如果她是一条狗 | If She Were a Dog'
 permalink: /Story/
 author_profile: true
 avatar: "/images/WeChate519fabc347513c0a8a3c15c45ba0466.jpg"
@@ -9,17 +9,17 @@ avatar: "/images/WeChate519fabc347513c0a8a3c15c45ba0466.jpg"
 Something will happen here...
 
 <div style="position: fixed; right: 10px; top: 50px; width: 200px; border-left: 2px solid #ddd; padding-left: 10px;">
-    <h3>章节导航</h3>
+    <h3>章节导航 | Chapter Outline</h3>
     <ul>
-        <li><a href="#chapter1">序言</a></li>
-        <li><a href="#chapter1">第一章</a></li>
-        <li><a href="#chapter2">第二章</a></li>
-        <li><a href="#chapter3">第三章</a></li>
-        <li><a href="#chapter4">第四章</a></li>
+        <li><a href="#chapter1">序言 | Prologue</a></li>
+        <li><a href="#chapter1">第一章 | Chapter 1 </a></li>
+        <li><a href="#chapter2">第二章 | Chapter 2 </a></li>
+        <li><a href="#chapter3">第三章 | Chapter 3 </a></li>
+        <li><a href="#chapter4">第四章 | Chapter 4 </a></li>
     </ul>
 </div>
 
-<h2 id="chapter1">序言</h2>
+<h2 id="chapter1">序言| Prologue</h2>
 我想写一个故事，一条狗的故事。是狗，也不是狗。
 
 <!--
