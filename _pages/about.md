@@ -23,7 +23,7 @@ I am a Ph.D. Student and Graduate Research Assistant at the Department of Civil 
 
 News 
 ======
-- **02/2025**: My paper have been submitted to Editorial ManagerScience of the Total Environment.😐😐😐
+- **02/2025**: My paper have been submitted to Science of the Total Environment.😐😐😐
 
 - **01/2025**: My paper was **rejected** by Atmospheric Pollution Research!!! 😠😠😠 I know it's not good enough yet, but I'll resubmit it somewhere else!
 
