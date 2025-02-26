@@ -43,12 +43,9 @@ avatar: "/images/WeChate519fabc347513c0a8a3c15c45ba0466.jpg"
       These are just some preliminary thoughts, open for further exploration.
       <br><br>
       - Feb. 26, 2025 (1): Suddenly, Stefanie Sun’s Yintai started playing in the car. As I listened to the intro, it felt like savoring a glass of red wine—enjoying its sweetness, bitterness, and depth. In the rush of time, you can’t truly appreciate a song like this because it is slow, complex, and requires reflection. Only in certain moods and moments of leisure can you truly grasp its beauty.
-
-Lost in thought, I caught a glimpse of an American flag hanging in a courtyard by the road. It struck something deep inside me. I wondered—what were my dreams for the future when I was a child? Certainly not this, and certainly not something shaped by this flag.
-
-Yintai pulled me back to reality. Wanting to immerse myself in it once more, I replayed the song. But I knew I couldn’t listen to it a third time—the sensation was already fading, the brain growing accustomed to the immersion, dulling the intensity of the experience.
-
-I kept driving, without knowing where I was headed.
+      Lost in thought, I caught a glimpse of an American flag hanging in a courtyard by the road. It struck something deep inside me. I wondered—what were my dreams for the future when I was a child? Certainly not this, and certainly not something shaped by this flag.
+      Yintai pulled me back to reality. Wanting to immerse myself in it once more, I replayed the song. But I knew I couldn’t listen to it a third time—the sensation was already fading, the brain growing accustomed to the immersion, dulling the intensity of the experience.
+      I kept driving, without knowing where I was headed.
       <br><br>
       - Feb. 1, 2025: “The adults no longer have vivid emotions; they are like robots. The ‘morality’ they keep talking about seems to be nowhere to be found in them.”
       <br><br>
