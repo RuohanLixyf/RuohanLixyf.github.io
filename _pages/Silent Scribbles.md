@@ -23,7 +23,8 @@ avatar: "/images/WeChate519fabc347513c0a8a3c15c45ba0466.jpg"
     <div id="chinese-content">
       <p><span style="font-family: 'KaiTi';">
         我将会在这个页面放一些个人浅显和没有经过缜密思考的想法、见解，亦或是一些有趣的事情，也可能是论文被拒的消息...之后也许会想开启一部小说？我不确定，因为我觉得自己看书太少了，文字干涉无聊，也许会作为消遣？因为最近感受到了一股’使命‘？其实也不是。不由得想到了以前初中和高中的小说主题，我居然会立足在战争和杀戮上，现在想到也是及其荒谬的。似乎也能明白一点为什么以前大人总是说‘小孩子，还年轻，比较幼稚，什么都不懂’。28岁的我和13岁的我，对整个世界架构的理解和规则的理解是完全不同的。13岁的我就像是刚注册了游戏账号的我，还在新手引导阶段，虽然有一定程度的自由探索，但是仅限在新手村。而现在的我再回看以前，虽然我不会嗤笑自己的幼稚，但是也是像看孩子的眼光看着当年的自己。总之，如果要开始写小说的话，我会在下面单独开一个页面，其余的想法也都是比较凌乱的速记。当作一种代码之余的消遣吧～<span style="color: red;">（请忽略一些可能的错别字或者是不缜密或可能错误的地方...）</span>
-        
+        <br><br>
+        - 贰零贰伍年二月二十六日：突然车里响起了孙燕姿的银泰，听着前奏，突然感觉像是在品尝一杯红酒，仿佛在享受它的香甜、苦涩与浸润。在匆忙的时间里，你无法感受这样的歌曲，因为它是缓慢的，是复杂的，是需要沉淀的，只能在特定的意境下和闲暇下你才能体会到它的美。恍恍惚惚，看到路边庭院挂的美国的旗帜，一下子击中我的内心，我在想，小时候的我对未来的设想是什么样的？至少不是现在这样的，而且也不是由这旗帜构成的。银泰再次把我拉回现实，我想再沉浸再歌里，于是我回播了一遍。但是不能再听第三遍了，因为气味已经逐渐消散了，大脑已经习惯了这样的沉浸，便不会再有强烈的刺激了。我继续开着车，也不知道开往何处
         <br><br>
         - 贰零贰伍年二月一日：“大人们都没有了鲜明的情感，他们就像是机器人一样。他们口口声声说的“道德”，似乎也在他们身上看不见了”
         <br><br>
@@ -34,7 +35,14 @@ avatar: "/images/WeChate519fabc347513c0a8a3c15c45ba0466.jpg"
     
     <div id="english-content">
       <p>I will put some of my personal, simple, and unthought-out ideas or insights on this page, maybe some interesting things, or even news of paper rejections… Maybe I’ll start a novel later? I’m not sure, because I feel like I haven’t read enough books, and writing feels like a distraction. Maybe it’ll be a pastime? Recently, I’ve felt a sense of ‘mission’? But actually, not really. I can’t help but think of the themes of the novels I used to write in middle and high school. I actually focused on war and killing, which now seems utterly absurd. I can sort of understand why adults used to say, ‘Kids are still young, immature, they don’t understand anything.’ At 28, my understanding of the world and its rules is completely different from when I was 13. The 13-year-old me was like someone who just registered a game account, still in the tutorial phase. While there was some freedom to explore, it was limited to the beginner’s village. Now, looking back, even though I wouldn’t mock my own immaturity, I do look at my younger self as though I were watching a child. In any case, if I were to start writing a novel, I would open a separate page for it, and the rest of the ideas will just be hasty notes. It’ll be a form of distraction from coding～ (Please ignore any possible typos, careless mistakes, or errors…)
-      
+      <br><br>
+      - Feb. 26, 2025: Suddenly, Stefanie Sun’s Yintai started playing in the car. As I listened to the intro, it felt like savoring a glass of red wine—enjoying its sweetness, bitterness, and depth. In the rush of time, you can’t truly appreciate a song like this because it is slow, complex, and requires reflection. Only in certain moods and moments of leisure can you truly grasp its beauty.
+
+Lost in thought, I caught a glimpse of an American flag hanging in a courtyard by the road. It struck something deep inside me. I wondered—what were my dreams for the future when I was a child? Certainly not this, and certainly not something shaped by this flag.
+
+Yintai pulled me back to reality. Wanting to immerse myself in it once more, I replayed the song. But I knew I couldn’t listen to it a third time—the sensation was already fading, the brain growing accustomed to the immersion, dulling the intensity of the experience.
+
+I kept driving, without knowing where I was headed.
       <br><br>
       - Feb. 1, 2025: “The adults no longer have vivid emotions; they are like robots. The ‘morality’ they keep talking about seems to be nowhere to be found in them.”
       <br><br>
@@ -63,7 +71,7 @@ avatar: "/images/WeChate519fabc347513c0a8a3c15c45ba0466.jpg"
 
 Something will happen here...
 
-[不会写小说的博士生不是一个好的Ph.D. Student. Read Story here](/Story/)
+[Read Story here](/Story/)
 
 <section id="comments">
   <script src="https://utteranc.es/client.js"
