@@ -8,8 +8,8 @@ author_profile: true
 Under Review
 ======
 * **Ruohan Li#**, Xin Wu#, Weiyu Luo, Chenfeng Xiong*. Layered Trajectory Map-Matching Theory: Hierarchical Decomposition Method. <var>26th International Symposium on Transportation and Traffic Theory (ISTTT26)</var>. 2025. [Under Review]
-* **Ruohan Li**, Hualan Wang*. A Novel Highway Traffic Capacity Analysis Method under Road Region Atmospheric Environment Constraints Based on a Computational Fluid Dynamics Model . <var>Science of the Total Environment</var>. 2025. [Under Review]
-* **Ruohan Li**, Weiyu Luo, Arash Tavakoli, C. Nataraja, Chenfeng Xiong*. Sup-HMM Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach . <var>Transportation Research Part C: Emerging Technologies</var>. 2024. [Prepare to submit
+* **Ruohan Li**, Hualan Wang*. A CFD-Based Integrated Modeling Framework for Assessing Highway Traffic Capacity under Regional Air Quality Constraints. <var>Sustainability</var>. 2025. [Revised and resubmitted]
+* **Ruohan Li**, Xin Wu#, Weiyu Luo, Arash Tavakoli, C. Nataraja, Chenfeng Xiong*. Sup-HMM Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach . <var>Transportation Research Part C: Emerging Technologies</var>. 2024. [Prepare to submit]
   
 Journal Publications
 ======
