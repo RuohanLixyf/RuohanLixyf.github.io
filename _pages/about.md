@@ -23,7 +23,7 @@ I am a Ph.D. Student and Graduate Research Assistant at the Department of Civil 
 
 News 
 ======
-- **05/2025**: My graduate work,  *A CFD-Based Integrated Modeling Framework for Assessing Highway Traffic Capacity under Regional Air Quality Constraints*, has been accepted by *Sustainability*.  This paper focuses on air pollution in highway-adjacent areas. It has been a long journey—this project began during my master’s studies and was finally accepted at the end of my second year in the Ph.D. program. A milestone completed at last!
+- **05/2025**: My graduate work,  *A CFD-Based Integrated Modeling Framework for Assessing Highway Traffic Capacity under Regional Air Quality Constraints*, has been accepted by *[Sustainability](https://www.mdpi.com/journal/sustainability)*.  This paper focuses on air pollution in highway-adjacent areas. It has been a long journey—this project began during my master’s studies and was finally accepted at the end of my second year in the Ph.D. program. A milestone completed at last!
   
 - **09/2024**: The Computer Software Copyright Registration in China: Vision-Based Lane Detection System With Self-supervised Pre-training Through Masked Sequential Auto-encoders (VLD_SP-MSAE), granted on Sep. 11, 2024, Patent number 2024R11L1180902. And we have published our [open source Lane Detection Code](https://github.com/RuohanLixyf/Lane-Detection-Self-Supervised-MSAE) on GitHub, including models and dataset.
   
