@@ -7,14 +7,14 @@ author_profile: true
 
 Under Review
 ======
-* **Ruohan Li#**, Xin Wu#, Weiyu Luo, Chenfeng Xiong*. Layered Trajectory Map-Matching Theory: Hierarchical Decomposition Method. <var>26th International Symposium on Transportation and Traffic Theory (ISTTT26)</var>. 2025. [Under Review]
-* **Ruohan Li**, Hualan Wang*. A CFD-Based Integrated Modeling Framework for Assessing Highway Traffic Capacity under Regional Air Quality Constraints. <var>Sustainability</var>. 2025. [Revised and resubmitted]
-* **Ruohan Li#**, Xin Wu#, Weiyu Luo, Arash Tavakoli, C. Nataraja, Chenfeng Xiong*. Sup-HMM Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach . <var>Transportation Research Part C: Emerging Technologies</var>. 2025. [Prepare to submit]
+# * **Ruohan Li#**, Xin Wu#, Weiyu Luo, Chenfeng Xiong*. Layered Trajectory Map-Matching Theory: Hierarchical Decomposition Method. <var>26th International Symposium on Transportation and Traffic Theory (ISTTT26)</var>. 2025. [Under Review]
+# * **Ruohan Li#**, Xin Wu#, Weiyu Luo, Arash Tavakoli, C. Nataraja, Chenfeng Xiong*. Sup-HMM Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach . <var>Transportation Research Part C: Emerging Technologies</var>. 2025. [Prepare to submit]
   
 Journal Publications
 ======
 * **Ruohan Li**#, Yongqi Dong*#. Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss. <var>IEEE Transactions on Intelligent Transportation Systems</var>.2023. **[Published]. [doi: 10.1109/TITS.2023.3305015.](https://ieeexplore.ieee.org/document/10226453).**
 * Yongqi Dong#*, Xingmin Lu#, **Ruohan Li**, Wei Song*, Bart van Arem, Haneen Farah. Intelligent Anomaly Detection for Lane Rendering Using Transformer with Self-Supervised Pre-Training and Customized Fine-Tuning. <var>Transportation Research Record</var>. 2023. [Accepted on Mar.13.2025]
+* **Ruohan Li**, Hualan Wang*. A CFD-Based Integrated Modeling Framework for Assessing Highway Traffic Capacity under Regional Air Quality Constraints. <var>Sustainability</var>. 2025. [Accepted on May.17.2025]
 * Hualan Wang, **Ruohan Li***, Mingxuan Li, Mingyu Yuan. Research on Coordination Relationship between Development of Rural Roads and Industrial Structure of Agriculture. <var>Comprehensive Transport(Chinese)</var>. 1-9. 2023. **[Published](http://kns.cnki.net/kcms/detail/11.1197.U.20230328.1746.008.html).**
 
 Conference
