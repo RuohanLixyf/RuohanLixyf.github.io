@@ -9,13 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
-* <a href="/_pages/CV_Ruohan Li.pdf" download> CV in PDF</a>
+<!-- * <a href="/_pages/CV_Ruohan Li.pdf" download> CV in PDF</a> -->
 
 Education
 ======
+* Ph.D. Student from 2023 to now, Civil and Environmental Engineering, Villanova University.
 * M.Eng. College of Traffic and Transportation, Lanzhou Jiaotong University, 2023
 * B.Eng. College of Traffic and Transportation, Lanzhou Jiaotong University, 2020
-
+<!-- 
 Organization activities & Volunteering
 ======
   * School Basketball Team, Captain,	Sept.2016-Jan.2019
@@ -46,4 +47,4 @@ Skills
   * Revit/Auto CAD
   * ADAM
   * SPSS
-       
+-->
