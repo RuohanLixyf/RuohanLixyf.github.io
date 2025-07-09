@@ -10,7 +10,7 @@ Under Review
 <!-- * **Ruohan Li#**, Xin Wu#, Weiyu Luo, Chenfeng Xiong*. Layered Trajectory Map-Matching Theory: Hierarchical Decomposition Method. <var>26th International Symposium on Transportation and Traffic Theory (ISTTT26)</var>. 2025. [Under Review]
 -->
 
-* **Ruohan Li#**, Xin Wu#, Weiyu Luo, Arash Tavakoli, C. Nataraja, Chenfeng Xiong*. Taming Volatile Trajectories: Sup-HMM, a Bayesian-Optimized Hidden Markov Model for Map Matching of Location-Based Service Data. <var>IEEE Transactions on Intelligent Transportation Systems</var>. 2025. [Submitted]
+* **Ruohan Li#**, Xin Wu#, Weiyu Luo, Arash Tavakoli, C. Nataraja, Chenfeng Xiong*. Taming Volatile Trajectories: Sup-HMM, a Bayesian-Optimized Hidden Markov Model for Map Matching of Location-Based Service Data. <var>IEEE Transactions on Intelligent Transportation Systems</var>. 2025. [Under Review]
 
 
 Journal Publications
