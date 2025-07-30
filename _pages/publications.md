@@ -9,7 +9,6 @@ Under Review
 ======
 <!-- * **Ruohan Li#**, Xin Wu#, Weiyu Luo, Chenfeng Xiong*. Layered Trajectory Map-Matching Theory: Hierarchical Decomposition Method. <var>26th International Symposium on Transportation and Traffic Theory (ISTTT26)</var>. 2025. [Under Review]
 -->
-* **Ruohan Li**, Weiyu Luo, Chenfeng Xiong*. Rethinking Transit Deserts: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data. <var>IEEE Transactions on Intelligent Transportation Systems</var>. 2025. [Under Review]
 * **Ruohan Li**, Weiyu Luo, Chenfeng Xiong*.Submitted to the Transportation Research Board (TRB) 105th Annual Meeting (2026) and the American Geophysical Union (AGU) Fall Meeting (2025):
     – Rethinking Transit Deserts: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data (TRB 2026)
     – Equity in Motion: Rethinking Transit Deserts through Complete Trip Data (AGU25)
