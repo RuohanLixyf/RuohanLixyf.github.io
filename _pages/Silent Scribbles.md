@@ -24,6 +24,8 @@ avatar: "/images/WeChate519fabc347513c0a8a3c15c45ba0466.jpg"
     <span style="font-family: 'KaiTi';">
       <p>
         <br><br>
+        - 贰零贰伍年八月二十五日 ：时间是不停止的，所以人活着也是不会停止的，不断的发生事情，不断的遗忘事情，不断的开始新的生活，被推着走，停不下来。好似也没有什么过不去的事情。无法理解的，后来也都慢慢理解了，看不开的后来也都慢慢看开了。每个阶段有每个阶段的思考和顾虑。偶尔的瞬间，流逝的时间像一张张照片，也是风衣的拼凑。
+        <br><br>
         - 贰零贰伍年二月二十六日 (2) ：昨天，我对一个现象有了新的理解。大多数女性在婚后（甚至婚前）逐渐疏远朋友，很大程度上源于系统性的社会结构。家庭观念深深植根于女性的意识与思想中。长期的社会驯化与规训让大多数女性将家人（包括父母、亲兄妹，结婚后还包括丈夫）视为最重要的人。她们倾向于把所有事情都倾诉给家人，并牢固地维护家庭关系，而不是朋友关系。例如，她们可能不会认为向家人透露朋友的秘密是一种背叛，因为她们认为家人是“自己的一部分”。这与女性在亲密关系中的归属感和边界感有关。许多女性在长期的社会化过程中形成了一种“共享式亲密关系”，即她们倾向于通过共享信息、情感依赖来维系关系。同时，在许多社会文化中，女性被期待承担主要的家庭责任，甚至在婚前就被灌输“家庭至上”的价值观。这种观念不仅来自家庭教育，也受到影视作品、文学作品以及社会规范的强化。相比之下，男性被赋予更大的社交自由度，鼓励他们发展事业、建立“兄弟情谊”，他们更倾向于在男性群体内部分享和处理事务，而不会轻易将这些内容带入家庭。男性更倾向于“并列式友谊”，即通过共同活动（如运动、游戏、合作）来维持关系，而不一定通过深度倾诉。这里仅记录一些初步的想法，留待进一步探讨。
         <br><br>
         - 贰零贰伍年二月二十六日 (1) ：突然车里响起了孙燕姿的银泰，听着前奏，突然感觉像是在品尝一杯红酒，仿佛在享受它的香甜、苦涩与浸润。在匆忙的时间里，你无法感受这样的歌曲，因为它是缓慢的，是复杂的，是需要沉淀的，只能在特定的意境下和闲暇下你才能体会到它的美。恍恍惚惚，看到路边庭院挂的美国的旗帜，一下子击中我的内心，我在想，小时候的我对未来的设想是什么样的？至少不是现在这样的，而且也不是由这旗帜构成的。银泰再次把我拉回现实，我想再沉浸再歌里，于是我回播了一遍。但是不能再听第三遍了，因为气味已经逐渐消散了，大脑已经习惯了这样的沉浸，便不会再有强烈的刺激了。我继续开着车，也不知道开往何处.
@@ -37,6 +39,8 @@ avatar: "/images/WeChate519fabc347513c0a8a3c15c45ba0466.jpg"
     
     <div id="english-content">
       <p>
+      <br><br>
+      -Aug. 25, 2025 : Time never stops, and so long as people are alive, life never stops either. Things keep happening, things keep being forgotten, new lives keep beginning, and we are pushed forward without pause. It seems there is nothing we cannot get through. What we once could not understand, we gradually come to understand. What we once could not let go of, we gradually learn to let go. Each stage of life brings its own thoughts and worries. In fleeting moments, time passing feels like photographs—each one a fragment, stitched together like pieces of a trench coat in the wind.
       <br><br>
       - Feb. 26, 2025 (2) : Yesterday, I gained a new understanding of a certain phenomenon. The gradual distancing of most women from their friends after marriage (or even before) is largely rooted in systemic social structures. The concept of family is deeply ingrained in women's consciousness and thoughts. Through long-term social conditioning and discipline, most women come to view their family members—including parents, siblings, and later, their spouses—as the most important people in their lives. They tend to confide in their family members about everything and prioritize maintaining familial relationships over friendships. For example, they may not consider sharing a friend’s secret with their family as a betrayal because they see their family as an extension of themselves. This is closely related to women’s sense of belonging and boundaries in intimate relationships. Many women develop a form of "shared intimacy", in which they maintain relationships through shared information and emotional dependence. At the same time, in many societies, women are expected to take on primary family responsibilities, and they are instilled with the value of "family first" even before marriage. This belief is reinforced not only by family education but also through media, literature, and social norms. In contrast, men are often granted greater social freedom, encouraged to develop their careers, and build strong "brotherhood" bonds. They are more likely to share and handle matters within male peer groups rather than bring them into their family life. Men tend to form "side-by-side friendships," which are maintained through shared activities—such as sports, gaming, or collaboration—rather than deep emotional disclosure. These are just some preliminary thoughts, open for further exploration.
       <br><br>
@@ -72,7 +76,7 @@ avatar: "/images/WeChate519fabc347513c0a8a3c15c45ba0466.jpg"
 
 Something will happen here...
 
-[ Read Story here](/Story/)
+% [ Read Story here](/Story/)
 
   
 <section id="comments">
