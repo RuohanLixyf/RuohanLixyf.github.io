@@ -23,6 +23,7 @@ I am a Ph.D. Student and Graduate Research Assistant at the Department of Civil 
 
 News 
 ======
+- **09/2025**: My paper *Rethinking Transit Deserts: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data*  has been accepted by TRB. Another paper, *Complete Trip: An Open and Privacy-Safe Dataset of Multimodal Travel Sequences for Urban Transportation Systems Analysis*, has also been accepted. 
 - **08/2025**: After the TRB deadline, I’ve been busy “cleaning up” my LBS map-matching code. 🧹 Formatting code so that *other humans* (including future me) can understand it feels like the hardest optimization problem ever. 🤯 *What on earth was I thinking when I wrote this?*  Now it just looks like a %￥%#@@ ……#…………, completely frazzled... 😵‍💫🔥
   
 - **05/2025**: Finally... my ancient graduate research paper, *A CFD-Based Integrated Modeling Framework for Assessing Highway Traffic Capacity under Regional Air Quality Constraints*, got accepted by *[Sustainability](https://www.mdpi.com/journal/sustainability)* in May 2025. This paper presents a CFD-based framework to evaluate how regional air quality constraints affect highway traffic capacity. Started back in my master's days, survived the revisions, and now it lives — what a relief 😮‍💨🫠.
