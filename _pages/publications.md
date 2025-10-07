@@ -15,7 +15,7 @@ Journal Publications
 ======
 * **Ruohan Li**#, Yongqi Dong*#. Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss. <var>IEEE Transactions on Intelligent Transportation Systems</var>.2023. **[Published] [doi: 10.1109/TITS.2023.3305015.](https://ieeexplore.ieee.org/document/10226453).**
 * Yongqi Dong#*, Xingmin Lu#, **Ruohan Li**, Wei Song*, Bart van Arem, Haneen Farah. Intelligent Anomaly Detection for Lane Rendering Using Transformer with Self-Supervised Pre-Training and Customized Fine-Tuning. <var>Transportation Research Record</var>. 2023. **[Published] [doi: 10.1177/03611981251333341](https://journals.sagepub.com/doi/10.1177/03611981251333341).**
-* Weiyu Luo, Xin Wu, **Ruohan Li** et al.. Variant patterns and influence of inter-regional travel during the SARS-CoV-2 expansion in South Africa. <var>PLOS One</var>. 2025. [Accepted]
+* Weiyu Luo, Xin Wu, **Ruohan Li**, Chenfeng Xiong* et al.. Variant patterns and influence of inter-regional travel during the SARS-CoV-2 expansion in South Africa. <var>PLOS One</var>. 2025. [Accepted]
 * **Ruohan Li**, Hualan Wang*. A CFD-Based Integrated Modeling Framework for Assessing Highway Traffic Capacity under Regional Air Quality Constraints. <var>Sustainability</var>. 2025. [Accepted on May.17.2025]
 
 Conference
