@@ -13,7 +13,16 @@ nav a.active {
     padding: 6px 12px;
 }
 
-.research-page .page__content {
-    margin-top: 10px !important;
+/* ===== Fix top spacing ===== */
+
+/* For layout: single pages (Researches, CV, etc.) */
+.page .page__inner-wrap {
     padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+/* For layout: archive pages (Publications, Projects if archive) */
+.archive {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
 }
