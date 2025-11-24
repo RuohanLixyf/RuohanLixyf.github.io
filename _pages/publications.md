@@ -20,23 +20,60 @@ Journal Publications
 
 Conference
 ======
-* **Ruohan Li**, Weiyu Luo, Chenfeng Xiong*. Submitted to the Transportation Research Board (TRB) 105th Annual Meeting (2026) and the American Geophysical Union (AGU) Fall Meeting (2025) [Accepted]:
-  
-    – Rethinking Transit Deserts: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data (TRB 2026)
-  
-    – Equity in Motion: Rethinking Transit Deserts through Complete Trip Data (AGU25)
-  
-* Weiyu Luo#，**Ruohan Li#**, Xin Wu, Chenfeng Xiong*. Submitted to the Transportation Research Board (TRB) 105th Annual Meeting (2026) and the American Geophysical Union (AGU) Fall Meeting (2025) [Accepted]:
 
-    – Complete Trip: A Pioneering Open-Source Dataset for Door-to-Door Multimodal Mobility Analysis (TRB 2026)
-  
-    – Complete Trip: A High-Resolution Multimodal Mobility Dataset for Urban Process Modeling and Environmental Simulation (AGU25)
-* **Ruohan Li**, Chenfeng Xiong*, Arash Tavakoli, C. Nataraja. Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach . <var>Conference in Emerging Technologies in Transportation Systems (TRC-30)</var>. 2024. [Accepted on 12 Jun. Presentation](https://trc-30.epfl.ch/wp-content/uploads/2024/09/TRC-30_paper_260.pdf)
-* **Ruohan Li**, Hualan Wang*, Qiyang Zhang, Ting Nie. A Novel Highway Traffic Capacity Analyzing Method under Road Region Atmospheric Environment Constrains Based on Computational Fluid Dynamics Model. <var>The Transportation Research Board (TRB) 103nd Annual Meeting</var>. 2023. [Accepted on 02 Oct. 2023]
-* Yongqi Dong#, Xingmin Lu#, **Ruohan Li**, Wei Song*, Bart van Arem, Haneen Farah. Intelligent Anomaly Detection for Lane Rendering Using Transformer with Self-Supervised Pre-Training and Customized Fine-Tuning. <var>The Transportation Research Board (TRB) 103nd Annual Meeting</var>. 2023. [Accepted on 27 Sep. 2023]
-* Yongqi Dong#, **Ruohan Li**#, Haneen Farah*. Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss. <var>The Transportation Research Board (TRB) 102nd Annual Meeting</var>. **[TRB 2023 poster](https://repository.tudelft.nl/islandora/object/uuid:62690e30-572d-44c2-aa8f-f0b1cb835f29?collection=research).**
-* Xinmin Lu#, Yongqi Dong*#, **Ruohan Li**, Wei Song. Intelligent Anomaly Detection for Lane Rendering Using Transformer with Self-Supervised Pre-Training and Customized Fine-Tuning. <var>The 23rd COTA International Conference of Transportation Professionals (CICTP2023)</var>. [Accepted on 9 Dec. 2022]
-* **Ruohan Li**, Hualan Wang*, Yajun Guo, Mingxuan Li. The Highway Region Boundary Based on Multi-Environmental Factors[M]//<var>CICTP 2023</var>. 135-145. [Published](https://doi.org/10.1061/9780784484869.014)
+## Transportation Research Board (TRB)
+* **Ruohan Li**, Weiyu Luo, Chenfeng Xiong*. 
+  *Rethinking Transit Deserts: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data*.  
+  *TRB 105th Annual Meeting*, 2026. **[Lectern Presentation]** <span style="color:Blue">First presenter at Lectern Session 4018 — *Evaluation of Non-Conventional Transit Impacts* Wednesday, Jan 14, 2026, 8:00–9:45 AM Presider: William Wong (Federal Transit Administration)</span>
+
+* Weiyu Luo#, **Ruohan Li#**, Xin Wu, Chenfeng Xiong*.  
+  **Complete Trip: A Pioneering Open-Source Dataset for Door-to-Door Multimodal Mobility Analysis**.  
+  *TRB 105th Annual Meeting*, 2026. [Poster Presentation]
+
+* **Ruohan Li**, Hualan Wang*, Qiyang Zhang, Ting Nie.  
+  **A Novel Highway Traffic Capacity Analyzing Method under Road Region Atmospheric Environment Constrains Based on Computational Fluid Dynamics Model**.  
+  *TRB 103rd Annual Meeting*, 2023. [Poster Presentation]
+
+* Yongqi Dong#, Xingmin Lu#, **Ruohan Li**, Wei Song*, Bart van Arem, Haneen Farah.  
+  **Intelligent Anomaly Detection for Lane Rendering Using Transformer with Self-Supervised Pre-Training and Customized Fine-Tuning**.  
+  *TRB 103rd Annual Meeting*, 2023. [Poster Presentation]
+
+* Yongqi Dong#, **Ruohan Li**#, Haneen Farah*.  
+  **Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss**.  
+  *TRB 102nd Annual Meeting*, 2023.  
+  **[Poster Presentation](https://repository.tudelft.nl/islandora/object/uuid:62690e30-572d-44c2-aa8f-f0b1cb835f29?collection=research)**
+
+---
+
+## TRC-30: Conference in Emerging Technologies in Transportation Systems
+* **Ruohan Li**, Chenfeng Xiong*, Arash Tavakoli, C. Nataraja.  
+  **Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach**.  
+  *TRC-30*, 2024.  
+  **[Presentation](https://trc-30.epfl.ch/wp-content/uploads/2024/09/TRC-30_paper_260.pdf)**
+
+---
+
+## American Geophysical Union (AGU)
+* **Ruohan Li**, Weiyu Luo, Chenfeng Xiong*.  
+  **Equity in Motion: Rethinking Transit Deserts through Complete Trip Data**.  
+  *AGU Fall Meeting*, 2025. [Accepted]
+
+* Weiyu Luo#, **Ruohan Li#**, Xin Wu, Chenfeng Xiong*.  
+  **Complete Trip: A High-Resolution Multimodal Mobility Dataset for Urban Process Modeling and Environmental Simulation**.  
+  *AGU Fall Meeting*, 2025. [Accepted]
+
+---
+
+## CICTP (COTA International Conference of Transportation Professionals)
+* Xinmin Lu#, Yongqi Dong*#, **Ruohan Li**, Wei Song.  
+  **Intelligent Anomaly Detection for Lane Rendering Using Transformer with Self-Supervised Pre-Training and Customized Fine-Tuning**.  
+  *CICTP 2023*, 2023. [Accepted Dec 9, 2022]
+
+* **Ruohan Li**, Hualan Wang*, Yajun Guo, Mingxuan Li.  
+  **The Highway Region Boundary Based on Multi-Environmental Factors**.  
+  In *CICTP 2023*, pp. 135–145.  
+  **[Published](https://doi.org/10.1061/9780784484869.014)**
+
 
 Patent
 ======
