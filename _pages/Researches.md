@@ -20,10 +20,9 @@ author_profile: true
     <img src="/images/NovaMatch%20log.png" alt="NovaMatch logo" style="max-width: 100%; border-radius: 12px;">
   </div>
 </div>
-
 <!-- Map-matching example iframe -->
 <div align="center" style="margin-top: 20px;">
-  Map-Matching Sample 1<br>
+  Map-Matching Sample<br>
   <iframe src="/files/Hof_13.html" width="800" height="510" frameborder="1"
           scrolling="auto" style="display: block; margin: 0 auto;">
   </iframe>
@@ -39,6 +38,7 @@ author_profile: true
 </p>
 
 <div align="center" style="margin-top: 20px;">
+  Lane Detection Sample<br>
   <img src="/images/Lane Detection.gif"
        alt="Lane Detection"
        width="700"
