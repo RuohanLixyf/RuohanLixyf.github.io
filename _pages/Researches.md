@@ -30,26 +30,22 @@ author_profile: true
 </div>
 
  
-<div style="display: flex; gap: 20px; margin-bottom: 40px;">
-  
-  <!-- Left text -->
-  <div style="flex: 1;">
-    <h2>Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders, Sept. 2021 – Aug. 2022</h2>
-    <p>
-      <b>Objective:</b> To develop a robust lane detection neural network...
-      <br>
-      <b>Delivery:</b> A research paper titled <i>Robust Lane Detection...</i>
-    </p>
-  </div>
+<h2>Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders, Sept. 2021 – Aug. 2022</h2>
 
-  <div style="text-align: center; margin-top: 20px;">
-    <img src="/images/Lane Detection.gif"
-         alt="Lane Detection"
-         width="700"
-         style="border-radius: 8px;">
-  </div>
+<p>
+  <b>Objective:</b> To develop a robust lane detection neural network...
+  <br>
+  <b>Delivery:</b> A research paper titled <i>Robust Lane Detection...</i>
+</p>
 
+<!-- 图片放在文字下面，不进 flex -->
+<div align="center" style="margin-top: 20px;">
+  <img src="/images/Lane Detection.gif"
+       alt="Lane Detection"
+       width="700"
+       style="border-radius: 8px;">
 </div>
+
 
 <!--   
 Intelligent quality detection of lane rendering data,Aug.2022- Sept.2022 
