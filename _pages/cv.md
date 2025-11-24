@@ -42,11 +42,12 @@ Skills
 
 Academic Service
 ======
-* Reviewer, Transportation Research Record (TRR)
-* Reviewer, PLOS ONE
-* Reviewer, Bridging Transportation Researchers (BTR) Online Conference
-* Reviewer, COTA International Conference (CICTP)
-* Reviewer, WSTLUR (World Symposium on Transport and Land Use Research)
+Peer Reviewer：
+  * Transportation Research Record (TRR)
+  * PLOS ONE
+  * World Symposium on Transport and Land Use Research (WSTLUR)
+  * Bridging Transportation Researchers (BTR) Online Conference
+  * COTA International Conference (CICTP)
 
 <!-- 
 
