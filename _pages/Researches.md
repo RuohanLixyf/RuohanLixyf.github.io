@@ -5,13 +5,30 @@ permalink: /Researches/
 author_profile: true
 ---
 
-Map-Matching, Sep.2023 - Now
+Map-Matching, Sep.2023 - Present
 ======
-* As part of generating Complete Trip data, the map-matching method based on the HMM model is used to perform map matching on human Location-based Service (LBS) data, aligning human movement trajectories with a digital map, such as Open Street Map (OSM).
-   
-<div align=center>
-Map-Matching Sample 1 
-<iframe src="/files/Hof_13.html" width="900" height="550" frameborder="1" name="Map-Matching-Sample_DC_10" scrolling="auto" style="display: block; margin: 0 auto;"></iframe>
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <div style="flex: 1; padding-right: 20px;">
+    <h2>Map Matching, Sep. 2023 – Present</h2>
+    <p>
+       I work on improving how we turn raw location-based service (LBS) data into clean and reliable human travel trajectories. Using a method based on Hidden Markov Models (HMM), I match each noisy GPS point to the most likely road on a digital map (such as OpenStreetMap).
+    </p>
+    <p>
+      To make this process accurate and easy to use across different cities and datasets, I developed NovaMatch, a unified pipeline that automatically cleans LBS data, performs map matching, and produces high-quality, complete travel paths. NovaMatch is now used to generate our lab’s Complete Trip data for large-scale mobility analysis.
+    </p>
+  </div>
+  <!-- Right-side NovaMatch logo -->
+  <div style="flex: 0 0 220px; text-align: center;">
+    <img src="/images/NovaMatch%20log.png" alt="NovaMatch logo" style="max-width: 100%; border-radius: 12px;">
+  </div>
+</div>
+
+<!-- Map-matching example iframe -->
+<div align="center" style="margin-top: 20px;">
+  Map-Matching Sample 1<br>
+  <iframe src="/files/Hof_13.html" width="900" height="550" frameborder="1"
+          scrolling="auto" style="display: block; margin: 0 auto;">
+  </iframe>
 </div>
       
 Intelligent quality detection of lane rendering data,Aug.2022- Sept.2022 
@@ -41,6 +58,7 @@ Figure.2
 Figure.3 
 </div>
 
+<!--
 Research on the Traffic Capacity of Highway Region Ecological Environment—— A Case of G30 Zhangye,Sept.2021- Jun.2023 
 ======
 * Objective: To study the impact of highway traffic on the surrounding environment, calculate the carrying capacity of traffic
@@ -73,3 +91,4 @@ Figure.1 Time series data (NDVI) using Landsat8 remote sensing images.
 <br/><img src='/images/4.png'>
 Figure.2 Correlation analysis between NDVI value and meteorology indexes.
 </div>
+--!>
