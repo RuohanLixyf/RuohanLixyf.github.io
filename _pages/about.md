@@ -3,6 +3,7 @@ permalink: /
 title: "Ruohan Li short bio"
 excerpt: "About me"
 author_profile: true
+header: false
 redirect_from: 
   - /about/
   - /about.html
