@@ -3,6 +3,7 @@ layout: archive
 title: "Researches"
 permalink: /Researches/
 author_profile: true
+header: false
 ---
 
 Map-Matching, Sep.2023 - Present
