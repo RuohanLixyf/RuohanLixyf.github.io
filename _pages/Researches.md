@@ -24,7 +24,7 @@ author_profile: true
 <!-- Map-matching example iframe -->
 <div align="center" style="margin-top: 20px;">
   Map-Matching Sample 1<br>
-  <iframe src="/files/Hof_13.html" width="900" height="550" frameborder="1"
+  <iframe src="/files/Hof_13.html" width="800" height="510" frameborder="1"
           scrolling="auto" style="display: block; margin: 0 auto;">
   </iframe>
 </div>
@@ -42,10 +42,11 @@ author_profile: true
     </p>
   </div>
 
-  <!-- Right image -->
-  <div style="flex: 0 0 220px; text-align: center;">
-    <img src="/images/Lane Detection.gif" alt="Lane Detection" 
-         style="width: 100%; border-radius: 8px;">
+  <div style="text-align: center; margin-top: 20px;">
+    <img src="/images/Lane Detection.gif"
+         alt="Lane Detection"
+         width="700"
+         style="border-radius: 8px;">
   </div>
 
 </div>
