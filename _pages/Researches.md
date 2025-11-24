@@ -4,6 +4,7 @@ title: ""
 permalink: /Researches/
 author_profile: true
 ---
+<h1 style="display:none;">Researches</h1>
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <div style="flex: 1; padding-right: 14px;">
     <h2>Map Matching, Sep. 2023 – Present</h2>
@@ -15,7 +16,7 @@ author_profile: true
     </p>
   </div>
   <!-- Right-side NovaMatch logo -->
-  <div style="flex: 0 0 220px; text-align: center;">
+  <div style="flex: 0 0 150px; text-align: center;">
     <img src="/images/NovaMatch%20log.png" alt="NovaMatch logo" style="max-width: 100%; border-radius: 12px;">
   </div>
 </div>
@@ -34,7 +35,7 @@ author_profile: true
 <p>
   <b>Objective:</b> To develop robust lane detection neural network model that can tackle challenging scenes
   <br>
-  <b>Delivery:</b> A research paper titled Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss</i>
+  <b>Delivery:</b> A research paper titled Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss
 </p>
 
 <div align="center" style="margin-top: 20px;">
