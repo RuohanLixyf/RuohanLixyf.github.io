@@ -3,6 +3,7 @@ layout: archive
 title: ""
 permalink: /Researches/
 author_profile: true
+classes: research-page
 ---
 <h1 style="display:none;">Researches</h1>
 <div style="display: flex; align-items: center; justify-content: space-between;">
@@ -12,7 +13,7 @@ author_profile: true
        I work on improving how we turn raw location-based service (LBS) data into clean and reliable human travel trajectories. Using a method based on Hidden Markov Models (HMM), I match each noisy GPS point to the most likely road on a digital map (such as OpenStreetMap).
     </p>
     <p>
-      To make this process accurate and easy to use across different cities and datasets, I developed NovaMatch, a unified pipeline that automatically cleans LBS data, performs map matching, and produces high-quality, complete travel paths. NovaMatch is now used to generate our lab’s Complete Trip data for large-scale mobility analysis.
+      To make this process accurate and easy to use across different cities and datasets, I developed **NovaMatch**, a unified pipeline that automatically cleans LBS data, performs map matching, and produces high-quality, complete travel paths. NovaMatch is now used to generate our lab’s Complete Trip data for large-scale mobility analysis.
     </p>
   </div>
   <!-- Right-side NovaMatch logo -->
