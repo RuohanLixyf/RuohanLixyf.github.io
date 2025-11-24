@@ -3,7 +3,8 @@ layout: archive
 title: ""
 permalink: /Researches/
 author_profile: true
-classes: research-page
+header:
+  overlay_color: "#ffffff"
 ---
 <h1 style="display:none;">Researches</h1>
 <div style="display: flex; align-items: center; justify-content: space-between;">
