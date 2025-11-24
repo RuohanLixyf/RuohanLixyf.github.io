@@ -20,3 +20,16 @@
 <link rel="stylesheet" href="{{ base_path }}/assets/css/custom.css">
 
 <meta http-equiv="cleartype" content="on">
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var links = document.querySelectorAll('a[href]');
+  var current = window.location.href;
+
+  links.forEach(function(link) {
+    if (link.href === current || link.href === current.replace(/\/$/, "")) {
+      link.classList.add("active");
+    }
+  });
+});
+</script>
