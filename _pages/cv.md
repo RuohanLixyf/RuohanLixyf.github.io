@@ -35,10 +35,10 @@ Skills
   * Spatiotemporal Analysis: LBS data processing, trajectory cleaning, GIS-based spatial modeling
   * Transit/Mobility Analytics: demand–supply mismatch, accessibility modeling, isochrone analysis
 * Software & Tools
-  * **VISSIM (Advanced)** — network modeling, airport curb simulation, optimization
-  * ArcGIS / **ArcGIS Pro** / QGIS / GeoDa — spatial data processing and visualization
-  * ENVI — remote sensing image analysis
-  * Revit, AutoCAD — engineering modeling
+  * **VISSIM (Advanced)**, network modeling, airport curb simulation, optimization
+  * ArcGIS / **ArcGIS Pro** / QGIS / GeoDa, spatial data processing and visualization
+  * ENVI, remote sensing image analysis
+  * Revit, AutoCAD, engineering modeling
 
 <!-- 
 
