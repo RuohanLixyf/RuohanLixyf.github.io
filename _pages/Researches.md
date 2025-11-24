@@ -46,7 +46,14 @@ Robust Lane Detection through Self Pre-training with Masked Sequential Autoencod
 ======
 * Objective: To develop robust lane detection neural network model that can tackle challenging scenes
 * Delivery: A research paper titled Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss
+<div align="center" style="margin-top: 20px;">
+  <video width="700" controls>
+    <source src="/images/Polyloss11_normal.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
+<!--
 <div align=center>
 <br/><img src='/images/mask.jpg'>
 Figure.1 
@@ -58,7 +65,7 @@ Figure.2
 Figure.3 
 </div>
 
-<!--
+
 Research on the Traffic Capacity of Highway Region Ecological Environment—— A Case of G30 Zhangye,Sept.2021- Jun.2023 
 ======
 * Objective: To study the impact of highway traffic on the surrounding environment, calculate the carrying capacity of traffic
