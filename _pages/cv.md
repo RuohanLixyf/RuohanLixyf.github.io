@@ -40,6 +40,14 @@ Skills
   * ENVI, remote sensing image analysis
   * Revit, AutoCAD, engineering modeling
 
+Academic Service
+======
+* Reviewer, Transportation Research Record (TRR)
+* Reviewer, PLOS ONE
+* Reviewer, Bridging Transportation Researchers (BTR) Online Conference
+* Reviewer, COTA International Conference (CICTP)
+* Reviewer, WSTLUR (World Symposium on Transport and Land Use Research)
+
 <!-- 
 
 Organization activities & Volunteering
