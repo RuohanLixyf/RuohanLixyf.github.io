@@ -17,6 +17,29 @@ Education
 * M.Eng. College of Traffic and Transportation, Lanzhou Jiaotong University, 2023
 * B.Eng. College of Traffic and Transportation, Lanzhou Jiaotong University, 2020
 
+Skills
+======
+* Programming & Frameworks:
+  * Python (Advanced), data processing, scientific computing, custom algorithm development
+  * PyTorch, deep learning models for segmentation, sequence modeling, and masked modeling
+  * C/C++, C#, high-performance components and simulation scripting
+  * PySpark, large-scale mobility data processing
+  * Git/GitHub, CI/CD workflows (GitHub Actions)
+* Machine Learning & Modeling:
+  * Deep Learning: Transformers (Swin, ViT), CNNs, LSTMs, Autoencoders, Masked Image Modeling, U-Net
+  * Probabilistic Modeling: Hidden Markov Models (HMM), Bayesian Optimization, Particle Filter methods
+  * Trajectory Modeling: sequence reconstruction, structural mobility modeling, trajectory clustering
+* Mobility Algorithms & Spatial Computing:
+  * Map Matching: HMM-based, Bayesian-optimized, hierarchical map matching; developer of **NovaMatch**
+  * Graph/Network Algorithms: shortest path, candidate search (KD-tree), routing, network pruning
+  * Spatiotemporal Analysis: LBS data processing, trajectory cleaning, GIS-based spatial modeling
+  * Transit/Mobility Analytics: demand–supply mismatch, accessibility modeling, isochrone analysis
+* Software & Tools
+  * **VISSIM (Advanced)** — network modeling, airport curb simulation, optimization
+  * ArcGIS / **ArcGIS Pro** / QGIS / GeoDa — spatial data processing and visualization
+  * ENVI — remote sensing image analysis
+  * Revit, AutoCAD — engineering modeling
+
 <!-- 
 
 Organization activities & Volunteering
@@ -27,27 +50,5 @@ Organization activities & Volunteering
   * School Taekwondo Club, Teaching department, Coach, Sept.2016-Jun.2018
     * Organize daily taekwondo training for club members
     * Organize and plan activities, and lead the performance team in the evening show
-
-Skills
-======
-* Programming Languages:
-  * Python/PyTorch
-  * C/C++
-  * C#
-* Machine Learning:
-  * CNN
-  * LSTM
-  * AutoEncoder
-  * Masked Image Modeling
-  * Transformer
-  * U-Net
-* Software:
-  * PyCharm/Spyder
-  * ArcGIS
-  * ENVI
-  * Vissim
-  * Revit/Auto CAD
-  * ADAM
-  * SPSS
 
 -->
