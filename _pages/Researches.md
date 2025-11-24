@@ -5,7 +5,9 @@ permalink: /Researches/
 author_profile: true
 header: false
 ---
-<h1 style="display:none;">Researches</h1>
+
+<h1 class="page__title">Researches</h1>
+
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <div style="flex: 1; padding-right: 14px;">
     <h2>Map Matching, Sep. 2023 – Present</h2>
