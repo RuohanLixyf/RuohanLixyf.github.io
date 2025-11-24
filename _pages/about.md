@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Ruohan Li short bio"
+title: ""
 excerpt: "About me"
 author_profile: true
 header: false 
