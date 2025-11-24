@@ -3,6 +3,7 @@ layout: archive
 title: "" 
 permalink: /publications/
 author_profile: true
+header: false
 ---
 ## Under Review
 * **Ruohan Li**, Weiyu Luo, Xin Wu, Kailun Liu, Lele Zhang, Chenfeng Xiong*. Shifting Transit Deserts and Transit Mirages: Toward a Behavioral–Dynamic Framework for Transit Equity Measurement. <var>Transportation Research Part A: Policy and Practice</var>. 2025. [Under Review]
