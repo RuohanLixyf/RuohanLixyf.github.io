@@ -6,7 +6,6 @@ permalink: /Researches/
 author_profile: true
 header: false
 ---
-
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <div style="flex: 1; padding-right: 14px;">
     <h2>Map Matching, Sep. 2023 – Present</h2>
