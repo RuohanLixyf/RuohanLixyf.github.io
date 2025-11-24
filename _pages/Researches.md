@@ -1,6 +1,7 @@
 ---
 layout: single
 title: null
+show_title: false
 permalink: /Researches/
 author_profile: true
 header: false

@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: null
+show_title: false
 permalink: /publications/
 author_profile: true
 header: false
