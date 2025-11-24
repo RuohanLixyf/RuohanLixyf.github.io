@@ -4,9 +4,8 @@ title: ""
 permalink: /Researches/
 author_profile: true
 ---
-
 <div style="display: flex; align-items: center; justify-content: space-between;">
-  <div style="flex: 1; padding-right: 17px;">
+  <div style="flex: 1; padding-right: 14px;">
     <h2>Map Matching, Sep. 2023 – Present</h2>
     <p>
        I work on improving how we turn raw location-based service (LBS) data into clean and reliable human travel trajectories. Using a method based on Hidden Markov Models (HMM), I match each noisy GPS point to the most likely road on a digital map (such as OpenStreetMap).
@@ -30,15 +29,14 @@ author_profile: true
 </div>
 
  
-<h2>Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders, Sept. 2021 – Aug. 2022</h2>
+<h2>Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders, Sep. 2021 – Aug. 2022</h2>
 
 <p>
-  <b>Objective:</b> To develop a robust lane detection neural network...
+  <b>Objective:</b> To develop robust lane detection neural network model that can tackle challenging scenes
   <br>
-  <b>Delivery:</b> A research paper titled <i>Robust Lane Detection...</i>
+  <b>Delivery:</b> A research paper titled Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss</i>
 </p>
 
-<!-- 图片放在文字下面，不进 flex -->
 <div align="center" style="margin-top: 20px;">
   <img src="/images/Lane Detection.gif"
        alt="Lane Detection"
