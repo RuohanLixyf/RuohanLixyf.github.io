@@ -1,13 +1,10 @@
 ---
 layout: archive
-title: "Researches"
+title: ""
 permalink: /Researches/
 author_profile: true
-header: false
 ---
 
-Map-Matching, Sep.2023 - Present
-======
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <div style="flex: 1; padding-right: 17px;">
     <h2>Map Matching, Sep. 2023 – Present</h2>
@@ -33,14 +30,24 @@ Map-Matching, Sep.2023 - Present
 </div>
 
  
-Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders,Sept.2021- Aug.2022
-======
-* Objective: To develop robust lane detection neural network model that can tackle challenging scenes
-* Delivery: A research paper titled Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss
-
+<div style="display: flex; gap: 20px; margin-bottom: 40px;">
   
-<div align="center" style="margin-top: 20px;">
-  <img src="/images/Lane Detection.gif" alt="Lane Detection GIF" width="700" style="border-radius: 8px;">
+  <!-- Left text -->
+  <div style="flex: 1;">
+    <h2>Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders, Sept. 2021 – Aug. 2022</h2>
+    <p>
+      <b>Objective:</b> To develop a robust lane detection neural network...
+      <br>
+      <b>Delivery:</b> A research paper titled <i>Robust Lane Detection...</i>
+    </p>
+  </div>
+
+  <!-- Right image -->
+  <div style="flex: 0 0 220px; text-align: center;">
+    <img src="/images/Lane Detection.gif" alt="Lane Detection" 
+         style="width: 100%; border-radius: 8px;">
+  </div>
+
 </div>
 
 <!--   
