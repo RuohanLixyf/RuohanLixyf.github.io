@@ -13,7 +13,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D. Student from 2023 to now, Civil and Environmental Engineering, Villanova University.
+* Ph.D. Candidate from 2023 to now, Civil and Environmental Engineering, Villanova University.
 * M.Eng. College of Traffic and Transportation, Lanzhou Jiaotong University, 2023
 * B.Eng. College of Traffic and Transportation, Lanzhou Jiaotong University, 2020
 
