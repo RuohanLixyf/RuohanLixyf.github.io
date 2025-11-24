@@ -23,8 +23,9 @@ I am a Ph.D. Candidate and Graduate Research Assistant at the Department of Civi
 
 News 
 ======
-- **10/2025**: I will present my paper Rethinking Transit Deserts: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data at the **TRB 105th Annual Meeting** in <span style="color:Blue">Lectern Session 4018: Evaluation of Non-Conventional Transit Impacts (Wednesday, Jan 14, 8:00–9:45 AM, 150B, Convention Center) </span>.
-Welcome to attend and join the discussion!
+- **10/2025**: I will present my paper *Rethinking Transit Deserts: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data* at the **TRB 105th Annual Meeting**, as the **first presenter** in **Lectern Session 4018: Evaluation of Non-Conventional Transit Impacts** (Wednesday, Jan 14, 8:00–9:45 AM, Room 150B, Convention Center).  
+  The session will be presided by **William Wong** from the **Federal Transit Administration (FTA)**.  
+  Welcome to attend and join the discussion!
 - **09/2025**: My paper *Rethinking Transit Deserts: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data*  has been accepted by TRB. Another paper, *Complete Trip: An Open and Privacy-Safe Dataset of Multimodal Travel Sequences for Urban Transportation Systems Analysis*, has also been accepted. 
 - **08/2025**: After the TRB deadline, I’ve been busy “cleaning up” my LBS map-matching code. 🧹 Formatting code so that *other humans* (including future me) can understand it feels like the hardest optimization problem ever. 🤯 *What on earth was I thinking when I wrote this?*  Now it just looks like a %￥%#@@ ……#…………, completely frazzled... 😵‍💫🔥
   
