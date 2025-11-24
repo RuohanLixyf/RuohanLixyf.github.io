@@ -8,7 +8,7 @@ author_profile: true
 Map-Matching, Sep.2023 - Present
 ======
 <div style="display: flex; align-items: center; justify-content: space-between;">
-  <div style="flex: 1; padding-right: 20px;">
+  <div style="flex: 1; padding-right: 17px;">
     <h2>Map Matching, Sep. 2023 – Present</h2>
     <p>
        I work on improving how we turn raw location-based service (LBS) data into clean and reliable human travel trajectories. Using a method based on Hidden Markov Models (HMM), I match each noisy GPS point to the most likely road on a digital map (such as OpenStreetMap).
@@ -91,4 +91,4 @@ Figure.1 Time series data (NDVI) using Landsat8 remote sensing images.
 <br/><img src='/images/4.png'>
 Figure.2 Correlation analysis between NDVI value and meteorology indexes.
 </div>
---!>
+-->
