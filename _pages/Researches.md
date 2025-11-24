@@ -30,11 +30,13 @@ Map-Matching, Sep.2023 - Present
           scrolling="auto" style="display: block; margin: 0 auto;">
   </iframe>
 </div>
+
  
 Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders,Sept.2021- Aug.2022
 ======
 * Objective: To develop robust lane detection neural network model that can tackle challenging scenes
 * Delivery: A research paper titled Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss
+
   
 <div align="center" style="margin-top: 20px;">
   <img src="/images/Lane Detection.gif" alt="Lane Detection GIF" width="700" style="border-radius: 8px;">
