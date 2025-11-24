@@ -35,11 +35,9 @@ Robust Lane Detection through Self Pre-training with Masked Sequential Autoencod
 ======
 * Objective: To develop robust lane detection neural network model that can tackle challenging scenes
 * Delivery: A research paper titled Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss
+  
 <div align="center" style="margin-top: 20px;">
-  <video width="700" controls>
-    <source src="images/Polyloss11_normal.avi" type="video/avi">
-    Your browser does not support the video tag.
-  </video>
+  <img src="/images/Lane Detection.gif" alt="Lane Detection GIF" width="700" style="border-radius: 8px;">
 </div>
 
 <!--   
