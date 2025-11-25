@@ -31,18 +31,18 @@ header: false
 
 * Yongqi Dong#, Xingmin Lu#, **Ruohan Li**, Wei Song*, Bart van Arem, Haneen Farah. *Intelligent Anomaly Detection for Lane Rendering Using Transformer with Self-Supervised Pre-Training and Customized Fine-Tuning*. *TRB 103rd Annual Meeting*, 2024. [Poster Presentation]
 
-* Yongqi Dong#, **Ruohan Li**#, Haneen Farah*. *Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss*. *TRB 102nd Annual Meeting*, 2023. **[Poster Presentation](https://repository.tudelft.nl/islandora/object/uuid:62690e30-572d-44c2-aa8f-f0b1cb835f29?collection=research)**
+* Yongqi Dong#, **Ruohan Li**#, Haneen Farah*. *Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss*. *TRB 102nd Annual Meeting*, 2023. [Poster Presentation](https://repository.tudelft.nl/islandora/object/uuid:62690e30-572d-44c2-aa8f-f0b1cb835f29?collection=research)
 
 ### TRC-30: Conference in Emerging Technologies in Transportation Systems
-* **Ruohan Li**, Chenfeng Xiong*, Arash Tavakoli, C. Nataraja. *Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach*. *TRC-30*, 2024. **[Presentation](https://trc-30.epfl.ch/wp-content/uploads/2024/09/TRC-30_paper_260.pdf)**
+* **Ruohan Li**, Chenfeng Xiong*, Arash Tavakoli, C. Nataraja. *Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach*. *TRC-30*, 2024. **[Oral Presentation](https://trc-30.epfl.ch/wp-content/uploads/2024/09/TRC-30_paper_260.pdf)**
 
 ### World Symposium on Transport and Land Use Research (WSTLUR)
-* **Ruohan Li**, Weiyu Luo, Chenfeng Xiong*. Shifting Transit Deserts and Transit Mirages: Toward a Behavioral–Dynamic Framework for Transit Equity Measurement. <var>WSTLUR</var>. 2025. [Under Review]
+* **Ruohan Li**, Weiyu Luo, Chenfeng Xiong*. Shifting Transit Deserts and Transit Mirages: Toward a Behavioral–Dynamic Framework for Transit Equity Measurement. <var>WSTLUR2026</var>. 2025. [Under Review]
 
 ### American Geophysical Union (AGU)
-* **Ruohan Li**, Weiyu Luo, Chenfeng Xiong*. *Equity in Motion: Rethinking Transit Deserts through Complete Trip Data*. *AGU Fall Meeting*, 2025. [Oral]
+* **Ruohan Li**, Weiyu Luo, Chenfeng Xiong*. *Equity in Motion: Rethinking Transit Deserts through Complete Trip Data*. *AGU Fall Meeting*, 2025. **[Oral Presentation]**
 
-* Weiyu Luo#, **Ruohan Li#**, Xin Wu, Chenfeng Xiong*. *Complete Trip: A High-Resolution Multimodal Mobility Dataset for Urban Process Modeling and Environmental Simulation*. *AGU Fall Meeting*, 2025. [Oral]
+* Weiyu Luo#, **Ruohan Li#**, Xin Wu, Chenfeng Xiong*. *Complete Trip: A High-Resolution Multimodal Mobility Dataset for Urban Process Modeling and Environmental Simulation*. *AGU Fall Meeting*, 2025. **[Oral Presentation]**
 
 ### CICTP (COTA International Conference of Transportation Professionals)
 * Xinmin Lu#, Yongqi Dong*#, **Ruohan Li**, Wei Song. *Intelligent Anomaly Detection for Lane Rendering Using Transformer with Self-Supervised Pre-Training and Customized Fine-Tuning*. *CICTP 2023*, 2023. [Accepted Dec 9, 2022]
