@@ -13,7 +13,7 @@ I am a Ph.D. Candidate and Graduate Research Assistant at the Department of Civi
 
 My research focuses on human mobility and large-scale location-based services (LBS) data, with an emphasis on understanding and reconstructing travel trajectories. I develop methods that make noisy movement data analytically usable, ranging from map matching and trajectory reconstruction to the structural modeling of mobility behavior. I am also interested in the broader mobility issues such as accessibility and transit demand–supply mismatches using empirical, high-resolution data.
 
-My current work includes advancing map-matching algorithms for LBS data, particularly *NovaMatch*, a unified and extensible pipeline capable of matching diverse trajectory and sequence data, including LBS points, TMC paths, and probe traces, to a wide range of transportation networks, as well as developing trajectory modeling frameworks and assessing equity-related mobility outcomes. <span style="color:Blue"> *If you are interested in my research, Feel free to contact me for research discussion and possible collaboration!* </span> 😄 🚀 ✨
+My current work includes advancing map-matching algorithms for LBS data, particularly *NovaMatch*, a unified and extensible pipeline capable of matching diverse trajectory and sequence data, including LBS points, TMC paths, and probe traces, to a wide range of transportation networks, as well as developing trajectory modeling frameworks and assessing equity-related mobility outcomes. <span style="color:#32B5FF"> *If you are interested in my research, Feel free to contact me for research discussion and possible collaboration!* </span> 😄 🚀 ✨
 
 <span style="color:#0A2A66">News</span> 
 ======

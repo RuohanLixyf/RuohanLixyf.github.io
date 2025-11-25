@@ -23,7 +23,7 @@ header: false
 ### Transportation Research Board (TRB)
 * **2026**: **Ruohan Li**, Weiyu Luo, Chenfeng Xiong*. 
   *Rethinking Transit Deserts: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data*.
-  *TRB 105th Annual Meeting*, 2026. **[Lectern Presentation]** <span style="color:Blue">First presenter at Lectern Session 4018 — *Evaluation of Non-Conventional Transit Impacts* Wednesday, Jan 14, 2026, 8:00–9:45 AM Presider: William Wong (Federal Transit Administration)</span>
+  *TRB 105th Annual Meeting*, 2026. **[Lectern Presentation]** <span style="color:#32B5FF">First presenter at Lectern Session 4018 — *Evaluation of Non-Conventional Transit Impacts* Wednesday, Jan 14, 2026, 8:00–9:45 AM Presider: William Wong (Federal Transit Administration)</span>
 
 * **2026**: Weiyu Luo#, **Ruohan Li#**, Xin Wu, Chenfeng Xiong*. *Complete Trip: A Pioneering Open-Source Dataset for Door-to-Door Multimodal Mobility Analysis*. *TRB 105th Annual Meeting*, 2026. [Poster Presentation]
 
