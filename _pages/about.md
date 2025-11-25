@@ -62,3 +62,14 @@ Map-Matching Sample
           async>
   </script>
 </section>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NM1JF81S4Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NM1JF81S4Y');
+</script>
