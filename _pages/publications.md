@@ -13,10 +13,10 @@ header: false
 * **Ruohan Li#**, Xin Wu#, Weiyu Luo, Arash Tavakoli, C. Nataraja, Chenfeng Xiong*. Taming Volatile Trajectories: Sup-HMM, a Bayesian-Optimized Hidden Markov Model for Map Matching of Location-Based Service Data. <var>IEEE Transactions on Intelligent Transportation Systems</var>. 2025. [Under Review]
 
 ## Journal Publications
-* **Ruohan Li**#, Yongqi Dong*#. Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss. <var>IEEE Transactions on Intelligent Transportation Systems</var>.2023. **[Published] [doi: 10.1109/TITS.2023.3305015.](https://ieeexplore.ieee.org/document/10226453).**
-* Yongqi Dong#*, Xingmin Lu#, **Ruohan Li**, Wei Song*, Bart van Arem, Haneen Farah. Intelligent Anomaly Detection for Lane Rendering Using Transformer with Self-Supervised Pre-Training and Customized Fine-Tuning. <var>Transportation Research Record</var>. 2023. **[Published] [doi: 10.1177/03611981251333341](https://journals.sagepub.com/doi/10.1177/03611981251333341).**
-* Weiyu Luo, Xin Wu, **Ruohan Li**, Chenfeng Xiong* et al.. Variant patterns and influence of inter-regional travel during the SARS-CoV-2 expansion in South Africa. <var>PLOS One</var>. 2025. [Accepted]
-* **Ruohan Li**, Hualan Wang*. A CFD-Based Integrated Modeling Framework for Assessing Highway Traffic Capacity under Regional Air Quality Constraints. <var>Sustainability</var>. 2025. [Accepted on May.17.2025]
+* **2023**: **Ruohan Li**#, Yongqi Dong*#. Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss. <var>IEEE Transactions on Intelligent Transportation Systems</var>.2023. [Published](https://ieeexplore.ieee.org/document/10226453).
+* **2025**: Yongqi Dong#*, Xingmin Lu#, **Ruohan Li**, Wei Song*, Bart van Arem, Haneen Farah. Intelligent Anomaly Detection for Lane Rendering Using Transformer with Self-Supervised Pre-Training and Customized Fine-Tuning. <var>Transportation Research Record</var>. 2023. [Published](https://journals.sagepub.com/doi/10.1177/03611981251333341).
+* **2025**: Weiyu Luo, Xin Wu, **Ruohan Li**, Chenfeng Xiong* et al.. Variant patterns and influence of inter-regional travel during the SARS-CoV-2 expansion in South Africa. <var>PLOS One</var>. 2025. [Accepted]
+* **2025**: **Ruohan Li**, Hualan Wang*. A CFD-Based Integrated Modeling Framework for Assessing Highway Traffic Capacity under Regional Air Quality Constraints. <var>Sustainability</var>. 2025. [Accepted on May.17.2025]
 
 ---
 ## Conference
