@@ -36,6 +36,9 @@ header: false
 ### TRC-30: Conference in Emerging Technologies in Transportation Systems
 * **Ruohan Li**, Chenfeng Xiong*, Arash Tavakoli, C. Nataraja. *Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach*. *TRC-30*, 2024. **[Presentation](https://trc-30.epfl.ch/wp-content/uploads/2024/09/TRC-30_paper_260.pdf)**
 
+### World Symposium on Transport and Land Use Research (WSTLUR)
+* **Ruohan Li**, Weiyu Luo, Chenfeng Xiong*. Shifting Transit Deserts and Transit Mirages: Toward a Behavioral–Dynamic Framework for Transit Equity Measurement. <var>WSTLUR</var>. 2025. [Under Review]
+
 ### American Geophysical Union (AGU)
 * **Ruohan Li**, Weiyu Luo, Chenfeng Xiong*. *Equity in Motion: Rethinking Transit Deserts through Complete Trip Data*. *AGU Fall Meeting*, 2025. [Oral]
 
