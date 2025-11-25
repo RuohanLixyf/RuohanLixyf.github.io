@@ -13,7 +13,7 @@ header: false
        I work on improving how we turn raw location-based service (LBS) data into clean and reliable human travel trajectories. Using a method based on Hidden Markov Models (HMM), I match each noisy GPS point to the most likely road on a digital map (such as OpenStreetMap).
     </p>
     <p>
-      To make this process accurate and easy to use across different cities and datasets, I developed **NovaMatch**, a unified pipeline that automatically cleans LBS data, performs map matching, and produces high-quality, complete travel paths. NovaMatch is now used to generate our lab’s Complete Trip data for large-scale mobility analysis.
+      To make this process accurate and easy to use across different cities and datasets, I developed <strong>NovaMatch</strong>, a unified pipeline that automatically cleans LBS data, performs map matching, and produces high-quality, complete travel paths. NovaMatch is now used to generate our lab’s Complete Trip data for large-scale mobility analysis.
     </p>
   </div>
   <!-- Right-side NovaMatch logo -->
@@ -35,7 +35,7 @@ header: false
 <p>
   <b>Objective:</b> To develop robust lane detection neural network model that can tackle challenging scenes
   <br>
-  <b>Delivery:</b> A research paper titled Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss
+  <b>Delivery:</b> A research paper titled Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss. And the Vision-Based Lane Detection System With Self-supervised Pre-training Through Masked Sequential Auto-encoders (VLD_SP-MSAE) pattern.
 </p>
 
 <div align="center" style="margin-top: 20px;">
