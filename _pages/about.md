@@ -15,9 +15,9 @@ My research focuses on human mobility and large-scale location-based services (L
 
 My current work includes advancing map-matching algorithms for LBS data, particularly *NovaMatch*, a unified and extensible pipeline capable of matching diverse trajectory and sequence data, including LBS points, TMC paths, and probe traces, to a wide range of transportation networks, as well as developing trajectory modeling frameworks and assessing equity-related mobility outcomes. <span style="color:Blue"> *If you are interested in my research, Feel free to contact me for research discussion and possible collaboration!* </span> 😄 🚀 ✨
 
-News 
+<span style="color:#0A2A66">News</span> 
 ======
-- **10/2025**: I will present my paper *Rethinking Transit Deserts: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data* at the **TRB 105th Annual Meeting**, as the **first presenter** in **Lectern Session 4018: Evaluation of Non-Conventional Transit Impacts** <span style="color:Blue"> (Wednesday, Jan 14, 8:00–9:45 AM, Room 150B, Convention Center)</span> . The session will be presided by William Wong (Federal Transit Administration).  
+- **10/2025**: I will present my paper *Rethinking **Transit Deserts**: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data* at the **TRB 105th Annual Meeting**, as the **first presenter** in **Lectern Session 4018: Evaluation of Non-Conventional Transit Impacts** <span style="color:#32B5FF"> (Wednesday, Jan 14, 8:00–9:45 AM, Room 150B, Convention Center)</span> . The session will be presided by William Wong (Federal Transit Administration).  
   Welcome to attend and join the discussion!
 - **09/2025**: My paper *Rethinking Transit Deserts: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data*  has been accepted by TRB. Another paper, *Complete Trip: An Open and Privacy-Safe Dataset of Multimodal Travel Sequences for Urban Transportation Systems Analysis*, has also been accepted. 
 - **08/2025**: After the TRB deadline, I’ve been busy “cleaning up” my LBS map-matching code. 🧹 Formatting code so that *other humans* (including future me) can understand it feels like the hardest optimization problem ever. 🤯 *What on earth was I thinking when I wrote this?*  Now it just looks like a %￥%#@@ ……#…………, completely frazzled... 😵‍💫🔥
