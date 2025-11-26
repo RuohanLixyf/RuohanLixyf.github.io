@@ -18,6 +18,18 @@ Education
 * M.Eng. College of Traffic and Transportation, Lanzhou Jiaotong University, 2023
 * B.Eng. College of Traffic and Transportation, Lanzhou Jiaotong University, 2020
 
+Academic Service
+======
+Journal Reviewer
+  * IEEE Transactions on Intelligent Transportation Systems (T-ITS)
+  * Transportation Research Record (TRR)
+  * PLOS ONE
+
+Conference Reviewer
+  * World Symposium on Transport and Land Use Research (WSTLUR)
+  * Bridging Transportation Researchers (BTR) Online Conference
+  * COTA International Conference (CICTP)
+
 Skills
 ======
 * Programming & Frameworks:
@@ -41,14 +53,6 @@ Skills
   * ENVI, remote sensing image analysis
   * Revit, AutoCAD, engineering modeling
 
-Academic Service
-======
-Peer Reviewer：
-  * Transportation Research Record (TRR)
-  * PLOS ONE
-  * World Symposium on Transport and Land Use Research (WSTLUR)
-  * Bridging Transportation Researchers (BTR) Online Conference
-  * COTA International Conference (CICTP)
 
 <!-- 
 
