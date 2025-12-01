@@ -10,11 +10,6 @@ redirect_from:
 ---
 
 I am a Ph.D. Candidate and Graduate Research Assistant at the Department of Civil and Environmental Engineering, College of Engineering, [Villanova University](https://www1.villanova.edu/university.html), PA, USA. I am a member of the [Villanova Human Mobility Data Lab](https://cfxiong.github.io/data-lab/) (<span style="color:#0A2A66"><strong>Nova</strong></span><span style="color:#32B5FF"><strong>Mobility</strong></span>) supervised by [Dr. Chenfeng Xiong](https://cfxiong.github.io/). 
-
-My research focuses on human mobility and large-scale location-based services (LBS) data, with an emphasis on understanding and reconstructing travel trajectories. I develop methods that make noisy movement data analytically usable, ranging from map matching and trajectory reconstruction to the structural modeling of mobility behavior. I am also interested in the broader mobility issues such as accessibility and transit demand–supply mismatches using empirical, high-resolution data.
-
-My current work includes advancing map-matching algorithms for LBS data, particularly *NovaMatch*, a unified and extensible pipeline capable of matching diverse trajectory and sequence data, including LBS points, TMC paths, and probe traces, to a wide range of transportation networks, as well as developing trajectory modeling frameworks and assessing equity-related mobility outcomes. <span style="color:#32B5FF"> *If you are interested in my research, Feel free to contact me for research discussion and possible collaboration!* </span> 😄 🚀 ✨
-
 <div style="margin-top: 30px; text-align: center;">
 
   <a href="/NovaMobilityLab/" 
@@ -22,7 +17,7 @@ My current work includes advancing map-matching algorithms for LBS data, particu
         display: inline-block;
         margin: 10px;
         padding: 12px 24px;
-        background-color: #1e3a8a; 
+        background-color: #0A2A66; 
         color: white; 
         font-size: 18px;
         border-radius: 8px;
@@ -37,7 +32,7 @@ My current work includes advancing map-matching algorithms for LBS data, particu
         display: inline-block;
         margin: 10px;
         padding: 12px 24px;
-        background-color: #2563eb; 
+        background-color: #32B5FF; 
         color: white; 
         font-size: 18px;
         border-radius: 8px;
@@ -48,6 +43,9 @@ My current work includes advancing map-matching algorithms for LBS data, particu
   </a>
 
 </div>
+My research focuses on human mobility and large-scale location-based services (LBS) data, with an emphasis on understanding and reconstructing travel trajectories. I develop methods that make noisy movement data analytically usable, ranging from map matching and trajectory reconstruction to the structural modeling of mobility behavior. I am also interested in the broader mobility issues such as accessibility and transit demand–supply mismatches using empirical, high-resolution data.
+
+My current work includes advancing map-matching algorithms for LBS data, particularly *NovaMatch*, a unified and extensible pipeline capable of matching diverse trajectory and sequence data, including LBS points, TMC paths, and probe traces, to a wide range of transportation networks, as well as developing trajectory modeling frameworks and assessing equity-related mobility outcomes. <span style="color:#32B5FF"> *If you are interested in my research, Feel free to contact me for research discussion and possible collaboration!* </span> 😄 🚀 ✨
 
 <span style="color:#0A2A66">News</span> 
 ======
