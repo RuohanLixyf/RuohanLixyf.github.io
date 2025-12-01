@@ -10,7 +10,7 @@ redirect_from:
 ---
 
 I am a Ph.D. Candidate and Graduate Research Assistant at the Department of Civil and Environmental Engineering, College of Engineering, [Villanova University](https://www1.villanova.edu/university.html), PA, USA. I am a member of the [Villanova Human Mobility Data Lab](https://cfxiong.github.io/data-lab/) (<span style="color:#0A2A66"><strong>Nova</strong></span><span style="color:#32B5FF"><strong>Mobility</strong></span>) supervised by [Dr. Chenfeng Xiong](https://cfxiong.github.io/). 
-<div style="margin-top: 30px; text-align: center;">
+<div style="margin-top: 10px; text-align: center;">
 
   <a href="/NovaMobilityLab/" 
      style="
@@ -24,22 +24,7 @@ I am a Ph.D. Candidate and Graduate Research Assistant at the Department of Civi
         text-decoration: none;
         box-shadow: 0 2px 6px rgba(0,0,0,0.15);
      ">
-     🚀 AGU25 Presentation Resources
-  </a>
-
-  <a href="/NovaMobilityLab/" 
-     style="
-        display: inline-block;
-        margin: 10px;
-        padding: 12px 24px;
-        background-color: #32B5FF; 
-        color: white; 
-        font-size: 18px;
-        border-radius: 8px;
-        text-decoration: none;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-     ">
-     🚀 TRB2026 Presentation Resources
+     🚀 AGU25&TRB2026 Presentation Resources
   </a>
 
 </div>
