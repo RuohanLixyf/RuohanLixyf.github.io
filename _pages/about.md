@@ -15,6 +15,40 @@ My research focuses on human mobility and large-scale location-based services (L
 
 My current work includes advancing map-matching algorithms for LBS data, particularly *NovaMatch*, a unified and extensible pipeline capable of matching diverse trajectory and sequence data, including LBS points, TMC paths, and probe traces, to a wide range of transportation networks, as well as developing trajectory modeling frameworks and assessing equity-related mobility outcomes. <span style="color:#32B5FF"> *If you are interested in my research, Feel free to contact me for research discussion and possible collaboration!* </span> 😄 🚀 ✨
 
+<div style="margin-top: 30px; text-align: center;">
+
+  <a href="/NovaMobilityLab/" 
+     style="
+        display: inline-block;
+        margin: 10px;
+        padding: 12px 24px;
+        background-color: #1e3a8a; 
+        color: white; 
+        font-size: 18px;
+        border-radius: 8px;
+        text-decoration: none;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+     ">
+     🚀 AGU25 Presentation Resources
+  </a>
+
+  <a href="/NovaMobilityLab/" 
+     style="
+        display: inline-block;
+        margin: 10px;
+        padding: 12px 24px;
+        background-color: #2563eb; 
+        color: white; 
+        font-size: 18px;
+        border-radius: 8px;
+        text-decoration: none;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+     ">
+     🚀 TRB2026 Presentation Resources
+  </a>
+
+</div>
+
 <span style="color:#0A2A66">News</span> 
 ======
 - **10/2025**: I will present my paper *Rethinking **Transit Deserts**: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data* at the **TRB 105th Annual Meeting**, as the **first presenter** in **Lectern Session 4018: Evaluation of Non-Conventional Transit Impacts** <span style="color:#32B5FF"> (Wednesday, Jan 14, 8:00–9:45 AM, Room 150B, Convention Center)</span> . The session will be presided by William Wong (Federal Transit Administration).  
