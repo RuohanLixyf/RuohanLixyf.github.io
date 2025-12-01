@@ -15,7 +15,7 @@ I am a Ph.D. Candidate and Graduate Research Assistant at the Department of Civi
   <a href="/NovaMobilityLab/" 
      style="
         display: inline-block;
-        margin: 10px;
+        margin: 0px;
         padding: 12px 24px;
         background-color: #32B5FF; 
         color: white; 
