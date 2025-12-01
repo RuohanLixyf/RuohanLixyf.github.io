@@ -10,12 +10,11 @@ redirect_from:
 ---
 
 I am a Ph.D. Candidate and Graduate Research Assistant at the Department of Civil and Environmental Engineering, College of Engineering, [Villanova University](https://www1.villanova.edu/university.html), PA, USA. I am a member of the [Villanova Human Mobility Data Lab](https://cfxiong.github.io/data-lab/) (<span style="color:#0A2A66"><strong>Nova</strong></span><span style="color:#32B5FF"><strong>Mobility</strong></span>) supervised by [Dr. Chenfeng Xiong](https://cfxiong.github.io/). 
-<div style="text-align: center;">
-
+<div style="text-align: center; margin-top: -10px;">
   <a href="/NovaMobilityLab/" 
      style="
         display: inline-block;
-        margin: 0px;
+        margin: 0;
         padding: 12px 24px;
         background-color: #32B5FF; 
         color: white; 
@@ -24,9 +23,8 @@ I am a Ph.D. Candidate and Graduate Research Assistant at the Department of Civi
         text-decoration: none;
         box-shadow: 0 2px 6px rgba(0,0,0,0.15);
      ">
-     🚀 AGU25&TRB2026 Presentation Resources
+     🚀 AGU25&TRB2026 Oral Presentation Resources
   </a>
-
 </div>
 My research focuses on human mobility and large-scale location-based services (LBS) data, with an emphasis on understanding and reconstructing travel trajectories. I develop methods that make noisy movement data analytically usable, ranging from map matching and trajectory reconstruction to the structural modeling of mobility behavior. I am also interested in the broader mobility issues such as accessibility and transit demand–supply mismatches using empirical, high-resolution data.
 
