@@ -10,7 +10,7 @@ header: false
 ## Under Review
 * **Ruohan Li**, Weiyu Luo, Xin Wu, Kailun Liu, Lele Zhang, Chenfeng Xiong*. Shifting Transit Deserts and Transit Mirages: Toward a Behavioral–Dynamic Framework for Transit Equity Measurement. <var>Transportation Research Part A: Policy and Practice</var>. 2025. [Under Review]
 
-* **Ruohan Li#**, Xin Wu#, Weiyu Luo, Arash Tavakoli, C. Nataraja, Chenfeng Xiong*. Taming Volatile Trajectories: Sup-HMM, a Bayesian-Optimized Hidden Markov Model for Map Matching of Location-Based Service Data. <var>IEEE Transactions on Intelligent Transportation Systems</var>. 2025. [Under Review]
+* **Ruohan Li#**, Xin Wu#, Weiyu Luo, Arash Tavakoli, C. Nataraja, Chenfeng Xiong*. Taming Volatile Trajectories: Sup-HMM, a Bayesian-Optimized Hidden Markov Model for Map Matching of Location-Based Service Data. <var>IEEE Transactions on Intelligent Transportation Systems</var>. 2025. [Revision]
 
 ## Journal Publications
 * **2023**: **Ruohan Li**#, Yongqi Dong*#. Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss. <var>IEEE Transactions on Intelligent Transportation Systems</var>.2023. [Published](https://ieeexplore.ieee.org/document/10226453).
