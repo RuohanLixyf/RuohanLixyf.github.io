@@ -24,7 +24,7 @@ I am a Ph.D. Candidate and Graduate Research Assistant at the Department of Civi
         box-shadow: 0 2px 6px rgba(0,0,0,0.15);
      ">
      🚀 AGU25&TRB2026 Oral Presentation Resources
-  </a>
+  </a> 
 </div>
 My research focuses on human mobility and large-scale location-based services (LBS) data, with an emphasis on understanding and reconstructing travel trajectories. I develop methods that make noisy movement data analytically usable, ranging from map matching and trajectory reconstruction to the structural modeling of mobility behavior. I am also interested in the broader mobility issues such as accessibility and transit demand–supply mismatches using empirical, high-resolution data.
 
