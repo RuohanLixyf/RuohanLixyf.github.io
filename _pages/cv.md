@@ -52,8 +52,11 @@ Skills
   * ArcGIS / **ArcGIS Pro** / QGIS / GeoDa, spatial data processing and visualization
   * ENVI, remote sensing image analysis
   * Revit, AutoCAD, engineering modeling
-
-
+  
+Fellowships & Honors
+======
+* Dean’s Fellowship, College of Engineering, Villanova University, 2023–2024
+  
 <!-- 
 
 Organization activities & Volunteering
