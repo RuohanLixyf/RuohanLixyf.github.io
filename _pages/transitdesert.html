@@ -4,7 +4,7 @@ permalink: /transitdesert/
 author_profile: false
 toc: false
 ---
- 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,25 +38,35 @@ toc: false
 
   h2 {
     margin-top: 30px;
-    font-size: 22px;
+    font-size: 21px;
     color: #0A2A66;
   }
 
   p {
-    font-size: 16px;
-    margin-bottom: 14px;
+    font-size: 15px;
+    margin-bottom: 12px;
   }
 
-  /* Metadata card */
+  /* Compact metadata card */
   .meta-card {
     background: #f6f8ff;
     border-left: 5px solid #1E3A8A;
-    padding: 12px 16px;
-    margin: 18px 0;
+    padding: 10px 14px;
+    margin: 14px 0;
     border-radius: 6px;
   }
 
-  /* Responsive image grid */
+  .meta-card p {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+
+  .meta-card h2 {
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+
+  /* Compact image grid */
   .img-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -70,7 +80,7 @@ toc: false
     border: 1px solid #ddd;
   }
 
-  /* Back button */
+  /* Back button — raised upward */
   .back-btn {
     display: inline-block;
     background: #1E3A8A;
@@ -78,9 +88,10 @@ toc: false
     padding: 12px 22px;
     border-radius: 8px;
     text-decoration: none;
-    font-size: 17px;
-    margin: 25px 0;
+    font-size: 16px;
+    margin: 40px 0 10px 0;    /* ★ 提高按钮位置 */
   }
+
 </style>
 </head>
 
@@ -90,10 +101,9 @@ toc: false
 
   <h1>Transit Desert & Transit Mirage — Showcase</h1>
 
-  <p style="text-align:center; font-size:17px; color:#444;">
+  <p style="text-align:center; font-size:16px; color:#444;">
     Visuals and session details from AGU25 and TRB2026 oral presentations
   </p>
-
 
   <!-- AGU CARD -->
   <div class="meta-card">
@@ -103,7 +113,6 @@ toc: false
     <p><strong>Date:</strong> Monday, 15 December 2025 · 08:40–08:50 CST</p>
     <p><strong>Location:</strong> NOLA Convention Center, Room 338–339</p>
   </div>
-
 
   <!-- TRB CARD -->
   <div class="meta-card">
@@ -115,22 +124,48 @@ toc: false
     <p><strong>Presentation:</strong> <em>Rethinking Transit Deserts: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data</em></p>
   </div>
 
+  <!-- ★ Added Title + Under Review Note -->
+  <h2 style="text-align:center; margin-top:25px;">
+    <em>Shifting Transit Deserts and Transit Mirages:<br>
+    A Behavioral Reinterpretation of Dynamic Transit Equity</em>
+  </h2>
 
-  <h2>All Thesis Figures Presented</h2>
-  <p>Below are all visuals used in both AGU25 and TRB2026 oral presentations.</p>
+  <p style="text-align:center; margin-top:4px; font-size:14px; color:#444;">
+    <strong>Transportation Research Part A: Policy and Practice</strong> — Under Review
+  </p>
 
-  <!-- Image Grid -->
+  <!-- ★ Added Abstract -->
+  <p style="margin-top:20px; font-size:15px; line-height:1.6;">
+    Transit equity, a central concern in transportation planning, has often been operationalized 
+    through static spatial metrics comparing aggregate demand and supply, overlooking how inequity 
+    evolves through temporal and behavioral dynamics. This study advances a behavioral 
+    reinterpretation of dynamic transit equity, arguing that inequity also emerges from temporal 
+    and behavioral misalignments between how mobility demand unfolds and how service supply responds. 
+    Using weighted, trip-level mobility data reconstructed from high-resolution Location-Based 
+    Services (LBS) records in Utah’s Salt Lake region, the study integrates behaviorally grounded 
+    demand estimates with temporally varying supply, measured through frequency, stop density, 
+    and walking-based accessibility, to examine how inequity shifts with temporal rhythms and 
+    disruptions such as COVID-19.
+    Findings support four theoretical propositions:  
+    (1) equity is behaviorally contingent, shaped by who travels and how;  
+    (2) equity is dynamically constituted, evolving with temporal rhythms;  
+    (3) a measurement paradox arises when dynamic data reveal statistical illusions of scarcity 
+    in well-served cores, termed transit mirages; and  
+    (4) inequity thus manifests as either real deserts (structural deprivation) or mirages 
+    (behavioral distortion).  
+    Together, these insights reframe transit equity as a process of synchronization rather than 
+    a static balance, extending equity from spatial access to temporal and behavioral justice. 
+    This behavioral reinterpretation underscores the need for time-sensitive monitoring, resilient 
+    service provision, and targeted interventions that distinguish real deserts from behavioral mirages.
+  </p>
+
+  <h2>Key Figures Presented</h2>
+  <p>Below are selected visuals featured in both AGU25 and TRB2026 oral presentations.</p>
+
+  <!-- ★ Only keep Picture 7 and 8 -->
   <div class="img-grid">
-    <img src="/images/Transit_Desert/TD_Picture1.png">
-    <img src="/images/Transit_Desert/TD_Picture2.png">
-    <img src="/images/Transit_Desert/TD_Picture3.png">
-    <img src="/images/Transit_Desert/TD_Picture4.png">
-    <img src="/images/Transit_Desert/TD_Picture5.png">
-    <img src="/images/Transit_Desert/TD_Picture6.png">
     <img src="/images/Transit_Desert/TD_Picture7.png">
     <img src="/images/Transit_Desert/TD_Picture8.png">
-    <img src="/images/Transit_Desert/TD_Picture9.png">
-    <img src="/images/Transit_Desert/TD_Picture10.png">
   </div>
 
   <div style="text-align:center;">
