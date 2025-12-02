@@ -208,31 +208,31 @@ toc: false
 
   <script>
   let slideIndex = 0;
-autoShowSlides();
+  autoShowSlides();
 
-function autoShowSlides() {
-  let slides = document.getElementsByClassName("carousel-slide");
-  let dots = document.getElementsByClassName("dot");
+  function autoShowSlides() {
+    let slides = document.getElementsByClassName("carousel-slide");
+    let dots = document.getElementsByClassName("dot");
 
-  // 隐藏所有
-  for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+    // 隐藏所有
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1 }
+
+    // 显示当前
+    slides[slideIndex - 1].style.display = "block";
+
+    // dots
+    for (let i = 0; i < dots.length; i++) {
+      dots[i].classList.remove("active");
+    }
+    dots[slideIndex - 1].classList.add("active");
+
+    setTimeout(autoShowSlides, 4000);
   }
-
-  slideIndex++;
-  if (slideIndex > slides.length) { slideIndex = 1 }
-
-  // 显示当前
-  slides[slideIndex - 1].style.display = "block";
-
-  // dots
-  for (let i = 0; i < dots.length; i++) {
-    dots[i].classList.remove("active");
-  }
-  dots[slideIndex - 1].classList.add("active");
-
-  setTimeout(autoShowSlides, 4000);
-}
   </script>
 
   <hr style="margin: 50px 0;">
