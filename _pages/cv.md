@@ -15,8 +15,8 @@ redirect_from:
 Education
 ======
 * Ph.D. Candidate, Civil and Environmental Engineering, Villanova University, 2023 - Present.
-* M.Eng. College of Traffic and Transportation, Lanzhou Jiaotong University, 2023.
-* B.Eng. College of Traffic and Transportation, Lanzhou Jiaotong University, 2020.
+* M.Eng. in Transportation, College of Traffic and Transportation, Lanzhou Jiaotong University, 2023.
+* B.Eng. in Transportation (Mao Yisheng Honors Class), College of Traffic and Transportation, Lanzhou Jiaotong University, 2020
 
 Academic Service
 ======
