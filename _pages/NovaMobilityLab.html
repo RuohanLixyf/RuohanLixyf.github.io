@@ -140,7 +140,7 @@ toc: false
 
   <!-- Showcase Button -->
   <div style="text-align:center; margin-top: 30px;">
-    <a href="/_pages/transitdesert.html" target="_blank"
+    <a href="/transitdesert/" target="_blank"
       style="
           display: inline-block;
           margin: 12px;
@@ -195,31 +195,36 @@ toc: false
   </style>
 
   <script>
-  let slideIndex = 0;
+  let slideIndex = 1;
   autoShowSlides();
 
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
   function autoShowSlides() {
+    showSlides(slideIndex++);
+    setTimeout(autoShowSlides, 4000); 
+  }
+
+  function showSlides(n) {
+    let i;
     let slides = document.getElementsByClassName("carousel-slide");
     let dots = document.getElementsByClassName("dot");
-
-    // 隐藏所有
-    for (let i = 0; i < slides.length; i++) {
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+    for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
     }
-
-    slideIndex++;
-    if (slideIndex > slides.length) { slideIndex = 1 }
-
-    // 显示当前
-    slides[slideIndex - 1].style.display = "block";
-
-    // dots
-    for (let i = 0; i < dots.length; i++) {
+    for (i = 0; i < dots.length; i++) {
       dots[i].classList.remove("active");
     }
-    dots[slideIndex - 1].classList.add("active");
-
-    setTimeout(autoShowSlides, 4000);
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].classList.add("active");
   }
   </script>
 
