@@ -8,8 +8,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
-I am a Ph.D. Candidate and Graduate Research Assistant at the Department of Civil and Environmental Engineering, College of Engineering, [Villanova University](https://www1.villanova.edu/university.html), PA, USA. I am a member of the [Villanova Human Mobility Data Lab](https://cfxiong.github.io/data-lab/) (<span style="color:#0A2A66"><strong>Nova</strong></span><span style="color:#32B5FF"><strong>Mobility</strong></span>) supervised by [Dr. Chenfeng Xiong](https://cfxiong.github.io/). 
 <div style="text-align: center; margin-top: -20px;">
   <a href="/NovaMobilityLab/" 
      style="
@@ -26,6 +24,8 @@ I am a Ph.D. Candidate and Graduate Research Assistant at the Department of Civi
      🚀 AGU25&TRB2026 Presentation Resources
   </a> 
 </div>
+I am a Ph.D. Candidate and Graduate Research Assistant at the Department of Civil and Environmental Engineering, College of Engineering, [Villanova University](https://www1.villanova.edu/university.html), PA, USA. I am a member of the [Villanova Human Mobility Data Lab](https://cfxiong.github.io/data-lab/) (<span style="color:#0A2A66"><strong>Nova</strong></span><span style="color:#32B5FF"><strong>Mobility</strong></span>) supervised by [Dr. Chenfeng Xiong](https://cfxiong.github.io/). 
+
 My research focuses on human mobility and large-scale location-based services (LBS) data, with an emphasis on understanding and reconstructing travel trajectories. I develop methods that make noisy movement data analytically usable, ranging from map matching and trajectory reconstruction to the structural modeling of mobility behavior. I am also interested in the broader mobility issues such as accessibility and transit demand–supply mismatches using empirical, high-resolution data.
 
 My current work includes advancing map-matching algorithms for LBS data, particularly *NovaMatch*, a unified and extensible pipeline capable of matching diverse trajectory and sequence data, including LBS points, TMC paths, and probe traces, to a wide range of transportation networks, as well as developing trajectory modeling frameworks and assessing equity-related mobility outcomes. <span style="color:#32B5FF"> *If you are interested in my research, Feel free to contact me for research discussion and possible collaboration!* </span> 😄 🚀 ✨
@@ -36,15 +36,8 @@ My current work includes advancing map-matching algorithms for LBS data, particu
   Welcome to attend and join the discussion!
 - **09/2025**: My paper *Rethinking Transit Deserts: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data*  has been accepted by TRB. Another paper, *Complete Trip: An Open and Privacy-Safe Dataset of Multimodal Travel Sequences for Urban Transportation Systems Analysis*, has also been accepted. 
 - **08/2025**: After the TRB deadline, I’ve been busy “cleaning up” my LBS map-matching code. 🧹 Formatting code so that *other humans* (including future me) can understand it feels like the hardest optimization problem ever. 🤯 *What on earth was I thinking when I wrote this?*  Now it just looks like a %￥%#@@ ……#…………, completely frazzled... 😵‍💫🔥
-  
-- **05/2025**: Finally... my ancient graduate research paper, *A CFD-Based Integrated Modeling Framework for Assessing Highway Traffic Capacity under Regional Air Quality Constraints*, got accepted by *[Sustainability](https://www.mdpi.com/journal/sustainability)* in May 2025. This paper presents a CFD-based framework to evaluate how regional air quality constraints affect highway traffic capacity. Started back in my master's days, survived the revisions, and now it lives — what a relief 😮‍💨🫠.
-  
 - **09/2024**: The Computer Software Copyright Registration in China: Vision-Based Lane Detection System With Self-supervised Pre-training Through Masked Sequential Auto-encoders (VLD_SP-MSAE), granted on Sep. 11, 2024, Patent number 2024R11L1180902. And we have published our [open source Lane Detection Code](https://github.com/RuohanLixyf/Lane-Detection-Self-Supervised-MSAE) on GitHub, including models and dataset.
-  
 - **09/2024**: I present my recent work: Sup-HMM Map-Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach at TRC-30 conference. A nice trip on Crete.
-  
-- **08/2024**: Finally rearranged part of my graduate thesis and submitted it to [Atmospheric Pollution Research](https://www.sciencedirect.com/journal/atmospheric-pollution-research): A Novel Highway Traffic Capacity Analysis Method under Road Region Atmospheric Environment Constraints Based on a Computational Fluid Dynamics Model.
-  
 - **07/2024**: My paper have been submitted and is currently under review by [The Transportation Research Board (TRB) 104nd Annual Meeting](https://trb-annual-meeting.nationalacademies.org/): Sup-HMM Map-Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach. Working on the map-matching continues. This work is part of our team's Complete Trips Project.
 <div align=center>
 Map-Matching Sample 
