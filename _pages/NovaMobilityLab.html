@@ -178,6 +178,9 @@ toc: false
     border-radius: 50%;
     display: inline-block;
   }
+  .carousel-slide {
+    display: none !important;   /* ★ 强制隐藏所有 slide，JS 会打开当前那一个 */
+  }
   .active, .dot:hover {
     background-color: #1E3A8A;
   }
