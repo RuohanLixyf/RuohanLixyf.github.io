@@ -3,8 +3,7 @@ layout: archive
 title: ""
 show_title: false
 permalink: /publications/
-au
-ader: false
+header: false
 ---
  
 ## Under Review
