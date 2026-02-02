@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
  
-I am a Ph.D. Candidate in Civil and Environmental Engineering at [Villanova University](https://www1.villanova.edu/university.html) and a member of the  <span style="color:#0A2A66"><strong>Nova</strong></span><span style="color:#32B5FF"><strong>Mobility</strong></span> advised by [Dr. Chenfeng Xiong](https://cfxiong.github.io/). 
+I am a Ph.D. Candidate in Civil and Environmental Engineering at [Villanova University](https://www1.villanova.edu/university.html) and a member of the  <span style="color:#0A2A66"><strong>Nova</strong></span><span style="color:#32B5FF"><strong>Mobility</strong></span> advised by [Dr. Chenfeng Xiong](https://cfxiong.github.io/).  
 <div style="
   display: flex;
   justify-content: center;
