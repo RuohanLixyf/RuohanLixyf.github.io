@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. Candidate and Graduate Research Assistant at the Department of Civil and Environmental Engineering, College of Engineering, [Villanova University](https://www1.villanova.edu/university.html), PA, USA. I am a member of the [Villanova Human Mobility Data Lab](https://cfxiong.github.io/data-lab/) (<span style="color:#0A2A66"><strong>Nova</strong></span><span style="color:#32B5FF"><strong>Mobility</strong></span>) supervised by [Dr. Chenfeng Xiong](https://cfxiong.github.io/). 
+I am a Ph.D. Candidate in Civil and Environmental Engineering at [Villanova University](https://www1.villanova.edu/university.html) and a member of the  <span style="color:#0A2A66"><strong>Nova</strong></span><span style="color:#32B5FF"><strong>Mobility</strong></span> advised by [Dr. Chenfeng Xiong](https://cfxiong.github.io/). 
 <div style="
   display: flex;
   justify-content: center;
@@ -51,9 +51,11 @@ I am a Ph.D. Candidate and Graduate Research Assistant at the Department of Civi
 
 </div>
 
-My research focuses on human mobility and large-scale location-based services (LBS) data, with an emphasis on understanding and reconstructing travel trajectories. I develop methods that make noisy movement data analytically usable, ranging from map matching and trajectory reconstruction to the structural modeling of mobility behavior. I am also interested in the broader mobility issues such as accessibility and transit demand–supply mismatches using empirical, high-resolution data.
+My research lies at the intersection of human mobility science, spatial–temporal data modeling, and computational infrastructure design. I study how large-scale location-based service (LBS) data can be structurally represented, reconstructed, and reasoned about to enable reliable behavioral and transportation intelligence.
 
-My current work includes advancing map-matching algorithms for LBS data, particularly *NovaMatch*, a unified and extensible pipeline capable of matching diverse trajectory and sequence data, including LBS points, TMC paths, and probe traces, to a wide range of transportation networks, as well as developing trajectory modeling frameworks and assessing equity-related mobility outcomes. <span style="color:#32B5FF"> *If you are interested in my research, Feel free to contact me for research discussion and possible collaboration!* </span> 😄 🚀 ✨
+Rather than treating trajectories as raw sequences of points, I develop foundational representations and modeling frameworks that reveal the latent structure of movement. My work spans trajectory map matching, hierarchical trajectory decomposition, cross-network projection between heterogeneous transportation systems, and behavior-aware mobility analytics. These methods aim to transform noisy mobility data into theoretically grounded, scalable, and interpretable models that support downstream tasks such as accessibility measurement, equity analysis, and system planning.
+
+Broadly, I am interested in building the methodological foundations of mobility data science — developing tools, theories, and representations that make large-scale human movement data computationally reliable and scientifically meaningful. <span style="color:#32B5FF"> *I am always happy to discuss research ideas and collaborations.* </span> 😄 🚀 ✨
 
 <span style="color:#0A2A66">News</span> 
 ======
