@@ -95,17 +95,20 @@ redirect_from:
 
   .home-hero {
     display: grid;
-    grid-template-columns: minmax(320px, 0.8fr) minmax(580px, 1.2fr);
-    gap: 2.8rem;
+    grid-template-columns: minmax(300px, 0.44fr) minmax(0, 0.56fr);
+    gap: clamp(48px, 4vw, 64px);
     align-items: center;
-    padding: 0 0 0.1rem;
+    padding-top: clamp(36px, 5vw, 72px);
+    padding-bottom: clamp(28px, 4vw, 56px);
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .home-hero-copy {
     max-width: 760px;
     position: relative;
     z-index: 3;
-    margin-top: -0.95rem;
+    margin-top: -0.35rem;
   }
 
   .home-hero-intro {
@@ -123,7 +126,7 @@ redirect_from:
 
   .home-headline {
     margin: 0 0 1rem;
-    font-size: clamp(1.7rem, 3.3vw, 2.9rem);
+    font-size: clamp(38px, 4vw, 62px);
     line-height: 0.98;
     letter-spacing: -0.055em;
     font-weight: 800;
@@ -135,10 +138,10 @@ redirect_from:
   }
 
   .home-bio {
-    max-width: 680px;
-    margin: 0 0 0.9rem;
+    max-width: 620px;
+    margin: 0 0 0.85rem;
     font-size: 1.03rem;
-    line-height: 1.8;
+    line-height: 1.6;
     color: rgba(10, 42, 102, 0.72);
   }
 
@@ -297,8 +300,11 @@ redirect_from:
   .home-framework-shell {
     position: relative;
     padding: 0 0.1rem 0.2rem;
-    margin-left: -6.5rem;
-    margin-top: -1.45rem;
+    width: min(100%, 680px);
+    max-width: 100%;
+    justify-self: end;
+    margin-left: -3.25rem;
+    margin-top: -1.15rem;
     transform: scale(0.92);
     transform-origin: top center;
     z-index: 2;
@@ -320,7 +326,7 @@ redirect_from:
   .home-framework-frame {
     position: relative;
     width: 100%;
-    height: 820px;
+    height: 740px;
     border: none;
     background: transparent;
   }
@@ -648,18 +654,22 @@ redirect_from:
   @media (max-width: 1080px) {
     .home-hero {
       grid-template-columns: 1fr;
-      gap: 2.3rem;
+      gap: clamp(40px, 4vw, 52px);
+      padding-top: clamp(28px, 4.5vw, 56px);
+      padding-bottom: clamp(22px, 3.5vw, 44px);
     }
 
     .home-framework-shell {
-      margin-left: -2.5rem;
-      margin-top: -1rem;
+      width: min(100%, 680px);
+      justify-self: center;
+      margin-left: 0;
+      margin-top: -0.85rem;
       padding: 0.1rem 0 0;
       transform: scale(0.95);
     }
 
     .home-framework-frame {
-      height: 700px;
+      height: 640px;
     }
 
     .home-news-card {
@@ -679,6 +689,11 @@ redirect_from:
   @media (max-width: 720px) {
     .home-landing {
       padding: 0.9rem 1rem 0;
+    }
+
+    .home-hero {
+      padding-top: clamp(24px, 5vw, 40px);
+      padding-bottom: clamp(18px, 4vw, 32px);
     }
 
     .home-hero-copy {
@@ -707,10 +722,12 @@ redirect_from:
     }
 
     .home-framework-frame {
-      height: 600px;
+      height: 548px;
     }
 
     .home-framework-shell {
+      width: min(100%, 680px);
+      justify-self: center;
       margin-left: 0;
       margin-top: -0.35rem;
       transform: none;
