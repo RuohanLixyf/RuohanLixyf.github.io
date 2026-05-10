@@ -1,16 +1,87 @@
 
-nav a.active {
-    background-color: #eef6ff;
-    color: #004a9f !important;
-    border-radius: 6px;
-    padding: 6px 12px;
+.masthead {
+    min-height: auto;
+    margin-bottom: 0 !important;
+    border-bottom: 1px solid rgba(10, 42, 102, 0.08) !important;
 }
 
+.masthead__inner-wrap {
+    padding: 0.18rem 1rem 0.1rem !important;
+}
+
+.masthead__menu {
+    line-height: 1 !important;
+}
+
+.masthead__menu-item--lg {
+    padding-right: 0.7rem !important;
+}
+
+.masthead__menu-item--lg a {
+    font-size: 0.9rem !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.01em;
+}
+
+.greedy-nav {
+    min-height: 0 !important;
+}
+
+.greedy-nav .visible-links {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.greedy-nav .visible-links li {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.greedy-nav a {
+    padding: 0.08rem 0 !important;
+    margin: 0 0.7rem !important;
+    line-height: 1 !important;
+    font-size: 0.88rem !important;
+}
+
+.greedy-nav .visible-links a::before {
+    height: 2px !important;
+}
+
+nav a.active,
 .masthead a.active {
-    background-color: #eef6ff;
+    background-color: rgba(30, 136, 229, 0.08);
     color: #004a9f !important;
-    border-radius: 6px;
-    padding: 6px 12px;
+    border-radius: 999px;
+    padding: 0.06rem 0.5rem !important;
+}
+
+#main,
+.masthead + #main {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.page {
+    margin-top: 0 !important;
+}
+
+article.page {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.page__inner-wrap > header:first-child {
+    display: none !important;
+}
+
+.page__inner-wrap {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.page__content > :first-child {
+    margin-top: 0 !important;
 }
 
 /* ===== Fix top spacing ===== */
