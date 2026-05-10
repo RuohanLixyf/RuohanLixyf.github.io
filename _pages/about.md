@@ -57,7 +57,7 @@ redirect_from:
     width: 100%;
     max-width: none;
     margin: 0;
-    padding: 0.1rem clamp(1.25rem, 4vw, 4rem) 0;
+    padding: 0 clamp(0.65rem, 2vw, 2rem) 0;
     background: var(--site-bg);
     color: var(--site-text);
   }
@@ -95,10 +95,10 @@ redirect_from:
 
   .home-hero {
     display: grid;
-    grid-template-columns: minmax(300px, 0.44fr) minmax(0, 0.56fr);
-    gap: clamp(48px, 4vw, 64px);
-    align-items: center;
-    padding-top: clamp(36px, 5vw, 72px);
+    grid-template-columns: minmax(320px, 0.8fr) minmax(580px, 1.2fr);
+    gap: 2.8rem;
+    align-items: start;
+    padding-top: clamp(16px, 2.75vw, 44px);
     padding-bottom: clamp(28px, 4vw, 56px);
     padding-left: 0;
     padding-right: 0;
@@ -108,11 +108,12 @@ redirect_from:
     max-width: 760px;
     position: relative;
     z-index: 3;
-    margin-top: -0.35rem;
+    margin-top: -0.15rem;
+    align-self: start;
   }
 
   .home-hero-intro {
-    margin-bottom: 0.9rem;
+    margin-bottom: 0.75rem;
   }
 
   .home-kicker {
@@ -125,7 +126,7 @@ redirect_from:
   }
 
   .home-headline {
-    margin: 0 0 1rem;
+    margin: 0 0 0.82rem;
     font-size: clamp(38px, 4vw, 62px);
     line-height: 0.98;
     letter-spacing: -0.055em;
@@ -139,7 +140,7 @@ redirect_from:
 
   .home-bio {
     max-width: 620px;
-    margin: 0 0 0.85rem;
+    margin: 0 0 0.72rem;
     font-size: 1.03rem;
     line-height: 1.6;
     color: rgba(10, 42, 102, 0.72);
@@ -149,7 +150,7 @@ redirect_from:
     display: flex;
     gap: 0.9rem;
     flex-wrap: wrap;
-    margin: 0;
+    margin: 0.35rem 0 0;
   }
 
   .home-action {
@@ -178,6 +179,21 @@ redirect_from:
 
   .home-action i {
     font-size: 0.96em;
+    font-weight: 900;
+  }
+
+  .home-action--compact {
+    padding: 0.45rem 0.95rem;
+    font-size: 0.82rem;
+    font-weight: 700;
+    gap: 0.4rem;
+    line-height: 1.2;
+  }
+
+  .home-action--compact i {
+    font-size: 0.88em;
+    line-height: 1;
+    font-weight: 900;
   }
 
   .home-action--primary {
@@ -199,7 +215,7 @@ redirect_from:
     align-items: center;
     max-width: 560px;
     padding: 1rem 1.1rem;
-    margin-top: -0.15rem;
+    margin-top: 0;
     border-radius: 22px;
     background: var(--site-surface);
     backdrop-filter: blur(12px);
@@ -292,6 +308,17 @@ redirect_from:
     font-size: 0.95em;
   }
 
+  .home-links i.fa,
+  .home-links i.fas {
+    font-family: "Font Awesome 5 Free", sans-serif !important;
+    font-weight: 900 !important;
+  }
+
+  .home-links i.fab {
+    font-family: "Font Awesome 5 Brands", sans-serif !important;
+    font-weight: 400 !important;
+  }
+
   .home-links a:hover {
     color: var(--site-text-strong);
     transform: translateY(-1px);
@@ -300,11 +327,8 @@ redirect_from:
   .home-framework-shell {
     position: relative;
     padding: 0 0.1rem 0.2rem;
-    width: min(100%, 680px);
-    max-width: 100%;
-    justify-self: end;
-    margin-left: -3.25rem;
-    margin-top: -1.15rem;
+    margin-left: -6.5rem;
+    margin-top: 0.35rem;
     transform: scale(0.92);
     transform-origin: top center;
     z-index: 2;
@@ -326,7 +350,7 @@ redirect_from:
   .home-framework-frame {
     position: relative;
     width: 100%;
-    height: 740px;
+    height: 820px;
     border: none;
     background: transparent;
   }
@@ -654,22 +678,20 @@ redirect_from:
   @media (max-width: 1080px) {
     .home-hero {
       grid-template-columns: 1fr;
-      gap: clamp(40px, 4vw, 52px);
-      padding-top: clamp(28px, 4.5vw, 56px);
+      gap: 2.3rem;
+      padding-top: clamp(14px, 3vw, 36px);
       padding-bottom: clamp(22px, 3.5vw, 44px);
     }
 
     .home-framework-shell {
-      width: min(100%, 680px);
-      justify-self: center;
-      margin-left: 0;
-      margin-top: -0.85rem;
+      margin-left: -2.5rem;
+      margin-top: 0.25rem;
       padding: 0.1rem 0 0;
       transform: scale(0.95);
     }
 
     .home-framework-frame {
-      height: 640px;
+      height: 700px;
     }
 
     .home-news-card {
@@ -688,16 +710,16 @@ redirect_from:
 
   @media (max-width: 720px) {
     .home-landing {
-      padding: 0.9rem 1rem 0;
+      padding: 0.65rem clamp(0.5rem, 2.5vw, 0.75rem) 0;
     }
 
     .home-hero {
-      padding-top: clamp(24px, 5vw, 40px);
+      padding-top: clamp(10px, 3.5vw, 28px);
       padding-bottom: clamp(18px, 4vw, 32px);
     }
 
     .home-hero-copy {
-      margin-top: -0.25rem;
+      margin-top: 0;
     }
 
     .home-identity-card {
@@ -722,12 +744,10 @@ redirect_from:
     }
 
     .home-framework-frame {
-      height: 548px;
+      height: 600px;
     }
 
     .home-framework-shell {
-      width: min(100%, 680px);
-      justify-self: center;
       margin-left: 0;
       margin-top: -0.35rem;
       transform: none;
@@ -832,8 +852,8 @@ redirect_from:
         </div>
 
         <div class="home-actions">
-          <a class="home-action home-action--primary" href="/NovaMobilityLab/"><i class="fas fa-file-alt" aria-hidden="true"></i><span>Presentation Materials</span></a>
-          <a class="home-action home-action--accent" href="https://ruohanlixyf.github.io/Complete-Trip-Data-Explorer/explorer.html" target="_blank"><i class="fas fa-chart-line" aria-hidden="true"></i><span>Interactive Data Demo</span></a>
+          <a class="home-action home-action--primary home-action--compact" href="/NovaMobilityLab/"><i class="fa fa-file-alt" aria-hidden="true"></i><span>Presentation Materials</span></a>
+          <a class="home-action home-action--accent home-action--compact" href="https://ruohanlixyf.github.io/Complete-Trip-Data-Explorer/explorer.html" target="_blank" rel="noopener noreferrer"><i class="fa fa-chart-line" aria-hidden="true"></i><span>Interactive Data Demo</span></a>
         </div>
       </div>
     </div>

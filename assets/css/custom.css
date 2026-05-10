@@ -1,3 +1,19 @@
+/* Font Awesome 5: solid glyphs use weight 900, brands use 400 — inherited bold from links/buttons breaks icons */
+.fa,
+.fas {
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900 !important;
+}
+
+.far {
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 400 !important;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands" !important;
+    font-weight: 400 !important;
+}
 
 .masthead {
     min-height: auto;
@@ -6,11 +22,11 @@
 }
 
 .masthead__inner-wrap {
-    padding: 0.18rem 1rem 0.1rem !important;
+    padding: 0.55rem 1rem 0.5rem !important;
 }
 
 .masthead__menu {
-    line-height: 1 !important;
+    line-height: 1.35 !important;
 }
 
 .masthead__menu-item--lg {
@@ -24,7 +40,7 @@
 }
 
 .greedy-nav {
-    min-height: 0 !important;
+    min-height: 2.75rem !important;
 }
 
 .greedy-nav .visible-links {
@@ -38,10 +54,10 @@
 }
 
 .greedy-nav a {
-    padding: 0.08rem 0 !important;
+    padding: 0.38rem 0 !important;
     margin: 0 0.7rem !important;
-    line-height: 1 !important;
-    font-size: 0.88rem !important;
+    line-height: 1.35 !important;
+    font-size: 0.9rem !important;
 }
 
 .greedy-nav .visible-links a::before {
@@ -53,7 +69,7 @@ nav a.active,
     background-color: rgba(30, 136, 229, 0.08);
     color: #004a9f !important;
     border-radius: 999px;
-    padding: 0.06rem 0.5rem !important;
+    padding: 0.22rem 0.55rem !important;
 }
 
 #main,
