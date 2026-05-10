@@ -99,7 +99,7 @@ redirect_from:
     gap: 2.8rem;
     align-items: start;
     padding-top: clamp(16px, 2.75vw, 44px);
-    padding-bottom: clamp(28px, 4vw, 56px);
+    padding-bottom: clamp(10px, 1.75vw, 28px);
     padding-left: 0;
     padding-right: 0;
   }
@@ -150,7 +150,7 @@ redirect_from:
     display: flex;
     gap: 0.9rem;
     flex-wrap: wrap;
-    margin: 0.35rem 0 0;
+    margin: 0.2rem 0 0;
   }
 
   .home-action {
@@ -319,6 +319,12 @@ redirect_from:
     font-weight: 400 !important;
   }
 
+  .home-links i.ai {
+    font-family: "Academicons", sans-serif !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+  }
+
   .home-links a:hover {
     color: var(--site-text-strong);
     transform: translateY(-1px);
@@ -472,8 +478,8 @@ redirect_from:
   }
 
   .home-featured {
-    margin-top: -72px;
-    margin-bottom: 42px;
+    margin-top: -108px;
+    margin-bottom: 34px;
     position: relative;
     z-index: 4;
   }
@@ -680,7 +686,7 @@ redirect_from:
       grid-template-columns: 1fr;
       gap: 2.3rem;
       padding-top: clamp(14px, 3vw, 36px);
-      padding-bottom: clamp(22px, 3.5vw, 44px);
+      padding-bottom: clamp(10px, 2.5vw, 26px);
     }
 
     .home-framework-shell {
@@ -700,7 +706,7 @@ redirect_from:
     }
 
     .home-featured {
-      margin-top: -50px;
+      margin-top: -84px;
     }
 
     .home-news-map-wrap {
@@ -715,7 +721,7 @@ redirect_from:
 
     .home-hero {
       padding-top: clamp(10px, 3.5vw, 28px);
-      padding-bottom: clamp(18px, 4vw, 32px);
+      padding-bottom: clamp(8px, 3vw, 20px);
     }
 
     .home-hero-copy {
@@ -813,7 +819,7 @@ redirect_from:
     }
 
     .home-featured {
-      margin-top: -8px;
+      margin-top: -36px;
     }
 
     .home-novamatch-title-row {

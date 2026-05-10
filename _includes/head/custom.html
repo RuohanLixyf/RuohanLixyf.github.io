@@ -22,7 +22,8 @@
 <meta name="msapplication-TileImage" content="{{ base_path }}/images/mstile-144x144.png?v=M44lzPylqQ">
 <meta name="msapplication-config" content="{{ base_path }}/images/browserconfig.xml?v=M44lzPylqQ">
 <meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
+<!-- Academicons 1.9.x (CDN): matches glyph codes in CSS; repo file was 1.8.x and could mismatch fonts -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@v1.9.4/css/academicons.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!-- Font Awesome 5 webfonts: ensures icons render if local ../fonts paths fail; aligns with theme FA 5.x -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -359,6 +360,10 @@
 <script>
   window.addEventListener("load", function () {
     document.body.classList.add("nav-flat");
+    // greedy-nav calculates item visibility on script load (before nav-flat is set).
+    // Once nav-flat repositions the brand absolutely, the nav gets more space, but
+    // greedy-nav only recalculates on resize — so we fire one to fix the collapsed state.
+    window.dispatchEvent(new Event('resize'));
   });
 </script>
 
