@@ -76,18 +76,6 @@ redirect_from:
     padding-bottom: 0.75rem;
   }
 
-  .home-landing::before {
-    content: "";
-    position: absolute;
-    inset: 0 auto auto 48%;
-    width: 680px;
-    height: 680px;
-    background: radial-gradient(circle, rgba(89, 198, 243, 0.1) 0%, rgba(89, 198, 243, 0.04) 38%, transparent 74%);
-    filter: blur(26px);
-    pointer-events: none;
-    z-index: 0;
-  }
-
   .home-landing > * {
     position: relative;
     z-index: 1;
@@ -332,10 +320,11 @@ redirect_from:
 
   .home-framework-shell {
     position: relative;
-    padding: 0 0.1rem 0.2rem;
-    margin-left: -6.5rem;
-    margin-top: 0.35rem;
-    transform: scale(0.92);
+    align-self: start;
+    padding: 0;
+    margin-left: -6rem;
+    margin-top: -1.15rem;
+    transform: scale(0.88);
     transform-origin: top center;
     z-index: 2;
   }
@@ -356,7 +345,7 @@ redirect_from:
   .home-framework-frame {
     position: relative;
     width: 100%;
-    height: 820px;
+    height: 700px;
     border: none;
     background: transparent;
   }
@@ -368,6 +357,8 @@ redirect_from:
 
   .home-news-card {
     display: grid;
+    width: 100%;
+    box-sizing: border-box;
     grid-template-columns: minmax(0, 1.3fr) minmax(280px, 0.7fr);
     gap: 2rem;
     align-items: center;
@@ -454,6 +445,8 @@ redirect_from:
     border-radius: 18px;
     background: var(--site-surface);
     padding: 0.8rem 1rem;
+    font-size: 15px;
+    line-height: 1.65;
   }
 
   .about-news-archive summary {
@@ -461,6 +454,7 @@ redirect_from:
     color: var(--site-text);
     font-weight: 700;
     margin: 0.1rem 0 0.3rem;
+    font-size: 16px;
   }
 
   .about-news-archive ul {
@@ -478,8 +472,8 @@ redirect_from:
   }
 
   .home-featured {
-    margin-top: -108px;
-    margin-bottom: 34px;
+    margin-top: 0.85rem;
+    margin-bottom: 0;
     position: relative;
     z-index: 4;
   }
@@ -491,6 +485,8 @@ redirect_from:
   .home-novamatch-module {
     position: relative;
     display: block;
+    width: 100%;
+    box-sizing: border-box;
     padding: 22px 18px 22px 10px;
     border-radius: 20px;
     background: #ffffff;
@@ -525,7 +521,7 @@ redirect_from:
 
   .home-novamatch-copy-top {
     display: grid;
-    grid-template-columns: 207px minmax(0, 1fr);
+    grid-template-columns: 168px minmax(0, 1fr);
     gap: 0.5rem;
     align-items: start;
   }
@@ -539,7 +535,7 @@ redirect_from:
 
   .home-novamatch-wordmark {
     margin: 0;
-    font-size: 31px;
+    font-size: 26px;
     line-height: 1;
     letter-spacing: -1.1px;
     font-weight: 800;
@@ -573,8 +569,8 @@ redirect_from:
   .home-novamatch-description {
     margin: 6px 0 0;
     max-width: 1000px;
-    font-size: 7px;
-    line-height: 1.45;
+    font-size: 12px;
+    line-height: 1.55;
     font-weight: 400;
     color: #5E6B85;
   }
@@ -608,8 +604,8 @@ redirect_from:
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 160px;
-    height: 160px;
+    width: 126px;
+    height: 126px;
     border-radius: 28px;
     background: #ffffff;
     border: 0.5px solid rgba(218, 223, 232, 0.95);
@@ -617,8 +613,8 @@ redirect_from:
   }
 
   .home-novamatch-logo-frame img {
-    width: 146px;
-    height: 146px;
+    width: 114px;
+    height: 114px;
     object-fit: contain;
   }
 
@@ -630,8 +626,9 @@ redirect_from:
 
   .home-novamatch-description-row {
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
-    gap: 0.45rem;
+    gap: 0.35rem;
     width: 100%;
   }
 
@@ -641,7 +638,7 @@ redirect_from:
     justify-content: center;
     flex: 0 0 auto;
     min-height: 40px;
-    margin-top: 0;
+    margin-top: 0.2rem;
     padding: 0 22px;
     border-radius: 16px;
     background: linear-gradient(135deg, #0F2D63, #2E7BFF);
@@ -691,13 +688,13 @@ redirect_from:
 
     .home-framework-shell {
       margin-left: -2.5rem;
-      margin-top: 0.25rem;
-      padding: 0.1rem 0 0;
-      transform: scale(0.95);
+      margin-top: -0.55rem;
+      padding: 0;
+      transform: scale(0.92);
     }
 
     .home-framework-frame {
-      height: 700px;
+      height: 620px;
     }
 
     .home-news-card {
@@ -706,7 +703,7 @@ redirect_from:
     }
 
     .home-featured {
-      margin-top: -84px;
+      margin-top: 8px;
     }
 
     .home-news-map-wrap {
@@ -750,12 +747,12 @@ redirect_from:
     }
 
     .home-framework-frame {
-      height: 600px;
+      height: 520px;
     }
 
     .home-framework-shell {
       margin-left: 0;
-      margin-top: -0.35rem;
+      margin-top: -0.6rem;
       transform: none;
     }
 
@@ -770,39 +767,38 @@ redirect_from:
     }
 
     .home-novamatch-copy-top {
-      grid-template-columns: 148px minmax(0, 1fr);
+      grid-template-columns: 124px minmax(0, 1fr);
       gap: 0.55rem;
     }
 
     .home-novamatch-wordmark {
-      font-size: 27px;
+      font-size: 23px;
     }
 
     .home-novamatch-description {
       max-width: 100%;
       margin-top: 5px;
-      font-size: 8px;
-      line-height: 1.4;
+      font-size: 11px;
+      line-height: 1.5;
     }
 
     .home-novamatch-cta {
-      margin-top: 0.02rem;
+      margin-top: 0.18rem;
     }
 
     .home-novamatch-description-row {
-      flex-direction: column;
       align-items: flex-start;
       gap: 0.12rem;
     }
 
     .home-novamatch-logo-frame {
-      width: 120px;
-      height: 120px;
+      width: 104px;
+      height: 104px;
     }
 
     .home-novamatch-logo-frame img {
-      width: 112px;
-      height: 112px;
+      width: 94px;
+      height: 94px;
     }
 
     .home-news-card {
@@ -819,7 +815,7 @@ redirect_from:
     }
 
     .home-featured {
-      margin-top: -36px;
+      margin-top: 6px;
     }
 
     .home-novamatch-title-row {
@@ -857,10 +853,41 @@ redirect_from:
           </div>
         </div>
 
-        <div class="home-actions">
+      <div class="home-actions">
           <a class="home-action home-action--primary home-action--compact" href="/NovaMobilityLab/"><i class="fa fa-file-alt" aria-hidden="true"></i><span>Presentation Materials</span></a>
           <a class="home-action home-action--accent home-action--compact" href="https://ruohanlixyf.github.io/Complete-Trip-Data-Explorer/explorer.html" target="_blank" rel="noopener noreferrer"><i class="fa fa-chart-line" aria-hidden="true"></i><span>Interactive Data Demo</span></a>
         </div>
+
+        <section class="home-featured">
+          <div class="home-novamatch-module">
+            <div class="home-novamatch-copy">
+              <div class="home-novamatch-copy-top">
+                <div class="home-novamatch-logo-block">
+                  <a class="home-novamatch-logo-link" href="/novamatch-layout-b/" aria-label="Open NovaMatch Framework page">
+                    <div class="home-novamatch-logo-frame">
+                      <img src="/images/NovaMatch log.png" alt="NovaMatch logo">
+                    </div>
+                  </a>
+                </div>
+
+                <div class="home-novamatch-copy-body">
+                  <div class="home-novamatch-title-row">
+                    <h2 class="home-novamatch-wordmark"><span class="nova">Nova</span><span class="match">Match</span></h2>
+                    <span class="home-novamatch-badge">Research Ecosystem</span>
+                  </div>
+
+                  <div class="home-novamatch-description-row">
+                    <p class="home-novamatch-description">
+                      NovaMatch is a unified trajectory processing ecosystem that integrating map matching, cross-network translation, structural representation, and mobility analytics. It transforms raw mobility observations into knowledge that supports transportation systems research, planning, policy and other downstream task.
+                    </p>
+
+                    <a class="home-novamatch-cta" href="/novamatch-layout-b/">Explore NovaMatch Framework &rarr;</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
 
@@ -875,99 +902,66 @@ redirect_from:
     </div>
   </section>
 
-  <section class="home-featured">
-    <div class="home-novamatch-module">
-      <div class="home-novamatch-copy">
-        <div class="home-novamatch-copy-top">
-          <div class="home-novamatch-logo-block">
-            <a class="home-novamatch-logo-link" href="/novamatch-layout-b/" aria-label="Open NovaMatch Framework page">
-              <div class="home-novamatch-logo-frame">
-                <img src="/images/NovaMatch log.png" alt="NovaMatch logo">
-              </div>
-            </a>
-          </div>
-
-          <div class="home-novamatch-copy-body">
-            <div class="home-novamatch-title-row">
-              <h2 class="home-novamatch-wordmark"><span class="nova">Nova</span><span class="match">Match</span></h2>
-              <span class="home-novamatch-badge">Research Ecosystem</span>
-            </div>
-
-            <div class="home-novamatch-description-row">
-              <p class="home-novamatch-description">
-                NovaMatch is a unified trajectory processing ecosystem that integrating map matching, cross-network translation, structural representation, and mobility analytics. It transforms raw mobility observations into knowledge that supports transportation systems research, planning, policy and other downstream task.
-              </p>
-
-              <a class="home-novamatch-cta" href="/novamatch-layout-b/">Explore NovaMatch Framework &rarr;</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-    </div>
-  </section>
-
   <section class="home-news">
-    <div class="home-news-card">
-      <div class="home-news-content">
-        <div class="home-news-heading">
-          <h2>News</h2>
-          <span class="home-news-badge">Latest update &middot; 05/2026</span>
-        </div>
-
-        <div class="about-news-ticker" id="about-news-ticker">
-          <div class="about-news-ticker-viewport">
-            <div class="about-news-item is-active">
-              <strong>05/2026:</strong> Launched a redesigned academic homepage and updated the research framework around structural mobility modeling, trajectory representation, and cross-network mobility systems.
-            </div>
-            <div class="about-news-item">
-              <strong>10/2025:</strong> I will present my paper <em>Rethinking <strong>Transit Deserts</strong>: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data</em> at the <strong>TRB 105th Annual Meeting</strong>, as the <strong>first presenter</strong> in <strong>Lectern Session 4018: Evaluation of Non-Conventional Transit Impacts</strong> <span style="color:#32B5FF">(Wednesday, Jan 14, 8:00-9:45 AM, Room 150B, Convention Center)</span>. Welcome to attend and join the discussion!
-            </div>
-          </div>
-        </div>
-
-        <details class="about-news-archive">
-          <summary>Earlier News</summary>
-          <ul>
-            <li><strong>09/2025:</strong> My paper <em>Rethinking Transit Deserts: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data</em> has been accepted by TRB. Another paper, <em>Complete Trip: An Open and Privacy-Safe Dataset of Multimodal Travel Sequences for Urban Transportation Systems Analysis</em>, has also been accepted.</li>
-            <li><strong>08/2025:</strong> After the TRB deadline, I have been busy cleaning up my LBS map-matching code. Formatting code so that <em>other humans</em> can understand it feels like the hardest optimization problem ever.</li>
-            <li><strong>09/2024:</strong> The Computer Software Copyright Registration in China: Vision-Based Lane Detection System With Self-supervised Pre-training Through Masked Sequential Auto-encoders (VLD_SP-MSAE), granted on Sep. 11, 2024, Patent number 2024R11L1180902. We also published the <a href="https://github.com/RuohanLixyf/Lane-Detection-Self-Supervised-MSAE">open-source lane detection code</a> on GitHub.</li>
-            <li><strong>09/2024:</strong> I presented my recent work, <em>Sup-HMM Map-Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach</em>, at the TRC-30 conference in Crete.</li>
-            <li><strong>07/2024:</strong> My paper have been submitted and is currently under review by <a href="https://trb-annual-meeting.nationalacademies.org/">The Transportation Research Board (TRB) 104nd Annual Meeting</a>: <em>Sup-HMM Map-Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach.</em> Working on the map-matching continues. This work is part of our team's Complete Trips Project.</li>
-          </ul>
-
-          <div align="center">
-            Map-Matching Sample
-            <iframe src="/files/Hof_13.html" width="700" height="400" frameborder="1" name="Map-Matching-Sample_DC_10" scrolling="auto" style="display: block; margin: 0 auto;"></iframe>
+      <div class="home-news-card">
+        <div class="home-news-content">
+          <div class="home-news-heading">
+            <h2>News</h2>
+            <span class="home-news-badge">Latest update &middot; 05/2026</span>
           </div>
 
-          <ul>
-            <li><strong>06/2024:</strong> My paper has been accepted by <a href="https://trc-30.epfl.ch/">Conference in Emerging Technologies in Transportation Systems (TRC-30)</a>: <em>Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach.</em> Very excited for the presentation in Crete, Greece, in September!</li>
-            <li><strong>06/2024:</strong> The computer software has been submitted and is currently under review by Computer Software Copyright Registration in China: <em>Lane Line Detection Software Based on Image Sequence Mask Pre-Training.</em></li>
-            <li><strong>04/2024:</strong> My paper has been submitted and is currently under review by <a href="https://trc-30.epfl.ch/">Conference in Emerging Technologies in Transportation Systems (TRC-30)</a>: <em>Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach.</em> I'm currently working on map matching for human mobility data.</li>
-            <li><strong>10/2023:</strong> Two of my TRB papers were accepted:
-              <ul>
-                <li><a href="http://dx.doi.org/10.13140/RG.2.2.24853.50405">A Novel Highway Traffic Capacity Analyzing Method under Road Region Atmospheric Environment Constraints Based on Computational Fluid Dynamics Model</a>. The Transportation Research Board (TRB) 103rd Annual Meeting. 2023. [Accepted] <strong>Rank 1st.</strong></li>
-                <li><a href="http://dx.doi.org/10.13140/RG.2.2.28243.35360">Intelligent Anomaly Detection for Lane Rendering Using Transformer with Self-Supervised Pre-Training and Customized Fine-Tuning</a>. The Transportation Research Board (TRB) 103rd Annual Meeting. 2023. [Accepted] Rank 3rd.</li>
-              </ul>
-            </li>
-            <li><strong>09/2023:</strong> The article, "The Highway Region Boundary Based on Multi-Environmental Factors," can now be accessed. View the article <a href="https://doi.org/10.1061/9780784484869.014">here</a>.</li>
-            <li><strong>09/2023:</strong> Starting my Ph.D. studies at Villanova University!</li>
-            <li><strong>08/2023:</strong> The article, "Robust Lane Detection Through Self Pre-Training With Masked Sequential Autoencoders and Fine-Tuning With Customized PolyLoss," has been finalized and posted in the "Early Access" area on IEEE Xplore. View the article <a href="https://ieeexplore.ieee.org/document/10226453">here</a>.</li>
-            <li><strong>07/2023:</strong> I received my Ph.D. offer from Villanova University! Looking forward to new research and life at Villanova!</li>
-            <li><strong>07/2023:</strong> My paper <a href="https://arxiv.org/abs/2305.17271">Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss</a> is accepted by the journal of <em>IEEE Transactions on Intelligent Transportation Systems</em>.</li>
-            <li><strong>06/2023:</strong> I received my M.Eng. degree in traffic and transportation from Lanzhou Jiaotong University!</li>
-          </ul>
-        </details>
-      </div>
+          <div class="about-news-ticker" id="about-news-ticker">
+            <div class="about-news-ticker-viewport">
+              <div class="about-news-item is-active">
+                <strong>05/2026:</strong> Launched a redesigned academic homepage and updated the research framework around structural mobility modeling, trajectory representation, and cross-network mobility systems.
+              </div>
+              <div class="about-news-item">
+                <strong>10/2025:</strong> I will present my paper <em>Rethinking <strong>Transit Deserts</strong>: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data</em> at the <strong>TRB 105th Annual Meeting</strong>, as the <strong>first presenter</strong> in <strong>Lectern Session 4018: Evaluation of Non-Conventional Transit Impacts</strong> <span style="color:#32B5FF">(Wednesday, Jan 14, 8:00-9:45 AM, Room 150B, Convention Center)</span>. Welcome to attend and join the discussion!
+              </div>
+            </div>
+          </div>
 
-      <div class="home-news-map-wrap">
-        <div class="home-visitor-map">
-          <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=2db8dd&w=360&t=tt&d=t3RFq-d0ZvyNcMOXmNGt6JTnByrbHW0lSUzD_8Yfss4&co=ffffff&cmn=5bf35b&ct=161616'></script>
+          <details class="about-news-archive">
+            <summary>Earlier News</summary>
+            <ul>
+              <li><strong>09/2025:</strong> My paper <em>Rethinking Transit Deserts: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data</em> has been accepted by TRB. Another paper, <em>Complete Trip: An Open and Privacy-Safe Dataset of Multimodal Travel Sequences for Urban Transportation Systems Analysis</em>, has also been accepted.</li>
+              <li><strong>08/2025:</strong> After the TRB deadline, I have been busy cleaning up my LBS map-matching code. Formatting code so that <em>other humans</em> can understand it feels like the hardest optimization problem ever.</li>
+              <li><strong>09/2024:</strong> The Computer Software Copyright Registration in China: Vision-Based Lane Detection System With Self-supervised Pre-training Through Masked Sequential Auto-encoders (VLD_SP-MSAE), granted on Sep. 11, 2024, Patent number 2024R11L1180902. We also published the <a href="https://github.com/RuohanLixyf/Lane-Detection-Self-Supervised-MSAE">open-source lane detection code</a> on GitHub.</li>
+              <li><strong>09/2024:</strong> I presented my recent work, <em>Sup-HMM Map-Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach</em>, at the TRC-30 conference in Crete.</li>
+              <li><strong>07/2024:</strong> My paper have been submitted and is currently under review by <a href="https://trb-annual-meeting.nationalacademies.org/">The Transportation Research Board (TRB) 104nd Annual Meeting</a>: <em>Sup-HMM Map-Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach.</em> Working on the map-matching continues. This work is part of our team's Complete Trips Project.</li>
+            </ul>
+
+            <div align="center">
+              Map-Matching Sample
+              <iframe src="/files/Hof_13.html" width="700" height="400" frameborder="1" name="Map-Matching-Sample_DC_10" scrolling="auto" style="display: block; margin: 0 auto;"></iframe>
+            </div>
+
+            <ul>
+              <li><strong>06/2024:</strong> My paper has been accepted by <a href="https://trc-30.epfl.ch/">Conference in Emerging Technologies in Transportation Systems (TRC-30)</a>: <em>Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach.</em> Very excited for the presentation in Crete, Greece, in September!</li>
+              <li><strong>06/2024:</strong> The computer software has been submitted and is currently under review by Computer Software Copyright Registration in China: <em>Lane Line Detection Software Based on Image Sequence Mask Pre-Training.</em></li>
+              <li><strong>04/2024:</strong> My paper has been submitted and is currently under review by <a href="https://trc-30.epfl.ch/">Conference in Emerging Technologies in Transportation Systems (TRC-30)</a>: <em>Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach.</em> I'm currently working on map matching for human mobility data.</li>
+              <li><strong>10/2023:</strong> Two of my TRB papers were accepted:
+                <ul>
+                  <li><a href="http://dx.doi.org/10.13140/RG.2.2.24853.50405">A Novel Highway Traffic Capacity Analyzing Method under Road Region Atmospheric Environment Constraints Based on Computational Fluid Dynamics Model</a>. The Transportation Research Board (TRB) 103rd Annual Meeting. 2023. [Accepted] <strong>Rank 1st.</strong></li>
+                  <li><a href="http://dx.doi.org/10.13140/RG.2.2.28243.35360">Intelligent Anomaly Detection for Lane Rendering Using Transformer with Self-Supervised Pre-Training and Customized Fine-Tuning</a>. The Transportation Research Board (TRB) 103rd Annual Meeting. 2023. [Accepted] Rank 3rd.</li>
+                </ul>
+              </li>
+              <li><strong>09/2023:</strong> The article, "The Highway Region Boundary Based on Multi-Environmental Factors," can now be accessed. View the article <a href="https://doi.org/10.1061/9780784484869.014">here</a>.</li>
+              <li><strong>09/2023:</strong> Starting my Ph.D. studies at Villanova University!</li>
+              <li><strong>08/2023:</strong> The article, "Robust Lane Detection Through Self Pre-Training With Masked Sequential Autoencoders and Fine-Tuning With Customized PolyLoss," has been finalized and posted in the "Early Access" area on IEEE Xplore. View the article <a href="https://ieeexplore.ieee.org/document/10226453">here</a>.</li>
+              <li><strong>07/2023:</strong> I received my Ph.D. offer from Villanova University! Looking forward to new research and life at Villanova!</li>
+              <li><strong>07/2023:</strong> My paper <a href="https://arxiv.org/abs/2305.17271">Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss</a> is accepted by the journal of <em>IEEE Transactions on Intelligent Transportation Systems</em>.</li>
+              <li><strong>06/2023:</strong> I received my M.Eng. degree in traffic and transportation from Lanzhou Jiaotong University!</li>
+            </ul>
+          </details>
+        </div>
+
+        <div class="home-news-map-wrap">
+          <div class="home-visitor-map">
+            <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=2db8dd&w=360&t=tt&d=t3RFq-d0ZvyNcMOXmNGt6JTnByrbHW0lSUzD_8Yfss4&co=ffffff&cmn=5bf35b&ct=161616'></script>
+          </div>
         </div>
       </div>
-    </div>
   </section>
 </div>
 

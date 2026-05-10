@@ -23,11 +23,13 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  var links = document.querySelectorAll('a[href]');
-  var current = window.location.href;
+  var links = document.querySelectorAll('#site-nav .visible-links a[href], #site-nav .hidden-links a[href]');
+  var currentPath = window.location.pathname.replace(/\/$/, "") || "/";
 
   links.forEach(function(link) {
-    if (link.href === current || link.href === current.replace(/\/$/, "")) {
+    var linkPath = new URL(link.href, window.location.origin).pathname.replace(/\/$/, "") || "/";
+
+    if (linkPath === currentPath) {
       link.classList.add("active");
     }
   });
