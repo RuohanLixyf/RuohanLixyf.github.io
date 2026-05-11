@@ -26,13 +26,20 @@ layout: compress
     </div>
     <script>
     document.addEventListener("DOMContentLoaded", function() {
-        document.getElementById("translateButton").addEventListener("click", async function() {
-            let content = document.getElementById("content").innerText;
+        const translateButton = document.getElementById("translateButton");
+        const contentNode = document.getElementById("content");
+
+        if (!translateButton || !contentNode) {
+            return;
+        }
+
+        translateButton.addEventListener("click", async function() {
+            let content = contentNode.innerText;
             let url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=zh-CN&tl=en&dt=t&q=${encodeURIComponent(content)}`;
             
             let response = await fetch(url);
             let data = await response.json();
-            document.getElementById("content").innerText = data[0].map(item => item[0]).join("");
+            contentNode.innerText = data[0].map(item => item[0]).join("");
         });
     });
     </script>
