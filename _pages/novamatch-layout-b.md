@@ -25,51 +25,45 @@ page_class: page--novamatch-layout-b
     --slate: #64748B;
   }
 
-  body.layout--single:has(.page--novamatch-layout-b) #main {
-    width: 100%;
-    max-width: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  body.layout--single:has(.page--novamatch-layout-b) article.page.page--novamatch-layout-b {
-    float: none;
-    width: 100%;
-    max-width: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  body.layout--single:has(.page--novamatch-layout-b) article.page.page--novamatch-layout-b .page__inner-wrap,
-  body.layout--single:has(.page--novamatch-layout-b) article.page.page--novamatch-layout-b .page__content {
-    width: 100%;
-    max-width: none;
-    margin: 0;
-    padding: 0;
+  #main {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
   .page--novamatch-layout-b,
   .page--novamatch-layout-b .page__content {
-    width: 100%;
-    max-width: none;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 
   #main > .sidebar {
-    display: none;
+    display: none !important;
   }
 
+  #main > article.page.page--novamatch-layout-b,
   #main > article.page--novamatch-layout-b {
-    float: none;
-    width: 100%;
-    max-width: none;
-    padding-right: 0;
+    float: none !important;
+    clear: both !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
-  #main > article.page--novamatch-layout-b .page__inner-wrap {
-    width: 100%;
-    max-width: none;
-    margin: 0;
-    padding: 0;
+  #main > article.page.page--novamatch-layout-b .page__inner-wrap,
+  #main > article.page--novamatch-layout-b .page__inner-wrap,
+  #main > article.page.page--novamatch-layout-b .page__content,
+  #main > article.page--novamatch-layout-b .page__content {
+    float: none !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
   .page--novamatch-layout-b .page__inner-wrap > header,
