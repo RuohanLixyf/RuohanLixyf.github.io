@@ -154,13 +154,17 @@
     -webkit-appearance: none !important;
   }
 
-  body.nav-flat .greedy-nav .visible-links {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    gap: 0.18rem !important;
-    margin: 0 auto !important;
-  }
+    body.nav-flat .greedy-nav .visible-links {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      gap: 0.18rem !important;
+      margin: 0 auto !important;
+    }
+
+    body.nav-flat .greedy-nav .mobile-links {
+      display: none !important;
+    }
 
   body.nav-flat .greedy-nav .visible-links li {
     display: flex !important;
@@ -425,7 +429,13 @@
       display: inline-flex !important;
     }
 
-    body.nav-flat .greedy-nav .visible-links {
+    body.nav-flat .greedy-nav .visible-links,
+    body.nav-flat .greedy-nav .hidden-links,
+    body.nav-flat .greedy-nav .hidden-links.hidden {
+      display: none !important;
+    }
+
+    body.nav-flat .greedy-nav .mobile-links {
       display: none !important;
       position: absolute !important;
       right: 0 !important;
@@ -443,16 +453,16 @@
       z-index: 20 !important;
     }
 
-    body.nav-flat .greedy-nav button.close + .visible-links {
+    body.nav-flat .greedy-nav button.close ~ .mobile-links {
       display: block !important;
     }
 
-    body.nav-flat .greedy-nav .visible-links li {
+    body.nav-flat .greedy-nav .mobile-links li {
       display: block !important;
       width: 100% !important;
     }
 
-    body.nav-flat .greedy-nav .visible-links a {
+    body.nav-flat .greedy-nav .mobile-links a {
       display: block !important;
       margin: 0 !important;
       padding: 0.7rem 0.85rem !important;
@@ -462,12 +472,12 @@
       white-space: normal !important;
     }
 
-    body.nav-flat .greedy-nav .visible-links a:hover {
+    body.nav-flat .greedy-nav .mobile-links a:hover {
       background: var(--site-accent-soft) !important;
       transform: none !important;
     }
 
-    body.nav-flat .greedy-nav .visible-links::before {
+    body.nav-flat .greedy-nav .mobile-links::before {
       content: "" !important;
       position: absolute !important;
       top: -0.42rem !important;
@@ -480,10 +490,6 @@
       transform: rotate(45deg) !important;
     }
 
-    body.nav-flat .greedy-nav .hidden-links,
-    body.nav-flat .greedy-nav .hidden-links.hidden {
-      display: none !important;
-    }
   }
 </style>
 
@@ -499,42 +505,13 @@
       }
 
       document.body.classList.add("nav-flat");
-      syncMobileNav();
 
       requestAnimationFrame(refreshGreedyNav);
       setTimeout(refreshGreedyNav, 120);
     }
 
-    function syncMobileNav() {
-      var nav = document.getElementById("site-nav");
-
-      if (!nav) {
-        return;
-      }
-
-      var visible = nav.querySelector(".visible-links");
-      var hidden = nav.querySelector(".hidden-links");
-      var button = nav.querySelector("button");
-
-      if (!visible || !hidden || !button) {
-        return;
-      }
-
-      if (window.innerWidth <= 900) {
-        while (hidden.firstChild) {
-          visible.appendChild(hidden.firstChild);
-        }
-
-        hidden.classList.add("hidden");
-        button.classList.remove("hidden");
-      } else if (button.classList.contains("close")) {
-        button.classList.remove("close");
-      }
-    }
-
     document.addEventListener("DOMContentLoaded", applyNavFlat);
     window.addEventListener("load", applyNavFlat);
-    window.addEventListener("resize", syncMobileNav);
 
     if (document.fonts && document.fonts.ready) {
       document.fonts.ready.then(function () {
@@ -542,6 +519,34 @@
         refreshGreedyNav();
       });
     }
+
+    document.addEventListener("click", function (event) {
+      var nav = document.getElementById("site-nav");
+
+      if (!nav || window.innerWidth > 900) {
+        return;
+      }
+
+      var button = nav.querySelector("button");
+      var menu = nav.querySelector(".mobile-links");
+
+      if (!button || !menu) {
+        return;
+      }
+
+      if (button.contains(event.target)) {
+        event.preventDefault();
+        event.stopPropagation();
+        button.classList.toggle("close");
+        menu.classList.toggle("hidden");
+        return;
+      }
+
+      if (!menu.contains(event.target)) {
+        button.classList.remove("close");
+        menu.classList.add("hidden");
+      }
+    }, true);
   })();
 </script>
 

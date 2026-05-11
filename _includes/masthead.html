@@ -21,6 +21,17 @@
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
+        <ul class="mobile-links hidden">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">Home</a></li>
+          {% for link in site.data.navigation.main %}
+            {% if link.url contains 'http' %}
+              {% assign domain = '' %}
+              {% else %}
+              {% assign domain = base_path %}
+            {% endif %}
+            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+          {% endfor %}
+        </ul>
       </nav>
     </div>
   </div>
