@@ -59,7 +59,7 @@ redirect_from:
     width: 100%;
     max-width: none;
     margin: 0;
-    padding: 0 clamp(0.9rem, 1.8vw, 1.6rem) 0 clamp(0.35rem, 0.9vw, 0.9rem);
+    padding: 0 clamp(0.9rem, 1.8vw, 1.6rem) 0 clamp(0.85rem, 1.4vw, 1.35rem);
     background: var(--site-bg);
     color: var(--site-text);
   }
@@ -744,7 +744,7 @@ redirect_from:
 
   @media (max-width: 720px) {
     .home-landing {
-      padding: 0.65rem clamp(0.5rem, 2.5vw, 0.75rem) 0;
+      padding: 0.65rem clamp(0.7rem, 3.5vw, 1rem) 0;
     }
 
     .home-framework-shell {
