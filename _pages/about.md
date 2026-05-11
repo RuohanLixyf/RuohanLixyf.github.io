@@ -64,6 +64,18 @@ redirect_from:
     color: var(--site-text);
   }
 
+  body:has(.page--full-width-home) .page__footer {
+    position: static;
+    clear: both;
+    margin-top: 0;
+  }
+
+  body:has(.page--full-width-home) .page__footer footer {
+    margin-top: 0;
+    padding-top: 0.25rem;
+    padding-bottom: 0.75rem;
+  }
+
   .page--full-width-home + .page__footer,
   article.page--full-width-home + .page__footer {
     position: static;
