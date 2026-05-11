@@ -25,6 +25,29 @@ page_class: page--novamatch-layout-b
     --slate: #64748B;
   }
 
+  body.layout--single:has(.page--novamatch-layout-b) #main {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  body.layout--single:has(.page--novamatch-layout-b) article.page.page--novamatch-layout-b {
+    float: none;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  body.layout--single:has(.page--novamatch-layout-b) article.page.page--novamatch-layout-b .page__inner-wrap,
+  body.layout--single:has(.page--novamatch-layout-b) article.page.page--novamatch-layout-b .page__content {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+
   .page--novamatch-layout-b,
   .page--novamatch-layout-b .page__content {
     width: 100%;
@@ -71,21 +94,32 @@ page_class: page--novamatch-layout-b
   .nmb-page {
     background: var(--white);
     color: var(--dark);
-    padding: 32px 4px 48px;
+    padding: 32px 12px 48px;
   }
 
   .nmb-shell {
-    max-width: 1660px;
-    margin: 0 auto 0 0;
+    width: 100%;
+    max-width: none;
+    margin: 0;
   }
 
   .nmb-header {
     min-height: 150px;
-    display: grid;
-    grid-template-columns: minmax(360px, 500px) 220px;
-    align-items: start;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
     gap: 24px;
     padding: 0 12px 10px;
+  }
+
+  .nmb-header-copy {
+    max-width: 620px;
+  }
+
+  .nmb-header-brand {
+    display: flex;
+    align-items: center;
+    gap: 14px;
   }
 
   .nmb-title {
@@ -122,16 +156,17 @@ page_class: page--novamatch-layout-b
 
   .nmb-header-logo {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 0 0 auto;
   }
 
   .nmb-logo-card {
-    width: 100px;
-    padding: 8px 10px;
-    border-radius: 16px;
-    background: rgba(255, 255, 255, 0.72);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    width: 74px;
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
   }
 
   .nmb-logo-card img {
@@ -237,6 +272,10 @@ page_class: page--novamatch-layout-b
     overflow: visible;
   }
 
+  .nmb-flow-overlay svg > path {
+    fill: none;
+  }
+
   .nmb-flow-line {
     fill: none;
     stroke: rgba(46, 123, 255, 0.78);
@@ -247,6 +286,7 @@ page_class: page--novamatch-layout-b
   }
 
   .nmb-flow-line--soft {
+    fill: none;
     stroke: rgba(46, 123, 255, 0.34);
     stroke-width: 1.3;
     stroke-dasharray: 2 9;
@@ -375,7 +415,7 @@ page_class: page--novamatch-layout-b
     padding: 0;
     background: transparent;
     box-shadow: none;
-    overflow: visible;
+    overflow: hidden;
   }
 
   .nmb-core-orbital {
@@ -384,6 +424,8 @@ page_class: page--novamatch-layout-b
     height: 620px;
     transform: scale(0.92);
     transform-origin: 50% 40%;
+    overflow: hidden;
+    isolation: isolate;
   }
 
   .nmb-core-svg {
@@ -391,7 +433,7 @@ page_class: page--novamatch-layout-b
     inset: 0;
     width: 100%;
     height: 100%;
-    overflow: visible;
+    overflow: hidden;
   }
 
   .nmb-core-glow-ring {
@@ -874,7 +916,7 @@ page_class: page--novamatch-layout-b
 
   @media (max-width: 1180px) {
     .nmb-header {
-      grid-template-columns: 1fr;
+      align-items: flex-start;
     }
 
     .nmb-flow-overlay {
@@ -922,6 +964,19 @@ page_class: page--novamatch-layout-b
     .nmb-flow {
       padding-left: 16px;
       padding-right: 16px;
+    }
+
+    .nmb-header-brand {
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .nmb-logo-card {
+      width: 62px;
+    }
+
+    .nmb-title {
+      font-size: 30px;
     }
 
     .nmb-flow {
@@ -1079,17 +1134,18 @@ page_class: page--novamatch-layout-b
     </svg>
 
     <section class="nmb-header">
-      <div>
-        <h1 class="nmb-title"><span class="nmb-title-nova">NOVA</span><span class="nmb-title-match">MATCH</span></h1>
+      <div class="nmb-header-copy">
+        <div class="nmb-header-brand">
+          <div class="nmb-header-logo">
+            <div class="nmb-logo-card">
+              <img src="../images/NovaMatch%20log.png" alt="NovaMatch logo">
+            </div>
+          </div>
+          <h1 class="nmb-title"><span class="nmb-title-nova">NOVA</span><span class="nmb-title-match">MATCH</span></h1>
+        </div>
         <p class="nmb-desc">
           A unified trajectory processing pipeline that integrates map matching, cross-network translation, and mobility analysis.
         </p>
-      </div>
-
-      <div class="nmb-header-logo">
-        <div class="nmb-logo-card">
-          <img src="../images/NovaMatch%20log.png" alt="NovaMatch logo">
-        </div>
       </div>
     </section>
 
@@ -1129,13 +1185,6 @@ page_class: page--novamatch-layout-b
           <div class="nmb-input-graphic" aria-hidden="true">
             <svg viewBox="0 0 160 160">
               <defs>
-                <filter id="nmb-raw-glow" x="-80%" y="-80%" width="260%" height="260%">
-                  <feGaussianBlur stdDeviation="3.2" result="blur"></feGaussianBlur>
-                  <feMerge>
-                    <feMergeNode in="blur"></feMergeNode>
-                    <feMergeNode in="SourceGraphic"></feMergeNode>
-                  </feMerge>
-                </filter>
                 <linearGradient id="nmb-raw-main" x1="18" y1="112" x2="142" y2="78" gradientUnits="userSpaceOnUse">
                   <stop offset="0" stop-color="#3B82F6" stop-opacity="0.48"></stop>
                   <stop offset="0.55" stop-color="#2563EB" stop-opacity="0.9"></stop>
@@ -1172,7 +1221,7 @@ page_class: page--novamatch-layout-b
               <circle cx="18" cy="112" r="4" fill="#3B82F6" fill-opacity="0.86"></circle>
               <circle cx="22" cy="148" r="2.7" fill="#93C5FD" fill-opacity="0.4"></circle>
               <circle cx="52" cy="66" r="4" fill="#3B82F6" fill-opacity="0.78"></circle>
-              <circle cx="88" cy="52" r="5" fill="#2563EB" filter="url(#nmb-raw-glow)">
+              <circle cx="88" cy="52" r="5" fill="#2563EB">
                 <animate attributeName="r" values="4.8;5.6;4.8" dur="2.8s" repeatCount="indefinite"></animate>
                 <animate attributeName="fill-opacity" values="0.82;1;0.82" dur="2.8s" repeatCount="indefinite"></animate>
               </circle>
@@ -1180,7 +1229,7 @@ page_class: page--novamatch-layout-b
               <circle cx="120" cy="96" r="4" fill="#60A5FA" fill-opacity="0.66"></circle>
               <circle cx="142" cy="78" r="4" fill="#3B82F6" fill-opacity="0.88"></circle>
               <circle cx="24" cy="36" r="3.5" fill="#60A5FA" fill-opacity="0.72"></circle>
-              <circle cx="104" cy="108" r="4.2" fill="#3B82F6" filter="url(#nmb-raw-glow)">
+              <circle cx="104" cy="108" r="4.2" fill="#3B82F6">
                 <animate attributeName="r" values="3.8;4.8;3.8" dur="3.6s" begin="-1.1s" repeatCount="indefinite"></animate>
                 <animate attributeName="fill-opacity" values="0.72;0.98;0.72" dur="3.6s" begin="-1.1s" repeatCount="indefinite"></animate>
               </circle>
@@ -1202,7 +1251,7 @@ page_class: page--novamatch-layout-b
               <circle cx="90" cy="124" r="2.4" fill="#DBEAFE" fill-opacity="0.42"></circle>
               <circle cx="114" cy="134" r="2.2" fill="#BFDBFE" fill-opacity="0.3"></circle>
               <circle cx="60" cy="146" r="2" fill="#E0F2FE" fill-opacity="0.24"></circle>
-              <circle cx="118" cy="58" r="2.3" fill="#E0F2FE" fill-opacity="0.36" filter="url(#nmb-raw-glow)">
+              <circle cx="118" cy="58" r="2.3" fill="#E0F2FE" fill-opacity="0.36">
                 <animate attributeName="fill-opacity" values="0.2;0.7;0.2" dur="4.2s" begin="-0.8s" repeatCount="indefinite"></animate>
               </circle>
               <circle cx="138" cy="24" r="2" fill="#BFDBFE" fill-opacity="0.24"></circle>
@@ -1225,13 +1274,13 @@ page_class: page--novamatch-layout-b
           <div class="nmb-core-orbital">
             <svg class="nmb-core-svg" viewBox="0 0 570 450" aria-hidden="true">
               <defs>
-                <filter id="nmb-core-blur-lg" x="-30%" y="-30%" width="160%" height="160%">
+                <filter id="nmb-core-blur-lg" x="-20%" y="-20%" width="140%" height="140%">
                   <feGaussianBlur stdDeviation="20"></feGaussianBlur>
                 </filter>
-                <filter id="nmb-core-blur-md" x="-30%" y="-30%" width="160%" height="160%">
+                <filter id="nmb-core-blur-md" x="-20%" y="-20%" width="140%" height="140%">
                   <feGaussianBlur stdDeviation="10"></feGaussianBlur>
                 </filter>
-                <filter id="nmb-core-glow" x="-30%" y="-30%" width="160%" height="160%">
+                <filter id="nmb-core-glow" x="-20%" y="-20%" width="140%" height="140%">
                   <feGaussianBlur stdDeviation="8" result="blur"></feGaussianBlur>
                   <feMerge>
                     <feMergeNode in="blur"></feMergeNode>
@@ -1240,17 +1289,17 @@ page_class: page--novamatch-layout-b
                 </filter>
               </defs>
 
-              <ellipse cx="284" cy="180" rx="220" ry="286" fill="rgba(220,238,255,0.12)" transform="rotate(-9 284 180)" filter="url(#nmb-core-blur-lg)"></ellipse>
-              <ellipse cx="286" cy="180" rx="208" ry="272" fill="rgba(220,238,255,0.16)" transform="rotate(11 286 180)" filter="url(#nmb-core-blur-lg)"></ellipse>
-              <ellipse cx="284" cy="180" rx="194" ry="252" fill="rgba(220,238,255,0.22)" transform="rotate(-8 284 180)" filter="url(#nmb-core-blur-lg)"></ellipse>
-              <ellipse cx="288" cy="176" rx="180" ry="236" fill="rgba(220,238,255,0.2)" transform="rotate(7 288 176)" filter="url(#nmb-core-blur-lg)"></ellipse>
-              <ellipse cx="282" cy="180" rx="162" ry="216" fill="rgba(255,255,255,0.88)" transform="rotate(-4 282 180)" filter="url(#nmb-core-blur-md)"></ellipse>
-              <ellipse cx="286" cy="180" rx="148" ry="198" fill="rgba(255,255,255,0.92)" transform="rotate(10 286 180)" filter="url(#nmb-core-blur-md)"></ellipse>
-              <ellipse cx="282" cy="180" rx="130" ry="174" fill="rgba(255,255,255,0.96)" transform="rotate(-12 282 180)"></ellipse>
-              <ellipse cx="286" cy="180" rx="112" ry="150" fill="rgba(255,255,255,0.98)" transform="rotate(4 286 180)"></ellipse>
-              <ellipse class="nmb-core-glow-ring nmb-core-glow-ring--slow" cx="284" cy="180" rx="230" ry="300" fill="none" stroke="rgba(95,168,255,0.08)" stroke-width="8" filter="url(#nmb-core-glow)"></ellipse>
-              <ellipse class="nmb-core-glow-ring" cx="284" cy="180" rx="218" ry="286" fill="none" stroke="rgba(95,168,255,0.12)" stroke-width="4" filter="url(#nmb-core-glow)"></ellipse>
-              <ellipse cx="284" cy="180" rx="206" ry="266" fill="none" stroke="rgba(95,168,255,0.12)" stroke-width="2" filter="url(#nmb-core-glow)"></ellipse>
+              <ellipse cx="284" cy="180" rx="174" ry="214" fill="rgba(220,238,255,0.18)" transform="rotate(-9 284 180)"></ellipse>
+              <ellipse cx="286" cy="180" rx="166" ry="204" fill="rgba(220,238,255,0.22)" transform="rotate(11 286 180)"></ellipse>
+              <ellipse cx="284" cy="180" rx="154" ry="188" fill="rgba(233,244,255,0.36)" transform="rotate(-8 284 180)"></ellipse>
+              <ellipse cx="288" cy="176" rx="142" ry="172" fill="rgba(240,248,255,0.42)" transform="rotate(7 288 176)"></ellipse>
+              <ellipse cx="282" cy="180" rx="132" ry="158" fill="rgba(255,255,255,0.92)" transform="rotate(-4 282 180)"></ellipse>
+              <ellipse cx="286" cy="180" rx="120" ry="144" fill="rgba(255,255,255,0.96)" transform="rotate(10 286 180)"></ellipse>
+              <ellipse cx="282" cy="180" rx="108" ry="130" fill="rgba(255,255,255,0.98)" transform="rotate(-12 282 180)"></ellipse>
+              <ellipse cx="286" cy="180" rx="94" ry="116" fill="rgba(255,255,255,1)" transform="rotate(4 286 180)"></ellipse>
+              <ellipse class="nmb-core-glow-ring nmb-core-glow-ring--slow" cx="284" cy="180" rx="184" ry="224" fill="none" stroke="rgba(95,168,255,0.08)" stroke-width="6"></ellipse>
+              <ellipse class="nmb-core-glow-ring" cx="284" cy="180" rx="172" ry="210" fill="none" stroke="rgba(95,168,255,0.12)" stroke-width="3"></ellipse>
+              <ellipse cx="284" cy="180" rx="160" ry="194" fill="none" stroke="rgba(95,168,255,0.12)" stroke-width="1.6"></ellipse>
 
               <path d="M204 26 C256 2, 332 4, 386 42 C424 68, 444 106, 448 146" fill="none" stroke="rgba(47,128,237,0.24)" stroke-width="1.6" stroke-dasharray="5 8"></path>
               <path d="M154 270 C160 354, 198 442, 266 492 C326 536, 392 526, 438 470" fill="none" stroke="rgba(47,128,237,0.26)" stroke-width="1.5" stroke-dasharray="3 7"></path>
