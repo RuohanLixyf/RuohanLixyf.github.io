@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: "NovaMatch Layout B"
 permalink: /novamatch-layout-b/
 author_profile: false

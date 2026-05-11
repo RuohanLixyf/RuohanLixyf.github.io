@@ -57,7 +57,7 @@ redirect_from:
     width: 100%;
     max-width: none;
     margin: 0;
-    padding: 0 clamp(0.65rem, 2vw, 2rem) 0;
+    padding: 0 clamp(0.9rem, 1.8vw, 1.6rem) 0 clamp(0.35rem, 0.9vw, 0.9rem);
     background: var(--site-bg);
     color: var(--site-text);
   }
