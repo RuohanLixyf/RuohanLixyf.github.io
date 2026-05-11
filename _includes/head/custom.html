@@ -268,18 +268,17 @@
     color: var(--site-text);
   }
 
-  .page__footer,
-  .page__footer footer {
-    background: transparent;
-  }
-
   .page__footer {
     margin-top: 1.5rem;
+    background: var(--site-surface-soft);
+    border-top: 1px solid var(--site-border);
+    box-shadow: 0 -6px 20px rgba(10, 42, 102, 0.04);
   }
 
   .page__footer footer {
     margin-top: 0.75rem;
     padding: 0 1rem 0.9rem;
+    background: transparent;
   }
 
   .page__footer-copyright {
@@ -404,9 +403,16 @@
       cursor: pointer !important;
     }
 
+    body.nav-flat .greedy-nav button,
+    body.nav-flat .greedy-nav button.hidden {
+      visibility: visible !important;
+      opacity: 1 !important;
+    }
+
     body.nav-flat .greedy-nav button .navicon,
     body.nav-flat .greedy-nav button .navicon::before,
     body.nav-flat .greedy-nav button .navicon::after {
+      display: block !important;
       background: var(--site-text) !important;
     }
 
