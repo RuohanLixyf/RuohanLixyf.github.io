@@ -102,18 +102,26 @@ page_class: page--novamatch-layout-b
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 24px;
+    gap: 32px;
     padding: 0 12px 10px;
   }
 
   .nmb-header-copy {
-    max-width: 620px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 14px;
+    width: 100%;
+    max-width: 860px;
   }
 
   .nmb-header-brand {
     display: flex;
-    align-items: center;
-    gap: 14px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 1 1 auto;
+    max-width: 470px;
   }
 
   .nmb-title {
@@ -151,12 +159,12 @@ page_class: page--novamatch-layout-b
   .nmb-header-logo {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     flex: 0 0 auto;
   }
 
   .nmb-logo-card {
-    width: 74px;
+    width: 120px;
     padding: 0;
     border-radius: 0;
     background: transparent;
@@ -913,6 +921,10 @@ page_class: page--novamatch-layout-b
       align-items: flex-start;
     }
 
+    .nmb-header-copy {
+      max-width: 100%;
+    }
+
     .nmb-flow-overlay {
       display: none;
     }
@@ -960,13 +972,14 @@ page_class: page--novamatch-layout-b
       padding-right: 16px;
     }
 
-    .nmb-header-brand {
+    .nmb-header-copy {
+      flex-direction: column;
       align-items: flex-start;
-      gap: 12px;
+      gap: 16px;
     }
 
     .nmb-logo-card {
-      width: 62px;
+      width: 112px;
     }
 
     .nmb-title {
@@ -1129,17 +1142,17 @@ page_class: page--novamatch-layout-b
 
     <section class="nmb-header">
       <div class="nmb-header-copy">
-        <div class="nmb-header-brand">
-          <div class="nmb-header-logo">
-            <div class="nmb-logo-card">
-              <img src="../images/NovaMatch%20log.png" alt="NovaMatch logo">
-            </div>
+        <div class="nmb-header-logo">
+          <div class="nmb-logo-card">
+            <img src="../images/NovaMatch%20log.png" alt="NovaMatch logo">
           </div>
-          <h1 class="nmb-title"><span class="nmb-title-nova">NOVA</span><span class="nmb-title-match">MATCH</span></h1>
         </div>
-        <p class="nmb-desc">
-          A unified trajectory processing pipeline that integrates map matching, cross-network translation, and mobility analysis.
-        </p>
+        <div class="nmb-header-brand">
+          <h1 class="nmb-title"><span class="nmb-title-nova">NOVA</span><span class="nmb-title-match">MATCH</span></h1>
+          <p class="nmb-desc">
+            A unified trajectory processing pipeline that integrates map matching, cross-network translation, and mobility analysis.
+          </p>
+        </div>
       </div>
     </section>
 

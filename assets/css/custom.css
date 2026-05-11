@@ -120,3 +120,32 @@ article.page {
     padding-top: 0 !important;
     margin-top: 0 !important;
 }
+
+/* Home page: remove Minimal Mistakes single-page column offsets and gutters */
+body.layout--single #main > article.page.page--full-width-home,
+body.layout--single #main > article.page--full-width-home {
+    float: none !important;
+    clear: both !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body.layout--single #main > article.page.page--full-width-home .page__inner-wrap,
+body.layout--single #main > article.page--full-width-home .page__inner-wrap,
+body.layout--single #main > article.page.page--full-width-home .page__content,
+body.layout--single #main > article.page--full-width-home .page__content {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body.layout--single #main:has(> article.page--full-width-home) {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
