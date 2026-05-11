@@ -16,7 +16,7 @@ redirect_from:
     overflow-x: clip;
   }
 
-  body.layout--single:has(.page--full-width-home) {
+  body:has(.page--full-width-home) {
     padding-bottom: 0;
   }
 
@@ -37,6 +37,7 @@ redirect_from:
     display: none;
   }
 
+  #main > article.page.page--full-width-home,
   #main > article.page--full-width-home {
     float: none;
     width: 100%;
@@ -45,6 +46,7 @@ redirect_from:
     padding-right: 0;
   }
 
+  #main > article.page.page--full-width-home .page__inner-wrap,
   #main > article.page--full-width-home .page__inner-wrap {
     width: 100%;
     max-width: none;
