@@ -213,7 +213,7 @@ redirect_from:
   .page__content .home-identity-card {
     display: grid;
     grid-template-columns: auto 1fr;
-    gap: 0.65rem 0.9rem;
+    gap: 0.5rem 0.9rem;
     align-items: center;
     max-width: 560px;
     padding: 1rem 1.1rem;
@@ -244,7 +244,7 @@ redirect_from:
   .home-profile-meta {
     display: flex;
     flex-direction: column;
-    gap: 0.38rem;
+    gap: 0.18rem;
   }
 
   .home-profile-name {
@@ -511,7 +511,7 @@ redirect_from:
   }
 
   .home-featured {
-    margin-top: 0.85rem;
+    margin-top: 0.45rem;
     margin-bottom: 0;
     position: relative;
     z-index: 4;
@@ -526,8 +526,8 @@ redirect_from:
     display: block;
     width: 100%;
     box-sizing: border-box;
-    padding: 22px 18px 22px 10px;
-    border-radius: 20px;
+    padding: 14px 14px 14px 10px;
+    border-radius: 16px;
     background: #ffffff;
     border: 0.5px solid rgba(218, 223, 232, 0.95);
     box-shadow: none;
@@ -560,23 +560,23 @@ redirect_from:
 
   .home-novamatch-copy-top {
     display: grid;
-    grid-template-columns: 168px minmax(0, 1fr);
-    gap: 0.5rem;
+    grid-template-columns: 104px minmax(0, 1fr);
+    gap: 0.45rem;
     align-items: start;
   }
 
   .home-novamatch-title-row {
     display: flex;
     align-items: center;
-    gap: 0.7rem;
+    gap: 0.5rem;
     flex-wrap: nowrap;
   }
 
   .home-novamatch-wordmark {
     margin: 0;
-    font-size: 26px;
+    font-size: 20px;
     line-height: 1;
-    letter-spacing: -1.1px;
+    letter-spacing: -0.5px;
     font-weight: 800;
     flex: 0 0 auto;
   }
@@ -594,22 +594,22 @@ redirect_from:
     align-items: center;
     justify-content: center;
     flex: 0 0 auto;
-    min-height: 30px;
-    padding: 0 12px;
+    min-height: 24px;
+    padding: 0 9px;
     margin-top: 1px;
     border-radius: 999px;
     background: linear-gradient(135deg, #F2F8FF, #E6F2FF);
     border: 1px solid transparent;
     color: #4A8DFF;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
   }
 
-  .home-novamatch-description {
-    margin: 6px 0 0;
+  .page__content p.home-novamatch-description {
+    margin: 4px 0 0;
     max-width: 1000px;
-    font-size: 12px;
-    line-height: 1.55;
+    font-size: 14px;
+    line-height: 1.45;
     font-weight: 400;
     color: #5E6B85;
   }
@@ -643,17 +643,17 @@ redirect_from:
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 126px;
-    height: 126px;
-    border-radius: 28px;
+    width: 86px;
+    height: 86px;
+    border-radius: 20px;
     background: #ffffff;
     border: 0.5px solid rgba(218, 223, 232, 0.95);
     box-shadow: none;
   }
 
   .home-novamatch-logo-frame img {
-    width: 114px;
-    height: 114px;
+    width: 76px;
+    height: 76px;
     object-fit: contain;
   }
 
@@ -667,7 +667,7 @@ redirect_from:
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 0.35rem;
+    gap: 0.18rem;
     width: 100%;
   }
 
@@ -676,13 +676,13 @@ redirect_from:
     align-items: center;
     justify-content: center;
     flex: 0 0 auto;
-    min-height: 40px;
-    margin-top: 0.2rem;
-    padding: 0 22px;
-    border-radius: 16px;
+    min-height: 30px;
+    margin-top: 0.05rem;
+    padding: 0 14px;
+    border-radius: 12px;
     background: linear-gradient(135deg, #0F2D63, #2E7BFF);
     color: #ffffff;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 700;
     white-space: nowrap;
     text-decoration: none;
@@ -817,42 +817,43 @@ redirect_from:
     }
 
     .home-novamatch-module {
-      padding: 18px 14px 18px 10px;
+      padding: 13px 12px 13px 9px;
     }
 
     .home-novamatch-copy-top {
-      grid-template-columns: 124px minmax(0, 1fr);
-      gap: 0.55rem;
+      grid-template-columns: 92px minmax(0, 1fr);
+      gap: 0.45rem;
     }
 
     .home-novamatch-wordmark {
-      font-size: 23px;
+      font-size: 19px;
     }
 
-    .home-novamatch-description {
+    .page__content p.home-novamatch-description {
       max-width: 100%;
-      margin-top: 5px;
-      font-size: 11px;
-      line-height: 1.5;
+      margin-top: 4px;
+      font-size: 13px;
+      line-height: 1.42;
     }
 
     .home-novamatch-cta {
-      margin-top: 0.18rem;
+      margin-top: 0.05rem;
     }
 
     .home-novamatch-description-row {
       align-items: flex-start;
-      gap: 0.12rem;
+      gap: 0.1rem;
     }
 
     .home-novamatch-logo-frame {
-      width: 104px;
-      height: 104px;
+      width: 78px;
+      height: 78px;
+      border-radius: 18px;
     }
 
     .home-novamatch-logo-frame img {
-      width: 94px;
-      height: 94px;
+      width: 69px;
+      height: 69px;
     }
 
     .home-news-card {
