@@ -389,12 +389,9 @@ redirect_from:
   }
 
   .home-news-card {
-    display: grid;
+    display: block;
     width: 100%;
     box-sizing: border-box;
-    grid-template-columns: minmax(0, 1.3fr) minmax(280px, 0.7fr);
-    gap: 2rem;
-    align-items: center;
     padding: 1.6rem 1.75rem;
     border: 1px solid rgba(10, 42, 102, 0.08);
     border-radius: 28px;
@@ -711,7 +708,7 @@ redirect_from:
   }
 
   .home-news-map-wrap {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     min-height: 100%;
@@ -720,7 +717,9 @@ redirect_from:
   .home-visitor-map {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
+    min-height: 240px;
     padding: 0.85rem;
     border-radius: 24px;
     border: 1px solid rgba(120, 160, 255, 0.12);
@@ -1016,11 +1015,13 @@ redirect_from:
           </details>
         </div>
 
+        <!-- Visitor map is temporarily disabled because the ClustrMaps widget is unavailable.
         <div class="home-news-map-wrap">
           <div class="home-visitor-map">
-            <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=2db8dd&w=360&t=tt&d=t3RFq-d0ZvyNcMOXmNGt6JTnByrbHW0lSUzD_8Yfss4&co=ffffff&cmn=5bf35b&ct=161616'></script>
+            <script type='text/javascript' id='clustrmaps' src='https://cdn.clustrmaps.com/map_v2.js?cl=2db8dd&w=360&t=tt&d=t3RFq-d0ZvyNcMOXmNGt6JTnByrbHW0lSUzD_8Yfss4&co=ffffff&cmn=5bf35b&ct=161616'></script>
           </div>
         </div>
+        -->
       </div>
   </section>
 </div>
