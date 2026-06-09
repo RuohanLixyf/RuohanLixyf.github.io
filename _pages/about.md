@@ -129,7 +129,7 @@ redirect_from:
 
   .home-headline {
     margin: 0 0 0.82rem;
-    font-size: clamp(38px, 4vw, 62px);
+    font-size: clamp(24px, 2.5vw, 38px);
     line-height: 0.98;
     letter-spacing: -0.055em;
     font-weight: 800;
@@ -143,8 +143,8 @@ redirect_from:
   .home-bio {
     max-width: 620px;
     margin: 0 0 0.72rem;
-    font-size: 1.03rem;
-    line-height: 1.6;
+    font-size: 0.4rem;
+    line-height: 1.2;
     color: rgba(10, 42, 102, 0.72);
   }
 
