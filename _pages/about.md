@@ -140,10 +140,10 @@ redirect_from:
     color: #2d9fe5;
   }
 
-  .home-bio {
+  .page__content .home-bio {
     max-width: 620px;
-    margin: 0 0 0.72rem;
-    font-size: 0.4rem;
+    margin: 0 0 0.1rem;
+    font-size: 0.9rem;
     line-height: 1.2;
     color: rgba(10, 42, 102, 0.72);
   }
@@ -210,10 +210,10 @@ redirect_from:
     border-color: transparent;
   }
 
-  .home-identity-card {
+  .page__content .home-identity-card {
     display: grid;
     grid-template-columns: auto 1fr;
-    gap: 0.7rem 1.05rem;
+    gap: 0.65rem 0.9rem;
     align-items: center;
     max-width: 560px;
     padding: 1rem 1.1rem;
@@ -290,24 +290,41 @@ redirect_from:
   .home-links {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.8rem 1rem;
+    gap: 0.42rem;
     align-items: center;
     grid-column: 1 / -1;
-    margin-top: 0.15rem;
-    font-size: 0.92rem;
+    margin-top: 0.05rem;
   }
 
   .home-links a {
     display: inline-flex;
     align-items: center;
-    gap: 0.38rem;
+    justify-content: center;
+    width: 1.95rem;
+    height: 1.95rem;
+    border-radius: 999px;
+    border: 1px solid rgba(10, 42, 102, 0.08);
+    background: rgba(255, 255, 255, 0.58);
     color: rgba(10, 42, 102, 0.72);
     text-decoration: none;
-    transition: color 0.18s ease, transform 0.18s ease;
+    transition: color 0.18s ease, transform 0.18s ease, border-color 0.18s ease, background-color 0.18s ease;
   }
 
   .home-links i {
-    font-size: 0.95em;
+    font-size: 0.92rem;
+    line-height: 1;
+  }
+
+  .home-links span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
   }
 
   .home-links i.fa,
@@ -330,6 +347,8 @@ redirect_from:
   .home-links a:hover {
     color: var(--site-text-strong);
     transform: translateY(-1px);
+    border-color: rgba(50, 181, 255, 0.22);
+    background: rgba(50, 181, 255, 0.08);
   }
 
   .home-framework-shell {
@@ -885,11 +904,11 @@ redirect_from:
           </div>
 
           <div class="home-links">
-            <a href="mailto:ruohanli373@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i><span>Email</span></a>
-            <a href="https://scholar.google.com/citations?hl=zh-CN&user=aORBRHkAAAAJ" target="_blank"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span></a>
-            <a href="https://github.com/RuohanLixyf" target="_blank"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a>
-            <a href="https://www.linkedin.com/in/ruohan-li-28b878254" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
-            <a href="https://orcid.org/my-orcid?orcid=0000-0001-8102-7376" target="_blank"><i class="ai ai-orcid" aria-hidden="true"></i><span>ORCID</span></a>
+            <a href="mailto:ruohanli373@gmail.com" aria-label="Email"><i class="fa fa-envelope" aria-hidden="true"></i><span>Email</span></a>
+            <a href="https://scholar.google.com/citations?hl=zh-CN&user=aORBRHkAAAAJ" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span></a>
+            <a href="https://github.com/RuohanLixyf" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a>
+            <a href="https://www.linkedin.com/in/ruohan-li-28b878254" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
+            <a href="https://orcid.org/my-orcid?orcid=0000-0001-8102-7376" target="_blank" rel="noopener noreferrer" aria-label="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i><span>ORCID</span></a>
           </div>
         </div>
 
