@@ -1057,11 +1057,13 @@ redirect_from:
         </div>
 
 
+        <!-- Visitor map temporarily disabled.
         <div class="home-news-map-wrap">
           <div class="home-visitor-map">
             <a href='https://mapmyvisitors.com/web/1c6ne'  title='Visit tracker'><img src='https://mapmyvisitors.com/map.png?cl=0a2a66&w=a&t=tt&d=y0ANDnT92Jr7kSTOhpzObLiEJEHUAJs0Wv7TZPxy73g&co=ffffff&ct=32b5ff'/></a>
           </div>
         </div>
+        -->
 
       </div>
   </section>
