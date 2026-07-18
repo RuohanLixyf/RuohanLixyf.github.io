@@ -1015,13 +1015,13 @@ redirect_from:
           </details>
         </div>
 
-        <!-- Visitor map is temporarily disabled because the ClustrMaps widget is unavailable.
+
         <div class="home-news-map-wrap">
           <div class="home-visitor-map">
-            <script type='text/javascript' id='clustrmaps' src='https://cdn.clustrmaps.com/map_v2.js?cl=2db8dd&w=360&t=tt&d=t3RFq-d0ZvyNcMOXmNGt6JTnByrbHW0lSUzD_8Yfss4&co=ffffff&cmn=5bf35b&ct=161616'></script>
+            <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=y0ANDnT92Jr7kSTOhpzObLiEJEHUAJs0Wv7TZPxy73g&cl=ffffff&w=a"></script>
           </div>
         </div>
-        -->
+
       </div>
   </section>
 </div>
