@@ -1018,7 +1018,7 @@ redirect_from:
 
         <div class="home-news-map-wrap">
           <div class="home-visitor-map">
-            <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=y0ANDnT92Jr7kSTOhpzObLiEJEHUAJs0Wv7TZPxy73g&cl=ffffff&w=a"></script>
+            <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=0a2a66&w=a&t=tt&d=y0ANDnT92Jr7kSTOhpzObLiEJEHUAJs0Wv7TZPxy73g&co=ffffff&ct=32b5ff&cmo=32b5ff&cmn=ff5353'></script>
           </div>
         </div>
 
