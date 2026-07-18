@@ -743,6 +743,31 @@ redirect_from:
     background-color: transparent !important;
   }
 
+  .home-visitor-map #mapmyvisitors-widget,
+  .home-visitor-map .mapmyvisitors-map-container,
+  .home-visitor-map .mapmyvisitors-map {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .home-visitor-map .mapmyvisitors-map-container {
+    overflow: hidden;
+  }
+
+  .home-visitor-map .mapmyvisitors-map {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+  }
+
+  .home-visitor-map .mapmyvisitors-visitors {
+    position: absolute !important;
+    top: 12px;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+  }
+
   @media (max-width: 1080px) {
     .home-hero {
       grid-template-columns: 1fr;
