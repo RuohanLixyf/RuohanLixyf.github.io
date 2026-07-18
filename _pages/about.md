@@ -711,20 +711,30 @@ redirect_from:
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100%;
+    width: 100%;
   }
 
   .home-visitor-map {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    min-height: 240px;
-    padding: 0.85rem;
-    border-radius: 24px;
+    width: 300px;
+    height: 190px;
+    min-height: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 14px;
     border: 1px solid rgba(120, 160, 255, 0.12);
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.88), rgba(245, 249, 255, 0.72));
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4);
+  }
+
+  .home-visitor-map iframe,
+  .home-visitor-map img,
+  .home-visitor-map canvas {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
   }
 
   @media (max-width: 1080px) {
@@ -756,7 +766,7 @@ redirect_from:
     }
 
     .home-news-map-wrap {
-      justify-content: flex-start;
+      justify-content: center;
     }
   }
 
