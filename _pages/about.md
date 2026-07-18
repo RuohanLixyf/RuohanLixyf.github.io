@@ -737,6 +737,12 @@ redirect_from:
     max-height: 100%;
   }
 
+  /* MapMyVisitors currently returns an empty vector-map path set. Its
+     opaque canvas hides the PNG world-map fallback, so keep it transparent. */
+  .home-visitor-map .jvectormap-container {
+    background-color: transparent !important;
+  }
+
   @media (max-width: 1080px) {
     .home-hero {
       grid-template-columns: 1fr;
