@@ -1351,7 +1351,7 @@ redirect_from:
                 <span class="home-research-type home-research-type--paper">Research Paper</span>
               </div>
               <p class="home-research-paper-title">Shifting Transit Deserts and Transit Mirages: Rethinking the Interpretation of Transit Demand-Supply Imbalance</p>
-              <p class="home-research-venue">Transportation Research Part A · 2026 · Under Review</p>
+              <p class="home-research-venue">Transportation Research Part A · 2026 · Revision · AGU25 / TRB2026 Oral Presentation</p>
               <p class="home-research-description">High demand–supply imbalance does not necessarily indicate structural transit disadvantage.</p>
             </div>
             <div class="home-research-links" aria-label="Transit Mirage resources">
