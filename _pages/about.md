@@ -1164,8 +1164,22 @@ redirect_from:
     }
 
     .home-research-item--horizontal {
-      grid-template-columns: minmax(120px, 0.67fr) minmax(0, 0.33fr);
-      min-height: 145px;
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+    }
+
+    .home-research-item--horizontal .home-research-image-link {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16 / 7;
+    }
+
+    .home-research-item--horizontal .home-research-image-link img {
+      width: 100%;
+      height: 100%;
+      aspect-ratio: auto;
+      object-fit: contain;
     }
 
     .home-novamatch-module {
