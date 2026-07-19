@@ -1349,7 +1349,7 @@ redirect_from:
               </div>
               <p class="home-research-paper-title">Complete Trip: A Linked Multimodal Human Mobility Dataset</p>
               <p class="home-research-venue">TRB2026 / AGU25 Presentation · Open Dataset · 2026</p>
-              <p class="home-research-description">The first linked multimodal mobility dataset reconstructing complete journeys from passively collected LBS observations.</p>
+              <p class="home-research-description">The linked multimodal mobility dataset reconstructing complete journeys from passively collected LBS observations.</p>
             </div>
             <div class="home-research-links" aria-label="Complete Trip resources">
               <a class="home-research-link--paper" href="/publications/"><i class="fa fa-file-alt" aria-hidden="true"></i> arXiv</a>
