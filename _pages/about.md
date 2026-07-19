@@ -1150,6 +1150,11 @@ redirect_from:
       width: 100%;
     }
 
+    .home-research-visual {
+      width: 100%;
+      aspect-ratio: 16 / 7;
+    }
+
     .home-research-name {
       font-size: 1.02rem;
     }
