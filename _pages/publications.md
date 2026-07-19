@@ -7,6 +7,8 @@ header: false
 ---
   
 ## Under Review
+* **Ruohan Li#**, Weiyu Luo#, Xin Wu, Chenfeng Xiong*. Complete Trip: A Linked Multimodal Human Mobility Dataset. 2026. [Preprint]() [Dataset](https://github.com/villanova-transportation/Complete-Trip-Data) [Demo](https://ruohanlixyf.github.io/Complete-Trip-Data-Explorer/explorer.html)
+
 * **Ruohan Li**, Xin Wu, Chenfeng Xiong*. How Much of a Trajectory Is Needed? PM-Tree: Priority-Guided Hierarchical Trajectory Representation. <var>IEEE Transactions on Intelligent Transportation Systems</var>. 2026. [Under Review]
 
 * **Ruohan Li**, Weiyu Luo, Xin Wu, Kailun Liu, Lele Zhang, Chenfeng Xiong*. Shifting Transit Deserts and Transit Mirages: Toward a Behavioral–Dynamic Framework for Transit Equity Measurement. <var>Transportation Research Part A: Policy and Practice</var>. 2025. [Revision]
