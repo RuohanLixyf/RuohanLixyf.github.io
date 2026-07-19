@@ -1331,7 +1331,7 @@ redirect_from:
   <section class="home-research" aria-labelledby="selected-research-heading">
     <div class="home-news-card">
       <div class="home-news-heading">
-        <h2 id="selected-research-heading">Selected Research</h2>
+        <h2 id="selected-research-heading">Current Research</h2>
         <span class="home-news-badge">Featured work</span>
       </div>
 
