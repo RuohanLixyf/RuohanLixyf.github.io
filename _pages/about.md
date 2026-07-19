@@ -383,6 +383,291 @@ redirect_from:
     background: transparent;
   }
 
+  .home-research {
+    margin-top: 0;
+    margin-bottom: 0.55rem;
+  }
+
+  .home-research > .home-news-card {
+    padding: 0.8rem 0.9rem;
+    border-radius: 18px;
+  }
+
+  .home-research .home-news-heading {
+    margin-bottom: 0.45rem;
+  }
+
+  .home-research .home-news-heading h2 {
+    font-size: 1.18rem;
+  }
+
+  .home-research .home-news-badge {
+    padding: 0.22rem 0.55rem;
+    font-size: 0.82rem;
+  }
+
+  .home-research-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.55rem;
+    margin-top: 0;
+  }
+
+  .home-research-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.42rem;
+    min-width: 0;
+    padding: 0.5rem;
+    border: 1px solid var(--site-border);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.58);
+  }
+
+  .home-research-image-link {
+    display: block;
+    border: 1px solid var(--site-border);
+    border-radius: 9px;
+    overflow: hidden;
+    background: rgba(242, 247, 255, 0.72);
+    box-shadow: 0 4px 12px rgba(10, 42, 102, 0.04);
+    text-decoration: none;
+  }
+
+  .home-research-image-link img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 4;
+    height: auto;
+    object-fit: contain;
+    background: #ffffff;
+    transition: transform 0.2s ease;
+  }
+
+  .home-research-image-link:hover img {
+    transform: scale(1.03);
+  }
+
+  .home-research-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 0.03rem;
+    min-width: 0;
+  }
+
+  .home-research-title {
+    margin: 0;
+    font-size: clamp(0.98rem, 1.3vw, 1.16rem);
+    line-height: 1.35;
+    font-weight: 750;
+    letter-spacing: -0.015em;
+    color: var(--site-text-strong);
+  }
+
+  .home-research-title-row {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    flex-wrap: wrap;
+  }
+
+  .home-research-name {
+    margin: 0;
+    color: var(--site-text-strong);
+    font-size: 1.08rem;
+    line-height: 1.25;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+
+  .home-research-type {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.16rem 0.38rem;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    font-size: 0.64rem;
+    line-height: 1;
+    font-weight: 750;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .home-research-type--dataset {
+    border-color: rgba(27, 135, 84, 0.2);
+    background: rgba(35, 164, 96, 0.11);
+    color: #137044;
+  }
+
+  .home-research-type--paper {
+    border-color: rgba(45, 126, 229, 0.2);
+    background: rgba(50, 181, 255, 0.12);
+    color: #145da0;
+  }
+
+  .home-research-type--algorithm {
+    border-color: rgba(220, 38, 60, 0.52);
+    background: #fff0f2;
+    color: #c1122f;
+    box-shadow: 0 0 0 1px rgba(220, 38, 60, 0.05);
+  }
+
+  .page__content p.home-research-paper-title {
+    margin: 0.1rem 0 0;
+    color: var(--site-text);
+    font-size: 0.76rem;
+    line-height: 1.24;
+    font-weight: 600;
+  }
+
+  .page__content p.home-research-venue {
+    margin: 0.02rem 0 0;
+    font-size: 0.69rem;
+    line-height: 1.2;
+    color: var(--site-text-muted);
+  }
+
+  .page__content p.home-research-description {
+    margin: 0.12rem 0 0;
+    padding: 0.28rem 0.42rem;
+    border-left: 2px solid var(--site-accent);
+    border-radius: 0 6px 6px 0;
+    background: rgba(50, 181, 255, 0.07);
+    font-size: 0.7rem;
+    line-height: 1.3;
+    font-weight: 500;
+    color: var(--site-text);
+  }
+
+  .home-research-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+  }
+
+  .home-research-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.24rem 0.48rem;
+    border-radius: 6px;
+    border: 1px solid rgba(50, 181, 255, 0.2);
+    background: var(--site-accent-soft);
+    color: var(--site-text);
+    font-size: 0.75rem;
+    line-height: 1;
+    font-weight: 700;
+    text-decoration: none;
+    transition: transform 0.18s ease, border-color 0.18s ease, color 0.18s ease;
+  }
+
+  .home-research-links a:hover {
+    transform: translateY(-1px);
+    border-color: rgba(50, 181, 255, 0.24);
+    color: var(--site-text-strong);
+    background: rgba(50, 181, 255, 0.18);
+    text-decoration: none;
+  }
+
+  .home-research-links i {
+    font-size: 0.88em;
+  }
+
+  .home-research-links .home-research-link--paper {
+    border-color: rgba(220, 53, 69, 0.2);
+    background: rgba(220, 53, 69, 0.09);
+    color: #a82332;
+  }
+
+  .home-research-links .home-research-link--data {
+    border-color: rgba(27, 135, 84, 0.2);
+    background: rgba(35, 164, 96, 0.1);
+    color: #137044;
+  }
+
+  .home-research-links .home-research-link--demo {
+    border-color: rgba(205, 139, 20, 0.22);
+    background: rgba(233, 169, 45, 0.12);
+    color: #98620a;
+  }
+
+  .home-research-links .home-research-link--project {
+    border-color: rgba(127, 86, 217, 0.2);
+    background: rgba(127, 86, 217, 0.1);
+    color: #6842b8;
+  }
+
+  .home-research-links .home-research-link--scholar {
+    border-color: rgba(45, 126, 229, 0.2);
+    background: rgba(50, 181, 255, 0.11);
+    color: #145da0;
+  }
+
+  .home-research-visual {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    aspect-ratio: 16 / 4;
+    overflow: hidden;
+    border: 1px solid var(--site-border);
+    border-radius: 9px;
+    background: #ffffff;
+    color: var(--site-text);
+    text-decoration: none;
+  }
+
+  .home-research-visual::before,
+  .home-research-visual::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    background: rgba(50, 181, 255, 0.1);
+  }
+
+  .home-research-visual::before {
+    width: 42%;
+    height: 5px;
+    transform: rotate(-8deg);
+  }
+
+  .home-research-visual::after {
+    width: 28%;
+    height: 5px;
+    transform: translate(32%, 9px) rotate(9deg);
+  }
+
+  .home-research-visual span {
+    position: relative;
+    z-index: 1;
+    padding: 0.28rem 0.7rem;
+    border-radius: 999px;
+    background: #ffffff;
+    box-shadow: 0 4px 14px rgba(10, 42, 102, 0.08);
+    font-size: 0.72rem;
+    font-weight: 800;
+  }
+
+  .home-research-item--horizontal {
+    display: grid;
+    grid-template-columns: minmax(130px, 0.67fr) minmax(0, 0.33fr);
+    align-items: stretch;
+    min-height: 150px;
+  }
+
+  .home-research-item--horizontal .home-research-image-link {
+    height: 100%;
+  }
+
+  .home-research-item--horizontal .home-research-image-link img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: auto;
+    object-fit: contain;
+  }
+
   .home-news {
     margin-top: 0;
     margin-bottom: 0;
@@ -856,6 +1141,28 @@ redirect_from:
       gap: 0.55rem;
     }
 
+    .home-research-item {
+      gap: 0.4rem;
+      padding: 0.45rem;
+    }
+
+    .home-research-image-link {
+      width: 100%;
+    }
+
+    .home-research-name {
+      font-size: 1.02rem;
+    }
+
+    .home-research-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .home-research-item--horizontal {
+      grid-template-columns: minmax(120px, 0.67fr) minmax(0, 0.33fr);
+      min-height: 145px;
+    }
+
     .home-novamatch-module {
       padding: 13px 12px 13px 9px;
     }
@@ -999,6 +1306,104 @@ redirect_from:
         scrolling="no"
         frameborder="0">
       </iframe>
+    </div>
+  </section>
+
+  <section class="home-research" aria-labelledby="selected-research-heading">
+    <div class="home-news-card">
+      <div class="home-news-heading">
+        <h2 id="selected-research-heading">Selected Research</h2>
+        <span class="home-news-badge">Featured work</span>
+      </div>
+
+      <div class="home-research-grid">
+        <article class="home-research-item">
+          <a class="home-research-image-link" href="https://ruohanlixyf.github.io/Complete-Trip-Data-Explorer/explorer.html" target="_blank" rel="noopener noreferrer" aria-label="Open Complete Trip demo">
+            <img src="/images/CompleteTrip.png" alt="Complete Trip research preview">
+          </a>
+          <div class="home-research-content">
+            <div>
+              <div class="home-research-title-row">
+                <h3 class="home-research-name">Complete Trip</h3>
+                <span class="home-research-type home-research-type--dataset">Dataset</span>
+                <span class="home-research-type home-research-type--paper">Research Paper</span>
+              </div>
+              <p class="home-research-paper-title">Complete Trip: A Linked Multimodal Human Mobility Dataset</p>
+              <p class="home-research-venue">TRB2026 / AGU25 Presentation · Open Dataset · 2026</p>
+              <p class="home-research-description">The first linked multimodal mobility dataset reconstructing complete journeys from passively collected LBS observations.</p>
+            </div>
+            <div class="home-research-links" aria-label="Complete Trip resources">
+              <a class="home-research-link--paper" href="/publications/"><i class="fa fa-file-alt" aria-hidden="true"></i> arXiv</a>
+              <a class="home-research-link--data" href="https://github.com/villanova-transportation/Complete-Trip-Data" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> Data</a>
+              <a class="home-research-link--demo" href="https://ruohanlixyf.github.io/Complete-Trip-Data-Explorer/explorer.html" target="_blank" rel="noopener noreferrer"><i class="fa fa-chart-line" aria-hidden="true"></i> Explorer</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="home-research-item">
+          <a class="home-research-image-link" href="/transitdesert/" aria-label="Open Transit Mirage project page">
+            <img src="/images/TransitMirage.png" alt="Transit Mirage research preview">
+          </a>
+          <div class="home-research-content">
+            <div>
+              <div class="home-research-title-row">
+                <h3 class="home-research-name">Transit Mirage</h3>
+                <span class="home-research-type home-research-type--paper">Research Paper</span>
+              </div>
+              <p class="home-research-paper-title">Shifting Transit Deserts and Transit Mirages: Rethinking the Interpretation of Transit Demand-Supply Imbalance</p>
+              <p class="home-research-venue">Transportation Research Part A · 2026 · Under Review</p>
+              <p class="home-research-description">High demand–supply imbalance does not necessarily indicate structural transit disadvantage.</p>
+            </div>
+            <div class="home-research-links" aria-label="Transit Mirage resources">
+              <a class="home-research-link--paper" href="/publications/"><i class="fa fa-file-alt" aria-hidden="true"></i> Paper</a>
+              <a class="home-research-link--project" href="/transitdesert/"><i class="fa fa-map" aria-hidden="true"></i> Project</a>
+              <a class="home-research-link--scholar" href="https://scholar.google.com/citations?hl=zh-CN&amp;user=aORBRHkAAAAJ" target="_blank" rel="noopener noreferrer"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Scholar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="home-research-item home-research-item--horizontal">
+          <a class="home-research-image-link" href="/publications/" aria-label="View PM-Tree publication">
+            <img src="/images/pmtree/pmtree_build_animation.gif" alt="Animated visualization of the PM-Tree construction process">
+          </a>
+          <div class="home-research-content">
+            <div>
+              <div class="home-research-title-row">
+                <h3 class="home-research-name">PM-Tree</h3>
+                <span class="home-research-type home-research-type--algorithm">Algorithm</span>
+                <span class="home-research-type home-research-type--paper">Research Paper</span>
+              </div>
+              <p class="home-research-paper-title">How Much of a Trajectory Is Needed? PM-Tree: Priority-Guided Hierarchical Trajectory Representation</p>
+              <p class="home-research-venue">IEEE Transactions on Intelligent Transportation Systems · 2026 · Under Review</p>
+              <p class="home-research-description">Only 3% of trajectory observations can preserve over 96% of structural information.</p>
+            </div>
+            <div class="home-research-links" aria-label="PM-Tree resources">
+              <a class="home-research-link--paper" href="/publications/"><i class="fa fa-file-alt" aria-hidden="true"></i> Paper</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="home-research-item home-research-item--horizontal">
+          <a class="home-research-image-link" href="/publications/" aria-label="View Sup-HMM publication">
+            <img src="/images/suphmm/framework.png" alt="Sup-HMM framework">
+          </a>
+          <div class="home-research-content">
+            <div>
+              <div class="home-research-title-row">
+                <h3 class="home-research-name">Sup-HMM</h3>
+                <span class="home-research-type home-research-type--algorithm">Algorithm</span>
+                <span class="home-research-type home-research-type--paper">Research Paper</span>
+              </div>
+              <p class="home-research-paper-title">Taming Volatile Trajectories: Sup-HMM, a Bayesian-Optimized Hidden Markov Model for Map Matching of Location-Based Service Data</p>
+              <p class="home-research-venue">IEEE Transactions on Intelligent Transportation Systems · 2025 · Revision</p>
+              <p class="home-research-description">Bayesian optimization improves map matching under extremely sparse trajectories.</p>
+            </div>
+            <div class="home-research-links" aria-label="Sup-HMM resources">
+              <a class="home-research-link--paper" href="/publications/"><i class="fa fa-file-alt" aria-hidden="true"></i> Paper</a>
+            </div>
+          </div>
+        </article>
+      </div>
     </div>
   </section>
 
