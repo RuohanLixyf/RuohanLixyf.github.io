@@ -1431,13 +1431,13 @@ redirect_from:
         <div class="home-news-content">
           <div class="home-news-heading">
             <h2>News</h2>
-            <span class="home-news-badge">Latest update &middot; 05/2026</span>
+            <span class="home-news-badge">Latest update &middot; 07/2026</span>
           </div>
 
           <div class="about-news-ticker" id="about-news-ticker">
             <div class="about-news-ticker-viewport">
               <div class="about-news-item is-active">
-                <strong>05/2026:</strong> Launched a redesigned academic homepage and updated the research framework around structural mobility modeling, trajectory representation, and cross-network mobility systems.
+                <strong>07/2026:</strong> Our lab's latest dataset paper, **Complete Trip: A Linked Multimodal Human Mobility Dataset**, is now publicly available on arXiv. [Paper](https://arxiv.org/abs/2607.15436).
               </div>
               <div class="about-news-item">
                 <strong>10/2025:</strong> I will present my paper <em>Rethinking <strong>Transit Deserts</strong>: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data</em> at the <strong>TRB 105th Annual Meeting</strong>, as the <strong>first presenter</strong> in <strong>Lectern Session 4018: Evaluation of Non-Conventional Transit Impacts</strong> <span style="color:#32B5FF">(Wednesday, Jan 14, 8:00-9:45 AM, Room 150B, Convention Center)</span>. Welcome to attend and join the discussion!
