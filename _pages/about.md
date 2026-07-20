@@ -1437,7 +1437,7 @@ redirect_from:
           <div class="about-news-ticker" id="about-news-ticker">
             <div class="about-news-ticker-viewport">
               <div class="about-news-item is-active">
-                <strong>07/2026:</strong> Our lab's latest dataset paper, **Complete Trip: A Linked Multimodal Human Mobility Dataset**, is now publicly available on arXiv. [Paper](https://arxiv.org/abs/2607.15436).
+                <strong>07/2026:</strong> Our lab's latest dataset paper, <strong>Complete Trip: A Linked Multimodal Human Mobility Dataset</strong>, is now publicly available on arXiv. <a href="https://arxiv.org/abs/2607.15436">arXiv</a>.
               </div>
               <div class="about-news-item">
                 <strong>10/2025:</strong> I will present my paper <em>Rethinking <strong>Transit Deserts</strong>: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data</em> at the <strong>TRB 105th Annual Meeting</strong>, as the <strong>first presenter</strong> in <strong>Lectern Session 4018: Evaluation of Non-Conventional Transit Impacts</strong> <span style="color:#32B5FF">(Wednesday, Jan 14, 8:00-9:45 AM, Room 150B, Convention Center)</span>. Welcome to attend and join the discussion!
