@@ -1352,7 +1352,7 @@ redirect_from:
               <p class="home-research-description">The linked multimodal mobility dataset reconstructing complete journeys from passively collected LBS observations.</p>
             </div>
             <div class="home-research-links" aria-label="Complete Trip resources">
-              <a class="home-research-link--paper" href="/publications/"><i class="fa fa-file-alt" aria-hidden="true"></i> arXiv</a>
+              <a class="home-research-link--paper" href="https://arxiv.org/abs/2607.15436"><i class="fa fa-file-alt" aria-hidden="true"></i> arXiv</a>
               <a class="home-research-link--data" href="https://github.com/villanova-transportation/Complete-Trip-Data" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> Data</a>
               <a class="home-research-link--demo" href="https://ruohanlixyf.github.io/Complete-Trip-Data-Explorer/explorer.html" target="_blank" rel="noopener noreferrer"><i class="fa fa-chart-line" aria-hidden="true"></i> Explorer</a>
             </div>
