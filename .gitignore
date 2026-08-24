@@ -1,2 +1,5 @@
 _site/
 
+# Private NovaMatch Docker release; never publish algorithms, images, or graphs.
+NovaMatch_v1.0/
+
