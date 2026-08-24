@@ -1289,7 +1289,7 @@ redirect_from:
             <div class="home-novamatch-copy">
               <div class="home-novamatch-copy-top">
                 <div class="home-novamatch-logo-block">
-                  <a class="home-novamatch-logo-link" href="/novamatch-layout-b/" aria-label="Open NovaMatch Framework page">
+                  <a class="home-novamatch-logo-link" href="/novamatch/" aria-label="Open the NovaMatch page">
                     <div class="home-novamatch-logo-frame">
                       <img src="/images/NovaMatch log.png" alt="NovaMatch logo">
                     </div>
@@ -1307,7 +1307,7 @@ redirect_from:
                       NovaMatch is a unified trajectory processing ecosystem that integrating map matching, cross-network translation, structural representation, and mobility analytics. It transforms raw mobility observations into knowledge that supports transportation systems research, planning, policy and other downstream task.
                     </p>
 
-                    <a class="home-novamatch-cta" href="/novamatch-layout-b/">Explore NovaMatch Framework &rarr;</a>
+                    <a class="home-novamatch-cta" href="/novamatch/">Explore NovaMatch Framework &rarr;</a>
                   </div>
                 </div>
               </div>
