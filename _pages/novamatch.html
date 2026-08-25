@@ -183,7 +183,7 @@ maplibre: true
     document.getElementById('clear-points').classList.toggle('visible',drawMode);document.getElementById('map-hint').textContent=drawMode?'Draw inside the dashed graph boundary · automatic network map matching':'Synthetic, anonymized Villanova → Cabrini sample';
     matchRevision++;drawPoints=[];document.getElementById('observation-count').textContent=drawMode?'0':observations.length;if(map.getSource('nova-observations'))map.getSource('nova-observations').setData(pointCollection(drawMode?drawPoints:observations));if(map.getSource('nova-matched'))map.getSource('nova-matched').setData(lineCollection([]));if(map.getLayer('matched'))map.setLayoutProperty('matched','visibility','none');setCampusVisibility(!drawMode);setDrawBoundaryVisibility(drawMode);document.getElementById('live-status').innerHTML=drawMode?'<i></i>Click inside the boundary · points will auto-match to the network':'<i></i>Ready · '+observations.length+' road-derived observations loaded';if(drawMode)map.fitBounds([[-75.381,40.032],[-75.333,40.063]],{padding:48,duration:500});else map.fitBounds([[-75.382,40.027],[-75.331,40.063]],{padding:45,duration:500});
   })});
-  map.on('click',function(e){if(!drawMode)return;var point=[e.lngLat.lng,e.lngLat.lat];if(!isInsideDrawBoundary(point)){document.getElementById('live-status').innerHTML='<i></i>Outside the supported graph · draw inside the dashed boundary';return}drawPoints.push(point);map.getSource('nova-observations').setData(pointCollection(drawPoints));document.getElementById('observation-count').textContent=drawPoints.length;document.getElementById('live-status').innerHTML='<i></i>'+drawPoints.length+' observations · ready for automatic network matching';});
+  map.on('click',function(e){if(!drawMode)return;if(drawPoints.length>=100){document.getElementById('live-status').innerHTML='<i></i>Maximum 100 observations per request';return}var point=[e.lngLat.lng,e.lngLat.lat];if(!isInsideDrawBoundary(point)){document.getElementById('live-status').innerHTML='<i></i>Outside the supported graph · draw inside the dashed boundary';return}drawPoints.push(point);map.getSource('nova-observations').setData(pointCollection(drawPoints));document.getElementById('observation-count').textContent=drawPoints.length;document.getElementById('live-status').innerHTML='<i></i>'+drawPoints.length+' observations · ready for automatic network matching';});
   document.getElementById('clear-points').addEventListener('click',function(){matchRevision++;drawPoints=[];map.getSource('nova-observations').setData(pointCollection([]));map.getSource('nova-matched').setData(lineCollection([]));map.setLayoutProperty('matched','visibility','none');document.getElementById('observation-count').textContent='0';var stats=document.querySelectorAll('.demo-stat b');if(stats[1])stats[1].textContent='—';if(stats[2])stats[2].textContent='—';document.getElementById('live-status').innerHTML='<i></i>Map cleared · click to add observations';});
   document.querySelectorAll('[data-live-layer]').forEach(function(input){input.addEventListener('change',function(){var id=input.dataset.liveLayer;var visibility=input.checked?'visible':'none';if(map.getLayer(id))map.setLayoutProperty(id,'visibility',visibility);if(id==='observations'&&map.getLayer('observation-halo'))map.setLayoutProperty('observation-halo','visibility',visibility)})});
   document.getElementById('live-run').addEventListener('click',async function(){
@@ -191,17 +191,27 @@ maplibre: true
     var requestRevision=++matchRevision;
     var points=drawMode?drawPoints:observations;
     if(points.length<2){status.innerHTML='<i></i>Add at least two observations';return}
-    var apiBase=window.NOVAMATCH_API_URL||(location.hostname==='127.0.0.1'||location.hostname==='localhost'?'http://127.0.0.1:8000':'https://novamatch-api.onrender.com');
-    button.disabled=true;map.setLayoutProperty('matched','visibility','none');status.innerHTML='<i></i>Stage 1 · building trajectory';
-    setTimeout(function(){if(button.disabled)status.innerHTML='<i></i>Stage 2 · NovaMatch HMM inference'},450);
-    if(!apiBase){
-      if(drawMode){status.innerHTML='<i></i>Live API is not configured for this deployment';button.disabled=false;return}
-      setTimeout(function(){map.getSource('nova-matched').setData(lineCollection([route]));map.setLayoutProperty('matched','visibility','visible');status.innerHTML='<i></i>Preview · connect the NovaMatch API for live inference';button.disabled=false},900);return
-    }
+    var localDefault=(location.hostname==='127.0.0.1'||location.hostname==='localhost')?'http://127.0.0.1:8000':'';
+    var localApi=window.NOVAMATCH_LOCAL_API_URL||window.NOVAMATCH_API_URL||localDefault;
+    var fallbackApi=window.NOVAMATCH_RENDER_API_URL||'https://novamatch-api.onrender.com';
+    var apiCandidates=[];[localApi,fallbackApi].forEach(function(url){if(url&&apiCandidates.indexOf(url.replace(/\/$/,''))<0)apiCandidates.push(url.replace(/\/$/,''))});
+    button.disabled=true;map.setLayoutProperty('matched','visibility','none');status.innerHTML='<i></i>Computing on NovaMatch · please wait…';
     try{
-      var response=await fetch(apiBase+'/api/map-match',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({region:'villanova',algorithm:'HMM',trajectory:{id:'web_'+Date.now(),points:points.map(function(point){return{lon:point[0],lat:point[1]}})}})});
-      var result=await response.json();
-      if(!response.ok)throw new Error(result.detail||'NovaMatch request failed');
+      var payload=JSON.stringify({region:'villanova',algorithm:'HMM',trajectory:{id:'web_'+Date.now(),points:points.map(function(point){return{lon:point[0],lat:point[1]}})}});
+      var result,lastError;
+      for(var apiIndex=0;apiIndex<apiCandidates.length;apiIndex++){
+        var apiBase=apiCandidates[apiIndex],isFallback=apiIndex>0;
+        if(isFallback)status.innerHTML='<i></i>Primary compute is unavailable · switching to backup…';
+        try{
+          var controller=new AbortController(),timeout=setTimeout(function(){controller.abort()},isFallback?45000:15000);
+          var response=await fetch(apiBase+'/api/map-match',{method:'POST',headers:{'Content-Type':'application/json'},body:payload,signal:controller.signal});
+          clearTimeout(timeout);
+          var responseBody=await response.json();
+          if(!response.ok){var responseError=new Error(responseBody.detail||'NovaMatch request failed');responseError.status=response.status;throw responseError}
+          result=responseBody;break;
+        }catch(requestError){lastError=requestError;if(requestError.status&&requestError.status<500)break}
+      }
+      if(!result)throw new Error(lastError&&lastError.name==='AbortError'?'NovaMatch timed out. Please try again.':(lastError&&lastError.message)||'NovaMatch is temporarily unavailable');
       if(requestRevision!==matchRevision)return;
       map.getSource('nova-matched').setData({type:'FeatureCollection',features:[result.matched]});map.setLayoutProperty('matched','visibility','visible');
       var stats=document.querySelectorAll('.demo-stat b');if(stats[0])stats[0].textContent=result.statistics.n_points;if(stats[1])stats[1].textContent=result.statistics.matched_records;if(stats[2])stats[2].textContent=(result.statistics.runtime_ms/1000).toFixed(2)+' s';
