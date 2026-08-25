@@ -191,7 +191,7 @@ maplibre: true
     var requestRevision=++matchRevision;
     var points=drawMode?drawPoints:observations;
     if(points.length<2){status.innerHTML='<i></i>Add at least two observations';return}
-    var apiBase=window.NOVAMATCH_API_URL||(location.hostname==='127.0.0.1'||location.hostname==='localhost'?'http://127.0.0.1:8000':'');
+    var apiBase=window.NOVAMATCH_API_URL||(location.hostname==='127.0.0.1'||location.hostname==='localhost'?'http://127.0.0.1:8000':'https://novamatch-api.onrender.com');
     button.disabled=true;map.setLayoutProperty('matched','visibility','none');status.innerHTML='<i></i>Stage 1 · building trajectory';
     setTimeout(function(){if(button.disabled)status.innerHTML='<i></i>Stage 2 · NovaMatch HMM inference'},450);
     if(!apiBase){
