@@ -734,21 +734,13 @@ redirect_from:
   }
 
   .about-news-ticker-viewport {
-    position: relative;
-    min-height: 245px;
-    overflow: hidden;
+    display: block;
   }
 
   .about-news-item {
-    position: absolute;
-    inset: 0;
     display: grid;
     grid-template-rows: repeat(2, minmax(0, 1fr));
     gap: 0.8rem;
-    opacity: 0;
-    transform: translateY(12px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
-    pointer-events: none;
     line-height: 1.7;
     color: rgba(10, 42, 102, 0.78);
     overflow-wrap: anywhere;
@@ -757,15 +749,11 @@ redirect_from:
 
   .about-news-entry {
     padding: 0.75rem 0.9rem;
-    border-left: 3px solid rgba(50, 181, 255, 0.42);
+    border-left: 3px solid rgba(209, 153, 82, 0.42);
     border-radius: 0 12px 12px 0;
-    background: rgba(50, 181, 255, 0.045);
-  }
-
-  .about-news-item.is-active {
-    opacity: 1;
-    transform: translateY(0);
-    pointer-events: auto;
+    background: rgba(250, 240, 224, 0.62);
+    font-size: 0.88rem;
+    line-height: 1.6;
   }
 
   .about-news-archive {
@@ -1241,10 +1229,6 @@ redirect_from:
       white-space: normal;
     }
 
-    .about-news-ticker-viewport {
-      min-height: 430px;
-    }
-
     .home-novamatch-copy-top {
       grid-template-columns: 1fr;
     }
@@ -1450,12 +1434,8 @@ redirect_from:
 
           <div class="about-news-ticker" id="about-news-ticker">
             <div class="about-news-ticker-viewport">
-              <div class="about-news-item is-active">
-                <div class="about-news-entry"><strong>2027:</strong> <strong>Ruohan Li</strong>, Xin Wu, Chenfeng Xion&#x67;*. <em>How Much of a Trajectory Is Needed? PM-Tree: Priority-Guided Hierarchical Trajectory Representation</em>. <em>TRB 106th Annual Meeting</em>, 2027.</div>
-                <div class="about-news-entry"><strong>2027:</strong> <strong>Ruohan Li</strong>, Adriana Valentina Farias, Shanjiang Zhu, Chenfeng Xion&#x67;*. <em>Do Observed Trips Follow Zone Connector Assumptions? Empirical Evidence on Path-Level Inference Bias in Regional Planning Models</em>. <em>TRB 106th Annual Meeting</em>, 2027.</div>
-              </div>
               <div class="about-news-item">
-                <div class="about-news-entry"><strong>2027:</strong> Qingyuan Gao, Weiyu Luo, Xin Wu, <strong>Ruohan Li</strong>, Minghan Li, Yang Yang, Chenfeng Xion&#x67;*. <em>Measuring Tourism Visiting Pattern Using Location-Based Service (LBS) Data: A Case Study of Utah Ski Resorts Spillover Effect</em>. <em>TRB 106th Annual Meeting</em>, 2027.</div>
+                <div class="about-news-entry"><strong>2027:</strong> Three of my papers have been accepted for presentation at the <strong>TRB 106th Annual Meeting</strong>! 🎉</div>
                 <div class="about-news-entry"><strong>2026:</strong> 🎉 My first paper from my Ph.D. journey has finally been accepted! <strong>Ruohan Li#</strong>, Xin Wu#, Weiyu Luo, Arash Tavakoli, C. Nataraja, Chenfeng Xiong*. <em>Taming Volatile Trajectories: Sup-HMM, a Bayesian-Optimized Hidden Markov Model for Map Matching of Location-Based Service Data</em>. <em>IEEE Transactions on Intelligent Transportation Systems</em>, 2026. <strong>Accepted as a Regular Paper (27-Sep-2026).</strong></div>
               </div>
             </div>
@@ -1510,30 +1490,6 @@ redirect_from:
       </div>
   </section>
 </div>
-
-<script>
-  (function () {
-    const ticker = document.getElementById('about-news-ticker');
-
-    if (!ticker) {
-      return;
-    }
-
-    const items = Array.from(ticker.querySelectorAll('.about-news-item'));
-
-    if (items.length <= 1) {
-      return;
-    }
-
-    let activeIndex = 0;
-
-    window.setInterval(() => {
-      items[activeIndex].classList.remove('is-active');
-      activeIndex = (activeIndex + 1) % items.length;
-      items[activeIndex].classList.add('is-active');
-    }, 10000);
-  }());
-</script>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-NM1JF81S4Y"></script>

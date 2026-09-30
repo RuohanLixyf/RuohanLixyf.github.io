@@ -120,11 +120,11 @@ const nodes = [
   },
 
   {
-    title: "Trajectory",
+    title: "Mobility Data",
     x: 45,
     y: 45,
     size: 232,
-    description: "Raw large-scale mobility trajectories",
+    description: "Raw large-scale mobility data",
     hasTrail: true
   },
 
@@ -384,7 +384,7 @@ function renderFieldCloud() {
           <circle cx="126" cy="190" r="2.4"></circle>
         </g>
       </svg>
-      <div class="rf-field-cloud__caption">Toward trajectory structure</div>
+      <div class="rf-field-cloud__caption">From Observations to Mobility Representations</div>
     </div>
   `;
 }
@@ -628,7 +628,7 @@ function scheduleConnectorSync(duration = NODE_TRANSITION_MS + 120) {
 }
 
 function updateConnectorPaths() {
-  const trajectoryNode = nodeElements.find(({ config }) => config.title === "Trajectory");
+  const trajectoryNode = nodeElements.find(({ config }) => config.title === "Mobility Data");
 
   if (!trajectoryNode) {
     return;
@@ -643,7 +643,7 @@ function updateConnectorPaths() {
   connectorSvg.setAttribute("viewBox", `0 0 ${root.clientWidth} ${root.clientHeight}`);
 
   nodeElements.forEach(({ element, config }) => {
-    if (config.title === "Trajectory") {
+    if (config.title === "Mobility Data") {
       return;
     }
 
@@ -661,7 +661,7 @@ function updateConnectorPaths() {
     const distance = Math.hypot(dx, dy) || 1;
     const ux = dx / distance;
     const uy = dy / distance;
-    const endRadius = rect.width / 2;
+    const endRadius = config.hasFieldCloud ? 0 : rect.width / 2;
     const sx = startX + ux * (trajectoryRadius - 6);
     const sy = startY + uy * (trajectoryRadius - 6);
     const ex = endX - ux * (endRadius - 10);
@@ -880,7 +880,7 @@ function layoutFramework() {
       size,
       x: left,
       y: top,
-      protected: config.title === "Trajectory"
+      protected: config.title === "Mobility Data"
     });
   });
 
