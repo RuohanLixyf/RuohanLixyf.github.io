@@ -31,13 +31,9 @@ https://doi.org/10.48550/arXiv.2607.15436) [Dataset](https://github.com/villanov
 * **2026**: **Ruohan Li**, Weiyu Luo, Chenfeng Xiong*. 
   *Rethinking Transit Deserts: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data*.
   *TRB 105th Annual Meeting*, 2026. **[Lectern Presentation]** <span style="color:#32B5FF">Lectern Session 4018 — *Evaluation of Non-Conventional Transit Impacts* Wednesday, Jan 14, 2026, 8:00–9:45 AM </span>
-
 * **2026**: Weiyu Luo#, **Ruohan Li#**, Xin Wu, Chenfeng Xiong*. *Complete Trip: A Pioneering Open-Source Dataset for Door-to-Door Multimodal Mobility Analysis*. *TRB 105th Annual Meeting*, 2026. [Poster Presentation]
-
 * **2024**: **Ruohan Li**, Hualan Wang*, Qiyang Zhang, Ting Nie. *A Novel Highway Traffic Capacity Analyzing Method under Road Region Atmospheric Environment Constrains Based on Computational Fluid Dynamics Model*. *TRB 103rd Annual Meeting*, 2024. [Poster Presentation]
-
 * **2024**: Yongqi Dong#, Xingmin Lu#, **Ruohan Li**, Wei Song*, Bart van Arem, Haneen Farah. *Intelligent Anomaly Detection for Lane Rendering Using Transformer with Self-Supervised Pre-Training and Customized Fine-Tuning*. *TRB 103rd Annual Meeting*, 2024. [Poster Presentation]
-
 * **2023**: Yongqi Dong#, **Ruohan Li**#, Haneen Farah*. *Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss*. *TRB 102nd Annual Meeting*, 2023. [Poster Presentation](https://repository.tudelft.nl/islandora/object/uuid:62690e30-572d-44c2-aa8f-f0b1cb835f29?collection=research)
 
 ### TRC-30: Conference in Emerging Technologies in Transportation Systems
