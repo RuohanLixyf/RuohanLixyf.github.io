@@ -22,6 +22,116 @@
     font-style: normal !important;
 }
 
+/* Publications: light modular grouping without changing the archive layout. */
+.publications-content > h2 {
+    margin-top: 1.35rem;
+    margin-bottom: 0.55rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid rgba(10, 42, 102, 0.1);
+    color: var(--site-text-strong, #081f4f);
+    font-size: 1.22rem;
+}
+
+.publications-content > h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.45rem;
+    color: var(--site-text, #0a2a66);
+    font-size: 0.92rem;
+}
+
+.publications-content > ul {
+    margin: 0 0 0.85rem;
+    padding: 0;
+    list-style: none;
+}
+
+.publications-content > ul > li {
+    --publication-accent: 50, 181, 255;
+    --publication-accent-dark: #126fa8;
+    margin: 0 0 0.42rem;
+    padding: 0.62rem 0.72rem;
+    border-left: 3px solid rgba(var(--publication-accent), 0.28);
+    border-radius: 0 10px 10px 0;
+    background: rgba(var(--publication-accent), 0.025);
+    font-size: 0.84rem;
+    line-height: 1.55;
+}
+
+/* Each publication group has a quiet identifying color. */
+#under-review + ul > li {
+    --publication-accent: 37, 155, 133;
+    --publication-accent-dark: #166f60;
+}
+
+#journal-publications + ul > li {
+    --publication-accent: 218, 130, 70;
+    --publication-accent-dark: #984f25;
+}
+
+#transportation-research-board-trb + ul > li {
+    --publication-accent: 46, 169, 232;
+    --publication-accent-dark: #116f9f;
+}
+
+#trc-30-conference-in-emerging-technologies-in-transportation-systems + ul > li {
+    --publication-accent: 46, 169, 232;
+    --publication-accent-dark: #116f9f;
+}
+
+#american-geophysical-union-agu + ul > li {
+    --publication-accent: 46, 169, 232;
+    --publication-accent-dark: #116f9f;
+}
+
+#cictp-cota-international-conference-of-transportation-professionals + ul > li {
+    --publication-accent: 46, 169, 232;
+    --publication-accent-dark: #116f9f;
+}
+
+#patent + ul > li {
+    --publication-accent: 210, 154, 74;
+    --publication-accent-dark: #865d20;
+}
+
+/* Only recently added work receives a stronger module tint. */
+.publications-content > ul > li:has(.publication-new) {
+    border-left-color: rgba(var(--publication-accent), 0.78);
+    background: linear-gradient(90deg, rgba(var(--publication-accent), 0.115), rgba(var(--publication-accent), 0.025));
+}
+
+.publication-new {
+    display: inline-flex;
+    margin-right: 0.35rem;
+    padding: 0.12rem 0.38rem;
+    border-radius: 999px;
+    background: rgba(229, 72, 77, 0.1);
+    color: #b42318;
+    font-size: 0.56rem;
+    font-weight: 850;
+    letter-spacing: 0.07em;
+    line-height: 1.2;
+    vertical-align: 0.12em;
+}
+
+.publication-me {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.08rem 0.34rem;
+    border-radius: 999px;
+    background: rgba(var(--publication-accent), 0.12);
+    color: var(--publication-accent-dark);
+    font-weight: 850;
+    line-height: 1.25;
+    box-shadow: inset 0 0 0 1px rgba(var(--publication-accent), 0.18);
+}
+
+@media (max-width: 640px) {
+    .publications-content > ul > li {
+        padding: 0.55rem 0.62rem;
+        font-size: 0.78rem;
+    }
+}
+
 .masthead {
     min-height: auto;
     margin-bottom: 0 !important;

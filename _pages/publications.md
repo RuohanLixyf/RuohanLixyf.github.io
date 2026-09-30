@@ -5,26 +5,28 @@ show_title: false
 permalink: /publications/
 header: false
 ---
-  
+
+<div class="publications-content" markdown="1">
+
 ## Under Review
-* **Ruohan Li**, Adriana Valentina Farias, Shanjiang Zhu, Chenfeng Xiong*. From Zone Connectors to Real Travel Paths: Empirical Evidence on Path-Level Inference Bias in Regional Planning Models. <var>Transportation Research Part A: Policy and Practice</var>. 2026. [Under Review] [Preprint](https://doi.org/10.2139/ssrn.7541649)
-* **Ruohan Li#**, Weiyu Luo#, Xin Wu, Chenfeng Xiong*. Complete Trip: A Linked Multimodal Human Mobility Dataset. 2026. [Preprint](
+* <span class="publication-new">NEW</span> **Ruohan Li**, Adriana Valentina Farias, Shanjiang Zhu, Chenfeng Xiong*. From Zone Connectors to Real Travel Paths: Empirical Evidence on Path-Level Inference Bias in Regional Planning Models. <var>Transportation Research Part A: Policy and Practice</var>. 2026. [Under Review] [Preprint](https://doi.org/10.2139/ssrn.7541649)
+* <span class="publication-new">NEW</span> **Ruohan Li#**, Weiyu Luo#, Xin Wu, Chenfeng Xiong*. Complete Trip: A Linked Multimodal Human Mobility Dataset. 2026. [Preprint](
 https://doi.org/10.48550/arXiv.2607.15436) [Dataset](https://github.com/villanova-transportation/Complete-Trip-Data) [Demo](https://ruohanlixyf.github.io/Complete-Trip-Data-Explorer/explorer.html)
-* **Ruohan Li**, Xin Wu, Chenfeng Xiong*. How Much of a Trajectory Is Needed? PM-Tree: Priority-Guided Hierarchical Trajectory Representation. <var>IEEE Transactions on Intelligent Transportation Systems</var>. 2026. [Under Review]
+* <span class="publication-new">NEW</span> **Ruohan Li**, Xin Wu, Chenfeng Xiong*. How Much of a Trajectory Is Needed? PM-Tree: Priority-Guided Hierarchical Trajectory Representation. <var>IEEE Transactions on Intelligent Transportation Systems</var>. 2026. [Under Review]
 * **Ruohan Li**, Weiyu Luo, Xin Wu, Kailun Liu, Lele Zhang, Chenfeng Xiong*. Shifting Transit Deserts and Transit Mirages: Toward a Behavioral–Dynamic Framework for Transit Equity Measurement. <var>Transportation Research Part A: Policy and Practice</var>. 2025. [Revision]
 
 ## Journal Publications
-* **2026**: **Ruohan Li#**, Xin Wu#, Weiyu Luo, Arash Tavakoli, C. Nataraja, Chenfeng Xiong*. Taming Volatile Trajectories: Sup-HMM, a Bayesian-Optimized Hidden Markov Model for Map Matching of Location-Based Service Data. <var>IEEE Transactions on Intelligent Transportation Systems</var>. 2026. [Accept As Regular Paper (27-Sep-2026)]
-* **2025**: Yongqi Dong#*, Xingmin Lu#, **Ruohan Li**, Wei Song*, Bart van Arem, Haneen Farah. Intelligent Anomaly Detection for Lane Rendering Using Transformer with Self-Supervised Pre-Training and Customized Fine-Tuning. <var>Transportation Research Record</var>. 2023. [Published](https://journals.sagepub.com/doi/10.1177/03611981251333341)
+* <span class="publication-new">NEW</span> **2026**: **Ruohan Li#**, Xin Wu#, Weiyu Luo, Arash Tavakoli, C. Nataraja, Chenfeng Xiong*. Taming Volatile Trajectories: Sup-HMM, a Bayesian-Optimized Hidden Markov Model for Map Matching of Location-Based Service Data. <var>IEEE Transactions on Intelligent Transportation Systems</var>. 2026. [Accept As Regular Paper (27-Sep-2026)]
+* **2025**: Yongqi Dong#, Xingmin Lu#, **Ruohan Li**, Wei Song, Bart van Arem, Haneen Farah. Intelligent Anomaly Detection for Lane Rendering Using Transformer with Self-Supervised Pre-Training and Customized Fine-Tuning. <var>Transportation Research Record</var>. 2023. [Published](https://journals.sagepub.com/doi/10.1177/03611981251333341)
 * **2025**: Weiyu Luo, Xin Wu, **Ruohan Li**, Chenfeng Xiong* et al.. Variant patterns and influence of inter-regional travel during the SARS-CoV-2 expansion in South Africa. <var>PLOS One</var>. 2025. [Published](https://doi.org/10.1371/journal.pone.0329621)
 * **2023**: **Ruohan Li**#, Yongqi Dong*#. Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss. <var>IEEE Transactions on Intelligent Transportation Systems</var>.2023. [Published](https://ieeexplore.ieee.org/document/10226453)
 
 ---
 ## Conference
 ### Transportation Research Board (TRB)
-* **2027**: **Ruohan Li**, Xin Wu, Chenfeng Xiong*. *How Much of a Trajectory Is Needed? PM-Tree: Priority-Guided Hierarchical Trajectory Representation*. *TRB 106th Annual Meeting*, 2027.
-* **2027**: **Ruohan Li**, Adriana Valentina Farias, Shanjiang Zhu, Chenfeng Xiong*. *Do Observed Trips Follow Zone Connector Assumptions? Empirical Evidence on Path-Level Inference Bias in Regional Planning Models*. *TRB 106th Annual Meeting*, 2027.
-* **2027**: Qingyuan Gao, Weiyu Luo, Xin Wu, **Ruohan Li**, Minghan Li, Yang Yang, Chenfeng Xiong*. *Measuring Tourism Visiting Pattern Using Location-Based Service (LBS) Data A Case Study of Utah Ski Resorts Spillover Effect*. *TRB 106th Annual Meeting*, 2027.
+* <span class="publication-new">NEW</span> **2027**: **Ruohan Li**, Xin Wu, Chenfeng Xiong*. *How Much of a Trajectory Is Needed? PM-Tree: Priority-Guided Hierarchical Trajectory Representation*. *TRB 106th Annual Meeting*, 2027.
+* <span class="publication-new">NEW</span> **2027**: **Ruohan Li**, Adriana Valentina Farias, Shanjiang Zhu, Chenfeng Xiong*. *Do Observed Trips Follow Zone Connector Assumptions? Empirical Evidence on Path-Level Inference Bias in Regional Planning Models*. *TRB 106th Annual Meeting*, 2027.
+* <span class="publication-new">NEW</span> **2027**: Qingyuan Gao, Weiyu Luo, Xin Wu, **Ruohan Li**, Minghan Li, Yang Yang, Chenfeng Xiong*. *Measuring Tourism Visiting Pattern Using Location-Based Service (LBS) Data A Case Study of Utah Ski Resorts Spillover Effect*. *TRB 106th Annual Meeting*, 2027.
 * **2026**: **Ruohan Li**, Weiyu Luo, Chenfeng Xiong*. 
   *Rethinking Transit Deserts: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data*.
   *TRB 105th Annual Meeting*, 2026. **[Lectern Presentation]** <span style="color:#32B5FF">Lectern Session 4018 — *Evaluation of Non-Conventional Transit Impacts* Wednesday, Jan 14, 2026, 8:00–9:45 AM </span>
@@ -49,4 +51,13 @@ https://doi.org/10.48550/arXiv.2607.15436) [Dataset](https://github.com/villanov
 ## Patent
 * Vision-Based Lane Detection System With Self-supervised Pre-training Through Masked Sequential Auto-encoders (VLD_SP-MSAE) (Computer Software Copyright Registration in China, 2024SR1350911, granted on 9/11/2024).
 * Automated lane detection (IDF OCT-22-060, granted on May 25, 2024, Patent number 2033551)
- 
+
+</div>
+
+<script>
+  document.querySelectorAll('.publications-content strong').forEach(function (name) {
+    if (/^Ruohan Li#?$/.test(name.textContent.trim())) {
+      name.classList.add('publication-me');
+    }
+  });
+</script>
