@@ -142,7 +142,7 @@ const nodes = [
     x: 72,
     y: 20,
     size: 170,
-    description: "Trajectory → Road Network",
+    description: "Mobility Data &rarr; Road-Network Representation",
     hasSupPath: true
   },
 
@@ -151,7 +151,7 @@ const nodes = [
     x: 24,
     y: 88,
     size: 180,
-    description: "Trajectory → Planning Network"
+    description: "Mobility Data &rarr; Planning-Network Representation"
   },
 
   {

@@ -1436,7 +1436,7 @@ redirect_from:
             <div class="about-news-ticker-viewport">
               <div class="about-news-item">
                 <div class="about-news-entry"><strong>2027:</strong> Three of my papers have been accepted for presentation at the <strong>TRB 106th Annual Meeting</strong>! 🎉</div>
-                <div class="about-news-entry"><strong>2026:</strong> 🎉 My first paper from my Ph.D. journey has finally been accepted! <strong>Ruohan Li#</strong>, Xin Wu#, Weiyu Luo, Arash Tavakoli, C. Nataraja, Chenfeng Xiong*. <em>Taming Volatile Trajectories: Sup-HMM, a Bayesian-Optimized Hidden Markov Model for Map Matching of Location-Based Service Data</em>. <em>IEEE Transactions on Intelligent Transportation Systems</em>, 2026. <strong>Accepted as a Regular Paper (27-Sep-2026).</strong></div>
+                <div class="about-news-entry"><strong>2026:</strong> 🎉 My first paper from my Ph.D. journey, <em>Taming Volatile Trajectories: Sup-HMM, a Bayesian-Optimized Hidden Markov Model for Map Matching of Location-Based Service Data</em>, has been accepted as a regular paper by <strong>IEEE Transactions on Intelligent Transportation Systems (IEEE T-ITS)</strong> on 27-Sep-2026!</div>
               </div>
             </div>
           </div>
