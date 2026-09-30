@@ -8,12 +8,9 @@ header: false
   
 ## Under Review
 * **Ruohan Li**, Adriana Valentina Farias, Shanjiang Zhu, Chenfeng Xiong*. From Zone Connectors to Real Travel Paths: Empirical Evidence on Path-Level Inference Bias in Regional Planning Models. <var>Transportation Research Part A: Policy and Practice</var>. 2026. [Under Review] [Preprint](https://doi.org/10.2139/ssrn.7541649)
-
 * **Ruohan Li#**, Weiyu Luo#, Xin Wu, Chenfeng Xiong*. Complete Trip: A Linked Multimodal Human Mobility Dataset. 2026. [Preprint](
 https://doi.org/10.48550/arXiv.2607.15436) [Dataset](https://github.com/villanova-transportation/Complete-Trip-Data) [Demo](https://ruohanlixyf.github.io/Complete-Trip-Data-Explorer/explorer.html)
-
 * **Ruohan Li**, Xin Wu, Chenfeng Xiong*. How Much of a Trajectory Is Needed? PM-Tree: Priority-Guided Hierarchical Trajectory Representation. <var>IEEE Transactions on Intelligent Transportation Systems</var>. 2026. [Under Review]
-
 * **Ruohan Li**, Weiyu Luo, Xin Wu, Kailun Liu, Lele Zhang, Chenfeng Xiong*. Shifting Transit Deserts and Transit Mirages: Toward a Behavioral–Dynamic Framework for Transit Equity Measurement. <var>Transportation Research Part A: Policy and Practice</var>. 2025. [Revision]
 
 ## Journal Publications
@@ -46,7 +43,6 @@ https://doi.org/10.48550/arXiv.2607.15436) [Dataset](https://github.com/villanov
 
 ### CICTP (COTA International Conference of Transportation Professionals)
 * **2024**: Xinmin Lu#, Yongqi Dong*#, **Ruohan Li**, Wei Song. *Intelligent Anomaly Detection for Lane Rendering Using Transformer with Self-Supervised Pre-Training and Customized Fine-Tuning*. *CICTP 2023*, 2023. [Accepted Dec 9, 2022]
-
 * **2023**: **Ruohan Li**, Hualan Wang*, Yajun Guo, Mingxuan Li. *The Highway Region Boundary Based on Multi-Environmental Factors*. In *CICTP 2023*, pp. 135–145. [Published](https://doi.org/10.1061/9780784484869.014)
 
 ---
