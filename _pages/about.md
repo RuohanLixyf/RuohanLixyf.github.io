@@ -735,13 +735,16 @@ redirect_from:
 
   .about-news-ticker-viewport {
     position: relative;
-    min-height: 108px;
+    min-height: 245px;
     overflow: hidden;
   }
 
   .about-news-item {
     position: absolute;
     inset: 0;
+    display: grid;
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    gap: 0.8rem;
     opacity: 0;
     transform: translateY(12px);
     transition: opacity 0.5s ease, transform 0.5s ease;
@@ -750,6 +753,13 @@ redirect_from:
     color: rgba(10, 42, 102, 0.78);
     overflow-wrap: anywhere;
     word-break: break-word;
+  }
+
+  .about-news-entry {
+    padding: 0.75rem 0.9rem;
+    border-left: 3px solid rgba(50, 181, 255, 0.42);
+    border-radius: 0 12px 12px 0;
+    background: rgba(50, 181, 255, 0.045);
   }
 
   .about-news-item.is-active {
@@ -1231,6 +1241,10 @@ redirect_from:
       white-space: normal;
     }
 
+    .about-news-ticker-viewport {
+      min-height: 430px;
+    }
+
     .home-novamatch-copy-top {
       grid-template-columns: 1fr;
     }
@@ -1431,23 +1445,27 @@ redirect_from:
         <div class="home-news-content">
           <div class="home-news-heading">
             <h2>News</h2>
-            <span class="home-news-badge">Latest update &middot; 07/2026</span>
+            <span class="home-news-badge">Latest update &middot; 09/2026</span>
           </div>
 
           <div class="about-news-ticker" id="about-news-ticker">
             <div class="about-news-ticker-viewport">
               <div class="about-news-item is-active">
-                <strong>07/2026:</strong> Our lab's latest dataset paper, <strong>Complete Trip: A Linked Multimodal Human Mobility Dataset</strong>, is now publicly available on arXiv. <a href="https://arxiv.org/abs/2607.15436">arXiv</a>.
+                <div class="about-news-entry"><strong>2027:</strong> <strong>Ruohan Li</strong>, Xin Wu, Chenfeng Xion&#x67;*. <em>How Much of a Trajectory Is Needed? PM-Tree: Priority-Guided Hierarchical Trajectory Representation</em>. <em>TRB 106th Annual Meeting</em>, 2027.</div>
+                <div class="about-news-entry"><strong>2027:</strong> <strong>Ruohan Li</strong>, Adriana Valentina Farias, Shanjiang Zhu, Chenfeng Xion&#x67;*. <em>Do Observed Trips Follow Zone Connector Assumptions? Empirical Evidence on Path-Level Inference Bias in Regional Planning Models</em>. <em>TRB 106th Annual Meeting</em>, 2027.</div>
               </div>
               <div class="about-news-item">
-                <strong>10/2025:</strong> I will present my paper <em>Rethinking <strong>Transit Deserts</strong>: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data</em> at the <strong>TRB 105th Annual Meeting</strong>, as the <strong>first presenter</strong> in <strong>Lectern Session 4018: Evaluation of Non-Conventional Transit Impacts</strong> <span style="color:#32B5FF">(Wednesday, Jan 14, 8:00-9:45 AM, Room 150B, Convention Center)</span>. Welcome to attend and join the discussion!
+                <div class="about-news-entry"><strong>2027:</strong> Qingyuan Gao, Weiyu Luo, Xin Wu, <strong>Ruohan Li</strong>, Minghan Li, Yang Yang, Chenfeng Xion&#x67;*. <em>Measuring Tourism Visiting Pattern Using Location-Based Service (LBS) Data: A Case Study of Utah Ski Resorts Spillover Effect</em>. <em>TRB 106th Annual Meeting</em>, 2027.</div>
+                <div class="about-news-entry"><strong>2026:</strong> 🎉 My first paper from my Ph.D. journey has finally been accepted! <strong>Ruohan Li#</strong>, Xin Wu#, Weiyu Luo, Arash Tavakoli, C. Nataraja, Chenfeng Xiong*. <em>Taming Volatile Trajectories: Sup-HMM, a Bayesian-Optimized Hidden Markov Model for Map Matching of Location-Based Service Data</em>. <em>IEEE Transactions on Intelligent Transportation Systems</em>, 2026. <strong>Accepted as a Regular Paper (27-Sep-2026).</strong></div>
               </div>
             </div>
           </div>
 
-          <details class="about-news-archive">
+          <details class="about-news-archive" open>
             <summary>Earlier News</summary>
             <ul>
+              <li><strong>07/2026:</strong> Our lab's latest dataset paper, <strong>Complete Trip: A Linked Multimodal Human Mobility Dataset</strong>, is now publicly available on arXiv. <a href="https://arxiv.org/abs/2607.15436">arXiv</a>.</li>
+              <li><strong>10/2025:</strong> I will present my paper <em>Rethinking <strong>Transit Deserts</strong>: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data</em> at the <strong>TRB 105th Annual Meeting</strong>, as the <strong>first presenter</strong> in <strong>Lectern Session 4018: Evaluation of Non-Conventional Transit Impacts</strong> <span style="color:#32B5FF">(Wednesday, Jan 14, 8:00-9:45 AM, Room 150B, Convention Center)</span>. Welcome to attend and join the discussion!</li>
               <li><strong>09/2025:</strong> My paper <em>Rethinking Transit Deserts: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data</em> has been accepted by TRB. Another paper, <em>Complete Trip: An Open and Privacy-Safe Dataset of Multimodal Travel Sequences for Urban Transportation Systems Analysis</em>, has also been accepted.</li>
               <li><strong>08/2025:</strong> After the TRB deadline, I have been busy cleaning up my LBS map-matching code. Formatting code so that <em>other humans</em> can understand it feels like the hardest optimization problem ever.</li>
               <li><strong>09/2024:</strong> The Computer Software Copyright Registration in China: Vision-Based Lane Detection System With Self-supervised Pre-training Through Masked Sequential Auto-encoders (VLD_SP-MSAE), granted on Sep. 11, 2024, Patent number 2024R11L1180902. We also published the <a href="https://github.com/RuohanLixyf/Lane-Detection-Self-Supervised-MSAE">open-source lane detection code</a> on GitHub.</li>
