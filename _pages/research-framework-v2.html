@@ -1,0 +1,120 @@
+---
+layout: null
+title: "Research Framework V2"
+permalink: /research-framework-v2/
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/research-framework-v2.css">
+  </head>
+  <body>
+    <main class="rf2" id="research-framework-v2">
+      <header class="rf2-header">
+        <span class="rf2-eyebrow">Research framework</span>
+        <h1>From Observations to Mobility Representations</h1>
+        <p>Turning large-scale mobility observations into structured representations, behavioral intelligence, and planning insight.</p>
+      </header>
+
+      <section class="rf2-pipeline" aria-label="Mobility research pipeline">
+        <svg class="rf2-connectors" aria-hidden="true"></svg>
+
+        <article class="rf2-source rf2-card" data-node="source">
+          <div>
+            <span class="rf2-step">01 · Observe</span>
+            <h2>Mobility Data</h2>
+            <p>Raw large-scale mobility data</p>
+          </div>
+        </article>
+
+        <div class="rf2-method-label">
+          <span>02 · Represent</span>
+          <strong>Three complementary ways to make mobility observations usable</strong>
+        </div>
+
+        <div class="rf2-methods">
+          <article class="rf2-method rf2-method--tree rf2-card" data-node="tree" tabindex="0">
+            <svg class="rf2-icon rf2-tree-graphic" viewBox="0 0 300 72" aria-hidden="true">
+              <g class="rf2-tree-hierarchy">
+                <path class="edge e1" d="M150 10 L150 27"></path>
+                <path class="edge e2" d="M150 27 L92 45"></path><path class="edge e3" d="M150 27 L208 45"></path>
+                <path class="edge e4" d="M92 45 L52 65"></path><path class="edge e5" d="M92 45 L119 65"></path>
+                <path class="edge e6" d="M208 45 L181 65"></path><path class="edge e7" d="M208 45 L248 65"></path>
+                <g class="node root"><circle cx="150" cy="10" r="6"></circle></g>
+                <g class="node level-1 n1"><circle cx="150" cy="27" r="5"></circle></g>
+                <g class="node level-1 n2"><circle cx="92" cy="45" r="5"></circle></g>
+                <g class="node level-1 n3"><circle cx="208" cy="45" r="5"></circle></g>
+                <g class="node leaf n4"><circle cx="52" cy="65" r="4"></circle></g><g class="node leaf n5"><circle cx="119" cy="65" r="4"></circle></g>
+                <g class="node leaf n6"><circle cx="181" cy="65" r="4"></circle></g><g class="node leaf n7"><circle cx="248" cy="65" r="4"></circle></g>
+              </g>
+            </svg>
+            <span class="rf2-method-tag">Sparse → Structure</span>
+            <h2>PM-Tree</h2>
+            <p>Priority-guided hierarchical trajectory representation</p>
+            <div class="rf2-metric"><strong>3%</strong> observations <span>→</span> <strong>96%</strong> structural recovery</div>
+          </article>
+
+          <article class="rf2-method rf2-method--match rf2-card" data-node="match" tabindex="0">
+            <svg class="rf2-icon rf2-match-graphic" viewBox="0 0 300 72" aria-hidden="true">
+              <g class="rf2-road-network">
+                <path d="M10 58 C54 43 82 45 118 31 S196 16 290 25"></path>
+                <path d="M16 20 C62 30 91 30 126 42 S209 61 286 50"></path>
+                <path d="M67 8 L72 62 M155 8 L151 64 M238 9 L226 62"></path>
+              </g>
+              <path class="rf2-selected-route" d="M24 54 C63 43 88 44 118 31 S196 16 274 24" pathLength="100"></path>
+              <g class="rf2-gps-points">
+                <circle cx="25" cy="45" r="4"></circle><circle cx="83" cy="38" r="4"></circle><circle cx="145" cy="35" r="4"></circle><circle cx="207" cy="13" r="4"></circle><circle cx="273" cy="32" r="4"></circle>
+              </g>
+              <g class="rf2-match-links">
+                <path d="M25 45 L28 53 M83 38 L86 43 M145 35 L147 24 M207 13 L208 20 M273 32 L272 24"></path>
+              </g>
+            </svg>
+            <span class="rf2-method-tag">Noisy GPS → Road Path</span>
+            <h2>Map Matching</h2>
+            <p>Mobility data to road-network representation</p>
+            <div class="rf2-metric"><strong>Sup-HMM</strong> · uncertainty-aware inference</div>
+          </article>
+
+          <article class="rf2-method rf2-method--translate rf2-card" data-node="translate" tabindex="0">
+            <div class="rf2-icon rf2-translate-icon" aria-hidden="true">
+              <span class="zone z1">O</span><i class="link l1"></i><i class="network"></i><i class="link l2"></i><span class="zone z2">D</span>
+            </div>
+            <span class="rf2-method-tag">Trips → Planning Network</span>
+            <h2>Translation</h2>
+            <p>Mobility data to planning-network representation</p>
+            <div class="rf2-metric"><strong>Observed paths</strong> → model-ready demand</div>
+          </article>
+        </div>
+
+        <div class="rf2-outcomes">
+          <article class="rf2-outcome rf2-card" data-node="intelligence">
+            <span class="rf2-step">03 · Understand</span>
+            <div class="rf2-outcome-heading">
+              <div>
+                <h2>Mobility Intelligence</h2>
+                <p>Reveal how people move, reach opportunities, and organize activities.</p>
+              </div>
+              <div class="rf2-pills"><span>OD</span><span>Access</span><span>Behavior</span></div>
+            </div>
+          </article>
+
+          <article class="rf2-outcome rf2-outcome--planning rf2-card" data-node="planning">
+            <span class="rf2-step">04 · Inform</span>
+            <div class="rf2-outcome-heading">
+              <div>
+                <h2>Planning Insight</h2>
+                <p>Turn empirical mobility evidence into more equitable and reliable planning decisions.</p>
+              </div>
+              <div class="rf2-pills"><span>Accessibility</span><span>Equity</span><span>Bias</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <script src="/assets/js/research-framework-v2.js"></script>
+  </body>
+</html>

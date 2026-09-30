@@ -357,6 +357,7 @@ redirect_from:
     padding: 0;
     margin-left: -6rem;
     margin-top: -1.15rem;
+    margin-bottom: -10.5rem;
     transform: scale(0.88);
     transform-origin: top center;
     z-index: 2;
@@ -378,7 +379,7 @@ redirect_from:
   .home-framework-frame {
     position: relative;
     width: 100%;
-    height: 700px;
+    height: 780px;
     border: none;
     background: transparent;
   }
@@ -1062,12 +1063,13 @@ redirect_from:
     .home-framework-shell {
       margin-left: -2.5rem;
       margin-top: -0.55rem;
+      margin-bottom: -6rem;
       padding: 0;
       transform: scale(0.92);
     }
 
     .home-framework-frame {
-      height: 620px;
+      height: 720px;
     }
 
     .home-news-card {
@@ -1318,7 +1320,7 @@ redirect_from:
     <div class="home-framework-shell">
       <iframe
         class="home-framework-frame"
-        src="/research-framework/"
+        src="/research-framework-v2/"
         title="Research Framework"
         scrolling="no"
         frameborder="0">
