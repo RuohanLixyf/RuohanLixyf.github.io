@@ -9,15 +9,15 @@ main:
 #  - title: "Awards"
 #    url: /Rewards/
 
-  - title: "Projects"
+  - title: "Research"
     url: /Researches/
 #- title: "Resherchs"
 #    url: /Resherchs/    
 
-#  - title: "Teaching"
-#    url: /teaching/    
+  - title: "Teaching"
+    url: /teaching/    
     
-  - title: "Solving"
+  - title: "Technical Notes"
     url: /solving/
         
 #  - title: "Blog Posts"
@@ -26,6 +26,6 @@ main:
   - title: "CV"
     url: /cv/
     
-  - title: "Notes"
+  - title: "Scribble"
     url: /Silent Scribbles/
      

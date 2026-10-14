@@ -1,6 +1,10 @@
 ---
 title: "Install spark environment under Conda"
 excerpt: "Install the spark under the Conda environment, some details you may loss... <br/><img src='/images/spark.png' width='500' height='300'>"
+note_category: "Research Computing"
+note_title: "Setting Up Apache Spark in a Conda Environment"
+note_summary: "Java, Hadoop, and Spark environment variables and winutils troubleshooting."
+note_year: 2024
 collection: solving
 layout: archive
 author_profile: true

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NovaMatch Map Matching</title>
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.js"></script>
+<style>
+  html, body { margin: 0; height: 100%; background: #eaf5fb; font-family: Inter, system-ui, sans-serif; overflow: hidden; }
+  #map { position: absolute; inset: 0; }
+  .maplibregl-ctrl-attrib { font-size: 9px; background: rgba(255,255,255,.82); }
+  .campus-marker { width: 26px; height: 26px; display: grid; place-items: center; border: 2px solid #fff; border-radius: 50%; box-shadow: 0 5px 16px rgba(7,59,122,.28); font: 900 12px/1 Inter, system-ui, sans-serif; pointer-events: none; }
+  .campus-marker--origin { background: #073b7a; color: #fff; }
+  .campus-marker--destination { background: #2ea9e8; color: #073b7a; }
+  .note { position: absolute; z-index: 4; left: 50%; top: 10px; max-width: calc(100% - 24px); padding: 6px 10px; border-radius: 9px; background: rgba(255,255,255,.92); color: #073b7a; font-size: 10px; font-weight: 800; letter-spacing: .03em; white-space: nowrap; transform: translateX(-50%); }
+  .legend { position: absolute; z-index: 4; left: 10px; bottom: 10px; display: flex; align-items: center; gap: 8px; padding: 6px 10px; border-radius: 9px; background: rgba(255,255,255,.92); box-shadow: 0 6px 18px rgba(7,59,122,.12); color: #315d87; font-size: 10px; font-weight: 700; }
+  .legend i { display: block; width: 22px; border-top: 4px solid #073b7a; border-radius: 4px; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="note">Villanova · Drosdick Hall → Cabrini · Dixon Center</div>
+<div class="legend"><i></i> Map-matched auto path</div>
+<script>
+(function () {
+  if (typeof maplibregl === 'undefined') return;
+  var matched=[[-75.3461807,40.0372696],[-75.3484904,40.0362751],[-75.3494621,40.0359799],[-75.3520223,40.0364469],[-75.3527638,40.036581],[-75.3542186,40.0368133],[-75.3568389,40.0371816],[-75.3601066,40.0376352],[-75.3646975,40.0391476],[-75.3655664,40.039611],[-75.3650231,40.040234],[-75.3633054,40.0410455],[-75.3615633,40.0418424],[-75.3595783,40.0428153],[-75.3591424,40.043721],[-75.3596734,40.0442149],[-75.3603571,40.0449982],[-75.3612375,40.04604],[-75.3623514,40.0472791],[-75.3633733,40.0487298],[-75.3649215,40.0509097],[-75.3652519,40.0514625],[-75.3654727,40.0524138],[-75.366564,40.0545267],[-75.3672738,40.0558159],[-75.3677644,40.0569518],[-75.369126,40.0575945],[-75.3707215,40.0582498],[-75.3723959,40.0594041],[-75.374008,40.0604064],[-75.3759745,40.0603186]];
+  var gps=[[-75.3457288,40.036682],[-75.3480382,40.0364994],[-75.3499475,40.0360326],[-75.351998,40.0364595],[-75.354075,40.0367473],[-75.3561398,40.0370286],[-75.3581982,40.0374353],[-75.3602934,40.0376453],[-75.3622426,40.0382735],[-75.3641327,40.0389968],[-75.3654707,40.0397846],[-75.3638575,40.0407772],[-75.3620572,40.0416239],[-75.3601623,40.0423556],[-75.3589857,40.0436655],[-75.3602681,40.044969],[-75.3614592,40.0462983],[-75.3626018,40.0476601],[-75.3635401,40.049117],[-75.3646134,40.0505041],[-75.365291,40.0520163],[-75.366133,40.0534881],[-75.3668969,40.0549941],[-75.3675572,40.0565453],[-75.3690688,40.0575258],[-75.3709459,40.0582729],[-75.3724422,40.0593688],[-75.3737188,40.0604501],[-75.3758344,40.0603325],[-75.3766727,40.0573483]];
+  function pointsGeoJSON(points){return{type:'FeatureCollection',features:points.map(function(point,index){return{type:'Feature',properties:{order:index+1},geometry:{type:'Point',coordinates:point}}})}}
+  var map=new maplibregl.Map({container:'map',interactive:false,style:{version:8,sources:{osm:{type:'raster',tiles:['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],tileSize:256,maxzoom:19,attribution:'© <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap contributors</a>'}},layers:[{id:'osm',type:'raster',source:'osm'}]},bounds:[[-75.3785,40.0345],[-75.3435,40.0615]],fitBoundsOptions:{padding:{top:34,right:12,bottom:30,left:12},duration:0},attributionControl:true});
+  function marker(label,role,coordinates){var el=document.createElement('div');el.className='campus-marker campus-marker--'+role;el.textContent=label;new maplibregl.Marker({element:el,anchor:'center'}).setLngLat(coordinates).addTo(map)}
+  map.on('load',function(){
+    map.addSource('campus',{type:'geojson',data:'/data/novamatch-campus-boundaries.geojson'});
+    map.addLayer({id:'campus-fill',type:'fill',source:'campus',paint:{'fill-color':['match',['get','role'],'origin','#75c8f0','destination','#2ea9e8','#75c8f0'],'fill-opacity':['match',['get','role'],'origin',.25,'destination',.32,.25]}});
+    map.addLayer({id:'campus-outline',type:'line',source:'campus',paint:{'line-color':['match',['get','role'],'origin','#073b7a','destination','#167eb8','#073b7a'],'line-width':3,'line-opacity':.95}});
+    map.addSource('gps',{type:'geojson',data:pointsGeoJSON(gps)});
+    map.addSource('matched',{type:'geojson',lineMetrics:true,data:{type:'Feature',properties:{},geometry:{type:'LineString',coordinates:matched}}});
+    map.addLayer({id:'matched-base',type:'line',source:'matched',layout:{'line-cap':'round','line-join':'round'},paint:{'line-color':'#9bb8cb','line-width':6,'line-opacity':.38}});
+    map.addLayer({id:'gps-points',type:'circle',source:'gps',paint:{'circle-radius':4,'circle-color':'#75c8f0','circle-stroke-color':'#073b7a','circle-stroke-width':1.5,'circle-opacity':.92}});
+    map.addLayer({id:'matched-progress',type:'line',source:'matched',layout:{'line-cap':'round','line-join':'round'},paint:{'line-width':6,'line-gradient':['step',['line-progress'],'#073b7a',0,'rgba(7,59,122,0)']}});
+    marker('O','origin',[-75.3443409,40.0367424]);marker('D','destination',[-75.3736248,40.0561442]);
+    var started=performance.now();
+    (function animate(now){var elapsed=(now-started)%14000,progress=Math.max(0,Math.min(1,(elapsed-1200)/8600));map.setPaintProperty('matched-progress','line-gradient',['step',['line-progress'],'#073b7a',progress,'rgba(7,59,122,0)']);requestAnimationFrame(animate)})(started);
+  });
+})();
+</script>
+</body>
+</html>

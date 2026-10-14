@@ -1,6 +1,10 @@
 ---
 title: "Pandas speed up..."
 excerpt: "don't use for always!"
+note_category: "Data Engineering"
+note_title: "Speeding Up Pandas Without For-Loops"
+note_summary: "Vectorized alternatives to slow row-by-row loops."
+note_year: 2024
 collection: solving
 layout: archive
 author_profile: true

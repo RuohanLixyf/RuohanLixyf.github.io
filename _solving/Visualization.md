@@ -1,6 +1,10 @@
 ---
 title: "Visualization..."
 excerpt: "will some references... but not now..."
+note_category: "Visualization & Tools"
+note_title: "Geo Visualization Tools"
+note_summary: "Mapshaper, kepler.gl, and Flowmap for spatial data visualization."
+note_year: 2024
 collection: solving
 layout: archive
 author_profile: true

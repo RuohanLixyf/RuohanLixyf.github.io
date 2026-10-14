@@ -1,15 +1,148 @@
 ---
-layout: archive
-title: "Solving"
+layout: single
+title: null
+show_title: false
 permalink: /solving/
 author_profile: true
+header: false
 ---
 
-{% include base_path %}
-This is a page for recording some of the problem I met during my PhD.
-And some interesting share.
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap">
+<style>
+  .tn { max-width: 800px; color: #0b1f44; }
+  .tn-serif { font-family: "Source Serif 4", "Source Serif Pro", Georgia, serif; }
 
-{% for post in site.solving %}
-  {% include archive-single.html %}
-{% endfor %}
-      
+  .page__content .tn h1 {
+    margin: 0;
+    font-size: clamp(2rem, 3.4vw, 2.6rem);
+    font-weight: 700;
+    line-height: 1.05;
+    color: #0b1f44;
+  }
+
+  .page__content .tn p.tn-sub {
+    margin: 0.35rem 0 0;
+    font-size: 1rem;
+    color: rgba(10, 42, 102, 0.62);
+  }
+
+  .tn-cat { margin-top: 2.6rem; }
+
+  .tn-cat-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(10, 42, 102, 0.12);
+  }
+
+  .tn-num {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: #1b6fe0;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .page__content .tn-cat-head h2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 0.74rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(10, 42, 102, 0.7);
+  }
+
+  .page__content ul.tn-list { margin: 0; padding: 0; list-style: none; }
+  .page__content ul.tn-list li { margin: 0; }
+
+  .page__content a.tn-item {
+    display: block;
+    padding: 0.85rem 0 0.2rem;
+    text-decoration: none;
+  }
+
+  .tn-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1.2rem;
+  }
+
+  .tn-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    line-height: 1.35;
+    color: #0b1f44;
+    transition: color 0.18s ease;
+  }
+
+  .tn-item:hover .tn-title { color: #1557b0; }
+
+  .tn-year {
+    flex-shrink: 0;
+    font-size: 0.8rem;
+    color: rgba(10, 42, 102, 0.5);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .tn-summary {
+    display: block;
+    margin-top: 0.12rem;
+    font-size: 0.84rem;
+    line-height: 1.5;
+    color: rgba(10, 42, 102, 0.62);
+  }
+
+  .tn-empty {
+    margin: 0;
+    padding-top: 0.85rem;
+    font-size: 0.84rem;
+    font-style: italic;
+    color: rgba(10, 42, 102, 0.48);
+  }
+
+  @media (max-width: 600px) {
+    .tn-cat { margin-top: 2rem; }
+    .tn-title { font-size: 0.98rem; }
+  }
+</style>
+
+{% assign notes = site.solving | sort: "note_year" | reverse %}
+{% assign categories = "Algorithms & Modeling|Data Engineering|Research Computing|Visualization & Tools" | split: "|" %}
+
+<div class="tn">
+  <header>
+    <h1 class="tn-serif">Technical Notes</h1>
+    <p class="tn-sub tn-serif">Technical notes from research, coding, and computational problem-solving.</p>
+  </header>
+
+  {% for cat in categories %}
+  {% assign cat_notes = notes | where: "note_category", cat %}
+  <section class="tn-cat">
+    <div class="tn-cat-head">
+      <span class="tn-num">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
+      <h2>{{ cat }}</h2>
+    </div>
+    {% if cat_notes.size > 0 %}
+    <ul class="tn-list">
+      {% for note in cat_notes %}
+      <li>
+        <a class="tn-item" href="{{ note.url | relative_url }}">
+          <span class="tn-row">
+            <span class="tn-title tn-serif">{{ note.note_title | default: note.title }}</span>
+            <span class="tn-year">{{ note.note_year }}</span>
+          </span>
+          <span class="tn-summary">{{ note.note_summary }}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p class="tn-empty">Notes coming soon.</p>
+    {% endif %}
+  </section>
+  {% endfor %}
+</div>

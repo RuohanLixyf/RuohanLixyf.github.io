@@ -248,7 +248,7 @@ redirect_from:
   }
 
   .home-profile-name {
-    font-size: 1.02rem;
+    font-size: 0.92rem;
     font-weight: 800;
     line-height: 1.35;
     letter-spacing: 0.01em;
@@ -382,6 +382,896 @@ redirect_from:
     height: 780px;
     border: none;
     background: transparent;
+  }
+
+  .home-landing .home-hero {
+    row-gap: 0.6rem;
+    padding-bottom: 0.2rem;
+    grid-template-columns: minmax(300px, 0.62fr) minmax(0, 1.38fr);
+    column-gap: 0;
+    padding-left: clamp(0.5rem, 5vw, 6rem);
+    padding-right: clamp(0.5rem, 5vw, 6rem);
+  }
+
+  .home-hero-visual {
+    align-self: start;
+    min-width: 0;
+  }
+
+  .page__content .home-bio.home-bio--tagline {
+    max-width: 520px;
+    margin-bottom: 0.55rem;
+    font-family: "Source Serif 4", "Source Serif Pro", Georgia, "Times New Roman", serif;
+    font-size: clamp(0.92rem, 1.15vw, 1.1rem);
+    line-height: 1.3;
+    color: rgba(10, 42, 102, 0.62);
+  }
+
+  .page__content .home-bio.home-bio--summary {
+    max-width: 520px;
+    margin-bottom: 0.9rem;
+    font-size: 0.88rem;
+    line-height: 1.45;
+    color: rgba(10, 42, 102, 0.66);
+  }
+
+  .home-headline.home-headline--serif {
+    grid-column: 1 / -1;
+    max-width: 1100px;
+    margin: 0 0 0.6rem;
+    font-family: "Source Serif 4", "Source Serif Pro", Georgia, "Times New Roman", serif;
+    font-size: clamp(30px, 3.3vw, 52px);
+    font-weight: 700;
+    line-height: 1.06;
+    letter-spacing: -0.02em;
+    color: #0b1f44;
+  }
+
+  .page__content .home-hero .home-identity-card {
+    padding-left: 0;
+    background: transparent;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+
+  .home-hero-visual {
+    position: relative;
+    z-index: 1;
+  }
+
+  .home-framework-shell.home-framework-shell--image {
+    margin: -3.2rem 0 0 -8%;
+    width: 112%;
+    transform: none;
+  }
+
+  .hf-tag {
+    position: absolute;
+    z-index: 2;
+    animation: hf-float 5s ease-in-out infinite;
+  }
+
+  .hf-tag.is-open {
+    z-index: 5;
+    animation-play-state: paused;
+  }
+
+  .hf-tag--observe { left: 13%; top: 33%; }
+  .hf-tag--represent { left: 45%; top: 31%; animation-delay: -1.7s; }
+  .hf-tag--understand { left: 70%; top: 33%; animation-delay: -3.4s; }
+
+  @keyframes hf-float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+  }
+
+  .hf-tag-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.42rem 0.8rem;
+    border: 1px solid rgba(120, 160, 205, 0.32);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.88);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 6px 20px rgba(30, 70, 120, 0.1);
+    color: #12305a;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.2;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: box-shadow 0.18s ease, border-color 0.18s ease;
+  }
+
+  .hf-tag-btn:hover,
+  .hf-tag-btn:focus-visible,
+  .hf-tag.is-open .hf-tag-btn {
+    border-color: rgba(50, 140, 230, 0.5);
+    box-shadow: 0 8px 24px rgba(30, 70, 120, 0.16);
+  }
+
+  .hf-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: currentColor;
+  }
+
+  .hf-tag--observe .hf-dot { color: #1b6fe0; }
+  .hf-tag--represent .hf-dot { color: #1d8a8f; }
+  .hf-tag--understand .hf-dot { color: #e2661b; }
+
+  .hf-card {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    width: 250px;
+    padding: 0.8rem 0.9rem;
+    border: 1px solid rgba(120, 160, 205, 0.28);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 14px 34px rgba(30, 70, 120, 0.16);
+    color: #12305a;
+    font-size: 12px;
+    line-height: 1.45;
+    text-align: left;
+  }
+
+  .hf-card::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    height: 10px;
+  }
+
+  @media (hover: hover) {
+    .hf-tag:hover {
+      z-index: 5;
+      animation-play-state: paused;
+    }
+
+    .hf-tag:hover .hf-card {
+      display: block !important;
+    }
+  }
+
+  .hf-tag--understand .hf-card {
+    left: auto;
+    right: 0;
+  }
+
+  .page__content .hf-card p.hf-card-q {
+    margin: 0 0 0.45rem;
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 13.5px;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  .page__content .hf-card ul {
+    margin: 0 0 0.55rem;
+    padding-left: 1rem;
+  }
+
+  .page__content .hf-card li {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(18, 48, 90, 0.8);
+  }
+
+  .hf-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+
+  .page__content .hf-chips a {
+    padding: 0.18rem 0.55rem;
+    border-radius: 999px;
+    background: rgba(50, 140, 230, 0.1);
+    color: #1557b0;
+    font-size: 11px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .page__content .hf-chips a:hover {
+    background: rgba(50, 140, 230, 0.2);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hf-tag { animation: none; }
+  }
+
+  @media (max-width: 700px) {
+    .hf-tag { display: none; }
+  }
+
+  .hs {
+    padding: 1.1rem clamp(0.5rem, 5vw, 6rem) 0.6rem;
+  }
+
+  .hs--agenda {
+    padding-top: 0.4rem;
+  }
+
+  .hs-head {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .page__content .hs-title {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Source Serif 4", "Source Serif Pro", Georgia, serif;
+    font-size: clamp(1.3rem, 1.9vw, 1.7rem);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: #0b1f44;
+  }
+
+  .page__content p.hs-sub {
+    margin: 0.15rem 0 0;
+    font-family: "Source Serif 4", "Source Serif Pro", Georgia, serif;
+    font-size: 0.9rem;
+    color: rgba(10, 42, 102, 0.64);
+  }
+
+  .page__content a.hs-more {
+    flex-shrink: 0;
+    padding: 0.38rem 0.9rem;
+    border: 1px solid rgba(50, 140, 230, 0.32);
+    border-radius: 999px;
+    background: #ffffff;
+    color: #1557b0;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background-color 0.18s ease, box-shadow 0.18s ease;
+  }
+
+  .page__content a.hs-more:hover {
+    background: rgba(50, 140, 230, 0.08);
+    box-shadow: 0 4px 14px rgba(30, 70, 120, 0.1);
+  }
+
+  .ra-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.8rem;
+  }
+
+  .ra-card,
+  .rp-card,
+  .sr-card {
+    border: 1px solid rgba(10, 42, 102, 0.08);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.82);
+    box-shadow: 0 6px 20px rgba(30, 70, 120, 0.05);
+  }
+
+  .ra-card {
+    --ra: #1b6fe0;
+    --ra-soft: rgba(27, 111, 224, 0.09);
+    display: flex;
+    flex-direction: column;
+    padding: 0.9rem 1rem;
+  }
+
+  .ra-card--teal { --ra: #1d8a8f; --ra-soft: rgba(29, 138, 143, 0.1); }
+  .ra-card--orange { --ra: #e2661b; --ra-soft: rgba(226, 102, 27, 0.1); }
+
+  .ra-top {
+    display: flex;
+    gap: 0.8rem;
+    align-items: flex-start;
+  }
+
+  .ra-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: var(--ra-soft);
+    color: var(--ra);
+    font-size: 1.3rem;
+  }
+
+  .ra-num {
+    font-size: 0.74rem;
+    font-weight: 700;
+    color: var(--ra);
+    opacity: 0.75;
+  }
+
+  .page__content .ra-card h3,
+  .page__content .rp-card h3 {
+    margin: 0;
+    font-family: "Source Serif 4", "Source Serif Pro", Georgia, serif;
+    font-size: 1.02rem;
+    font-weight: 700;
+    color: #0b1f44;
+  }
+
+  .page__content .ra-card p.ra-lead,
+  .page__content .rp-card p {
+    margin: 0.15rem 0 0;
+    font-size: 0.78rem;
+    line-height: 1.35;
+    color: rgba(10, 42, 102, 0.66);
+  }
+
+  .page__content ul.ra-list {
+    margin: 0.65rem 0 0.7rem;
+    padding-left: 1.1rem;
+  }
+
+  .page__content ul.ra-list li {
+    margin: 0 0 0.12rem;
+    font-size: 0.78rem;
+    line-height: 1.35;
+    color: rgba(10, 42, 102, 0.8);
+  }
+
+  .ra-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-top: auto;
+  }
+
+  .page__content .ra-chips a,
+  .ra-chips span {
+    padding: 0.18rem 0.55rem;
+    border: 1px solid color-mix(in srgb, var(--ra, #1b6fe0) 25%, transparent);
+    border-radius: 7px;
+    background: var(--ra-soft, rgba(27, 111, 224, 0.08));
+    color: var(--ra, #1557b0);
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .page__content .ra-chips a:hover {
+    filter: brightness(0.95);
+    text-decoration: underline;
+  }
+
+  .sr-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.8rem;
+  }
+
+  .sr-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0.8rem 0.85rem 0.9rem;
+  }
+
+  .sr-status {
+    align-self: flex-start;
+    padding: 0.12rem 0.5rem;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    font-size: 0.66rem;
+    font-weight: 600;
+  }
+
+  .sr-status--published { border-color: rgba(27, 135, 84, 0.25); background: rgba(35, 164, 96, 0.1); color: #137044; }
+  .sr-status--review { border-color: rgba(45, 126, 229, 0.25); background: rgba(50, 181, 255, 0.1); color: #145da0; }
+  .sr-status--dataset { border-color: rgba(127, 86, 217, 0.25); background: rgba(127, 86, 217, 0.1); color: #6842b8; }
+  .sr-status--revision { border-color: rgba(226, 102, 27, 0.28); background: rgba(226, 102, 27, 0.08); color: #b5520f; }
+
+  .sr-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    margin: 0.5rem 0 0.6rem;
+    overflow: hidden;
+    border-radius: 8px;
+    background: #ffffff;
+  }
+
+  .sr-img img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: transform 0.2s ease;
+  }
+
+  .sr-img:hover img {
+    transform: scale(1.03);
+  }
+
+  .page__content .sr-card h3 {
+    margin: 0 0 0.2rem;
+    font-family: "Source Serif 4", "Source Serif Pro", Georgia, serif;
+    font-size: 1.08rem;
+    font-weight: 700;
+    color: #0b1f44;
+  }
+
+  .page__content p.sr-desc {
+    margin: 0 0 0.35rem;
+    font-size: 0.78rem;
+    line-height: 1.38;
+    color: rgba(10, 42, 102, 0.72);
+  }
+
+  .page__content p.sr-venue {
+    margin: 0 0 0.5rem;
+    font-size: 0.74rem;
+    line-height: 1.35;
+    color: rgba(10, 42, 102, 0.55);
+  }
+
+  .sr-topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .sr-topics span {
+    padding: 0.12rem 0.5rem;
+    border-radius: 6px;
+    background: rgba(27, 111, 224, 0.08);
+    color: #1557b0;
+    font-size: 0.68rem;
+  }
+
+  .sr-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-top: auto;
+  }
+
+  .page__content .sr-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.3rem 0.65rem;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    font-size: 0.76rem;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+    transition: transform 0.18s ease;
+  }
+
+  .page__content .sr-links a:hover { transform: translateY(-1px); }
+  .page__content .sr-links .sr-link--paper { border-color: rgba(220, 53, 69, 0.25); background: rgba(220, 53, 69, 0.06); color: #a82332; }
+  .page__content .sr-links .sr-link--data { border-color: rgba(27, 135, 84, 0.25); background: rgba(35, 164, 96, 0.08); color: #137044; }
+  .page__content .sr-links .sr-link--scholar { border-color: rgba(45, 126, 229, 0.25); background: rgba(50, 181, 255, 0.08); color: #145da0; }
+
+  @media (max-width: 1100px) {
+    .sr-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 600px) {
+    .sr-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .rp-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 0.9rem 1rem;
+  }
+
+  .rp-top {
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+  }
+
+  .rp-icon {
+    flex-shrink: 0;
+    width: 2rem;
+    margin-top: 0.15rem;
+    color: #1b6fe0;
+    font-size: 1.45rem;
+    text-align: center;
+  }
+
+  .rp-agencies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.9rem;
+    margin-top: auto;
+    padding-left: 2.75rem;
+  }
+
+  .rp-agencies span {
+    font-size: 1.05rem;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    color: #0a2a66;
+  }
+
+  .rp-chips {
+    padding-left: 2.75rem;
+  }
+
+  @media (max-width: 1000px) {
+    .ra-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .hs-head {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .sr-card {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .hs--bottom {
+    padding-top: 0.2rem;
+    padding-bottom: 1.4rem;
+  }
+
+  .hb-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.8rem;
+    align-items: start;
+  }
+
+  .hb-card {
+    border: 1px solid rgba(10, 42, 102, 0.08);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.82);
+    box-shadow: 0 6px 20px rgba(30, 70, 120, 0.05);
+    padding: 1rem 1.1rem;
+  }
+
+  .hb-teach {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+
+  .hb-teach-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+    background: rgba(27, 111, 224, 0.09);
+    color: #1b6fe0;
+    font-size: 1.6rem;
+  }
+
+  .hb-teach-body {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .page__content .hb-card h3 {
+    margin: 0;
+    font-family: "Source Serif 4", "Source Serif Pro", Georgia, serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #0b1f44;
+  }
+
+  .page__content .hb-teach-body > p {
+    margin: 0.25rem 0 0.75rem;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    color: rgba(10, 42, 102, 0.66);
+  }
+
+  .hb-teach-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.6rem;
+  }
+
+  .hb-teach-row .ra-chips {
+    margin-top: 0;
+  }
+
+  .page__content a.hb-arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid rgba(50, 140, 230, 0.3);
+    border-radius: 50%;
+    background: #ffffff;
+    color: #1557b0;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .page__content a.hb-arrow:hover {
+    background: rgba(50, 140, 230, 0.08);
+  }
+
+  .hb-updates-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+
+  .page__content .hb-updates-head h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+  }
+
+  .hb-live {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #e03131;
+    box-shadow: 0 0 0 4px rgba(224, 49, 49, 0.14);
+  }
+
+  .hb-viewall {
+    padding: 0.22rem 0.65rem;
+    border: 1px solid rgba(50, 140, 230, 0.28);
+    border-radius: 999px;
+    background: #ffffff;
+    color: #1557b0;
+    font-size: 0.76rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .hb-viewall:hover {
+    background: rgba(50, 140, 230, 0.08);
+  }
+
+  .page__content ul.hb-timeline {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .page__content ul.hb-timeline li {
+    position: relative;
+    display: grid;
+    grid-template-columns: 4.6rem minmax(0, 1fr);
+    gap: 0.6rem;
+    margin: 0;
+    padding: 0.2rem 0 0.2rem 1.1rem;
+    font-size: 0.78rem;
+    line-height: 1.4;
+    color: rgba(10, 42, 102, 0.75);
+  }
+
+  .page__content ul.hb-timeline li::before {
+    content: "";
+    position: absolute;
+    left: 0.15rem;
+    top: 0.62rem;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #d9485f;
+  }
+
+  .page__content ul.hb-timeline li:last-child::before {
+    background: #6b7f99;
+  }
+
+  .hb-date {
+    font-weight: 600;
+    color: #0b1f44;
+  }
+
+  .hb-archive {
+    margin-top: 0.6rem;
+    padding-top: 0.6rem;
+    max-height: 340px;
+    overflow-y: auto;
+    border-top: 1px solid rgba(10, 42, 102, 0.1);
+  }
+
+  .page__content .hb-archive ul {
+    margin: 0;
+    padding-left: 1.1rem;
+  }
+
+  .page__content .hb-archive li {
+    margin: 0 0 0.35rem;
+    font-size: 0.76rem;
+    line-height: 1.45;
+    color: rgba(10, 42, 102, 0.75);
+  }
+
+  @media (max-width: 1000px) {
+    .hb-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .hb-teach-row {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  .hs--about {
+    padding-top: 0.6rem;
+  }
+
+  .am-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 9rem;
+    gap: 2.2rem;
+    align-items: center;
+  }
+
+  .am-text {
+    padding-left: 1.1rem;
+    border-left: 3px solid rgba(50, 140, 230, 0.35);
+  }
+
+  .page__content .am-text .hs-title {
+    margin-bottom: 0.5rem;
+  }
+
+  .page__content .am-text p {
+    margin: 0 0 0.6rem;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: rgba(10, 42, 102, 0.78);
+  }
+
+  .page__content .am-text p:last-child {
+    margin-bottom: 0;
+  }
+
+  .page__content .am-text strong {
+    color: #0b1f44;
+  }
+
+  .page__content .am-text a {
+    color: #1557b0;
+    text-decoration: none;
+  }
+
+  .am-logo {
+    display: block;
+    justify-self: center;
+  }
+
+  .am-logo img {
+    display: block;
+    width: 120px;
+    height: auto;
+    border-radius: 14px;
+    transition: transform 0.2s ease;
+  }
+
+  .am-logo:hover img {
+    transform: scale(1.04);
+  }
+
+  .page__content ul.am-facts {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .page__content ul.am-facts li {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0.7rem 0.9rem;
+    border: 1px solid rgba(10, 42, 102, 0.08);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.82);
+    box-shadow: 0 6px 18px rgba(30, 70, 120, 0.05);
+  }
+
+  .am-fact-num {
+    font-family: "Source Serif 4", "Source Serif Pro", Georgia, serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #1b6fe0;
+  }
+
+  .am-fact-num--text {
+    font-size: 1.2rem;
+  }
+
+  .am-fact-label {
+    font-size: 0.76rem;
+    color: rgba(10, 42, 102, 0.62);
+  }
+
+  @media (max-width: 900px) {
+    .am-grid {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    .page__content ul.am-facts {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .page__content ul.am-facts li {
+      flex: 1 1 10rem;
+    }
+  }
+  .home-hero-divider {
+    grid-column: 1 / -1;
+    width: 100%;
+    margin: -1.2rem 0 0;
+    position: relative;
+    z-index: 3;
+    border: 0;
+    border-top: 1px solid rgba(10, 42, 102, 0.14);
+  }
+
+  @media (max-width: 900px) {
+    .home-landing .home-hero {
+      grid-template-columns: 1fr;
+    }
+
+    .home-framework-shell.home-framework-shell--image {
+      margin-top: 0;
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+
+  .home-framework-shell.home-framework-shell--image::before {
+    display: none;
+  }
+
+  .home-framework-image {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    mix-blend-mode: multiply;
+    -webkit-mask-image: radial-gradient(ellipse 72% 70% at 50% 50%, #000 62%, transparent 100%);
+    mask-image: radial-gradient(ellipse 72% 70% at 50% 50%, #000 62%, transparent 100%);
   }
 
   .home-research {
@@ -1156,7 +2046,7 @@ redirect_from:
     }
 
     .home-research-name {
-      font-size: 1.02rem;
+      font-size: 0.92rem;
     }
 
     .home-research-grid {
@@ -1250,13 +2140,17 @@ redirect_from:
   }
 </style>
 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap">
 <div class="home-landing">
   <section class="home-hero">
+    <h1 class="home-headline home-headline--serif">Reconstructing, Representing, and Understanding <span class="accent">Human Mobility</span>.</h1>
     <div class="home-hero-copy">
       <div class="home-hero-intro">
-        <h1 class="home-headline">Structural mobility modeling for <span class="accent">trajectory, network, and transportation systems</span>.</h1>
-        <p class="home-bio">
-          I study how large-scale mobility trajectories can be used to reveal the latent structure of human movement across spatial, network, and transportation systems. My research develops structural representations and computational frameworks that transform noisy trajectory observations into interpretable models for understanding mobility behavior and systems.
+        <p class="home-bio home-bio--tagline">
+          What can we recover, represent, and reliably infer from incomplete mobility data?
+        </p>
+        <p class="home-bio home-bio--summary">
+          I develop computational methods that bridge noisy observations, interpretable mobility representations, and transportation planning, advancing our understanding of human movement and the limits of mobility data.
         </p>
 
         <div class="home-identity-card">
@@ -1264,9 +2158,8 @@ redirect_from:
             <img src="/images/Ruohan_GIT3.jpg" alt="Ruohan Li profile image">
             <div class="home-profile-meta">
               <div class="home-profile-name">Ruohan Li</div>
-              <div class="home-profile-role">Ph.D. Candidate in Villanova University</div>
-              <div class="home-profile-line"><span style="color:#0A2A66"><strong>Nova</strong></span><span style="color:#32B5FF"><strong>Mobility</strong></span> Lab</div>
-              <div class="home-profile-line">Advised by <a href="https://cfxiong.github.io/">Dr. Chenfeng Xiong</a></div>
+              <div class="home-profile-role">Ph.D. Candidate in Civil &amp; Environmental Engineering</div>
+              <div class="home-profile-line">Villanova University · <a href="https://cfxiong.github.io/data-lab/" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none"><span style="color:#0A2A66"><strong>Nova</strong></span><span style="color:#32B5FF"><strong>Mobility</strong></span> Lab</a></div>
             </div>
           </div>
 
@@ -1276,14 +2169,18 @@ redirect_from:
             <a href="https://github.com/RuohanLixyf" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a>
             <a href="https://www.linkedin.com/in/ruohan-li-28b878254" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
             <a href="https://orcid.org/my-orcid?orcid=0000-0001-8102-7376" target="_blank" rel="noopener noreferrer" aria-label="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i><span>ORCID</span></a>
+            <a href="https://www.researchgate.net/profile/Ruohan-Li-15?ev=hdr_xprf" target="_blank" rel="noopener noreferrer" aria-label="ResearchGate"><i class="ai ai-researchgate" aria-hidden="true"></i><span>ResearchGate</span></a>
           </div>
         </div>
 
+      <!-- Action buttons hidden for now:
       <div class="home-actions">
-          <a class="home-action home-action--primary home-action--compact" href="/NovaMobilityLab/"><i class="fa fa-file-alt" aria-hidden="true"></i><span>Presentation Materials</span></a>
+          <a class="home-action home-action--primary home-action--compact" href="/Researches/"><i class="fa fa-flask" aria-hidden="true"></i><span>Research</span></a>
           <a class="home-action home-action--accent home-action--compact" href="https://ruohanlixyf.github.io/Complete-Trip-Data-Explorer/explorer.html" target="_blank" rel="noopener noreferrer"><i class="fa fa-chart-line" aria-hidden="true"></i><span>Interactive Data Demo</span></a>
         </div>
+      -->
 
+        <!-- NovaMatch module hidden for now:
         <section class="home-featured">
           <div class="home-novamatch-module">
             <div class="home-novamatch-copy">
@@ -1314,10 +2211,50 @@ redirect_from:
             </div>
           </div>
         </section>
+        -->
       </div>
     </div>
 
-    <div class="home-framework-shell">
+    <div class="home-hero-visual">
+    <div class="home-framework-shell home-framework-shell--image">
+      <img class="home-framework-image" src="/images/framework.png" alt="Research Framework">
+      <div class="hf-tag hf-tag--observe">
+        <button type="button" class="hf-tag-btn" aria-expanded="false" aria-controls="hf-card-observe"><span class="hf-dot" aria-hidden="true"></span>Sparse Observations</button>
+        <div class="hf-card" id="hf-card-observe" hidden>
+          <p class="hf-card-q">How much can we trust what we observe?</p>
+          <ul>
+            <li>Sparse &amp; noisy GPS / LBS traces</li>
+            <li>Sampling gaps across modes</li>
+            <li>Measurement uncertainty</li>
+          </ul>
+          <div class="hf-chips"><a href="https://ruohanlixyf.github.io/Complete-Trip-Data-Explorer/explorer.html" target="_blank" rel="noopener noreferrer">Complete Trip</a></div>
+        </div>
+      </div>
+      <div class="hf-tag hf-tag--represent">
+        <button type="button" class="hf-tag-btn" aria-expanded="false" aria-controls="hf-card-represent"><span class="hf-dot" aria-hidden="true"></span>Reliable Representations</button>
+        <div class="hf-card" id="hf-card-represent" hidden>
+          <p class="hf-card-q">What structure can be recovered from incomplete trajectories?</p>
+          <ul>
+            <li>Trajectory reconstruction &amp; map matching</li>
+            <li>Hierarchical structural representation</li>
+            <li>Cross-network translation</li>
+          </ul>
+          <div class="hf-chips"><a href="https://doi.org/10.1109/TITS.2026.3740031" target="_blank" rel="noopener noreferrer">Sup-HMM</a><a href="/publications/">PM-Tree</a><a href="/publications/">HSMM-T</a></div>
+        </div>
+      </div>
+      <div class="hf-tag hf-tag--understand">
+        <button type="button" class="hf-tag-btn" aria-expanded="false" aria-controls="hf-card-understand"><span class="hf-dot" aria-hidden="true"></span>Mobility Insights</button>
+        <div class="hf-card" id="hf-card-understand" hidden>
+          <p class="hf-card-q">What can incomplete mobility observations reliably reveal about human movement?</p>
+          <ul>
+            <li><strong>Mobility recoverability</strong></li>
+            <li>Trip &amp; activity inference</li>
+            <li>Planning &amp; transit accessibility</li>
+          </ul>
+          <div class="hf-chips"><a href="/transitdesert/">Transit Mirage</a></div>
+        </div>
+      </div>
+      <!-- Interactive framework visualization (kept for later use):
       <iframe
         class="home-framework-frame"
         src="/research-framework-v2/"
@@ -1325,171 +2262,172 @@ redirect_from:
         scrolling="no"
         frameborder="0">
       </iframe>
+      -->
+    </div>
+    </div>
+    <hr class="home-hero-divider">
+    <script>
+      (function () {
+        var tags = document.querySelectorAll('.hf-tag');
+        function closeAll(except) {
+          tags.forEach(function (t) {
+            if (t === except) return;
+            t.classList.remove('is-open');
+            t.querySelector('.hf-tag-btn').setAttribute('aria-expanded', 'false');
+            t.querySelector('.hf-card').hidden = true;
+          });
+        }
+        tags.forEach(function (tag) {
+          var btn = tag.querySelector('.hf-tag-btn');
+          var card = tag.querySelector('.hf-card');
+          btn.addEventListener('click', function (e) {
+            e.stopPropagation();
+            var open = !tag.classList.contains('is-open');
+            closeAll(tag);
+            tag.classList.toggle('is-open', open);
+            btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+            card.hidden = !open;
+          });
+          card.addEventListener('click', function (e) { e.stopPropagation(); });
+          tag.addEventListener('mouseenter', function () { closeAll(tag); });
+          tag.addEventListener('mouseleave', function () { closeAll(null); });
+        });
+        document.addEventListener('click', function () { closeAll(null); });
+        document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeAll(null); });
+      })();
+    </script>
+  </section>
+
+  <section class="hs hs--about" aria-labelledby="about-me-heading">
+    <div class="am-grid">
+      <div class="am-text">
+        <h2 class="hs-title" id="about-me-heading">About Me</h2>
+        <p>Hi! I'm Ruohan! My research focuses on <strong>human mobility modeling, mobility data analytics, and computational methods</strong>. I enjoy developing algorithms such as <strong>Sup-HMM, PM-Tree, and HSMM-T</strong>, and building <a href="/novamatch/"><strong>NovaMatch</strong></a>, an integrated framework for large-scale mobility data processing, map matching, network representation, and analytics.</p>
+        <p>I aim to <strong>bridge methodological research with real-world transportation challenges</strong>. Through projects supported by <strong>FHWA/USDOT, VDOT, DVRPC, and PennDOT</strong>, I have contributed to applied mobility research and transportation planning. My experience also includes real-world airport traffic simulation and analysis using <strong>VISSIM</strong>.</p>
+        <p>My work includes <strong>two first-author publications in IEEE Transactions on Intelligent Transportation Systems</strong>, with <strong>five additional first-author manuscripts under review</strong>. My doctoral research, <em>From Observations to Mobility Representations</em>, explores overlooked challenges and limitations in mobility data, with the goal of developing <strong>robust, interpretable, and trustworthy methods</strong> for transportation and urban analysis.</p>
+      </div>
+      <a class="am-logo" href="/novamatch/" aria-label="Open NovaMatch"><img src="/images/NovaMatch%20log.png" alt="NovaMatch logo"></a>
     </div>
   </section>
 
-  <section class="home-research" aria-labelledby="selected-research-heading">
-    <div class="home-news-card">
-      <div class="home-news-heading">
-        <h2 id="selected-research-heading">Current Research</h2>
-        <span class="home-news-badge">Featured work</span>
+  <section class="hs hs--selected" aria-labelledby="selected-research-heading">
+    <div class="hs-head">
+      <div>
+        <h2 class="hs-title" id="selected-research-heading">Selected Research</h2>
+        <p class="hs-sub">Representative work on mobility reconstruction, representation, and real-world transportation applications.</p>
       </div>
-
-      <div class="home-research-grid">
-        <article class="home-research-item">
-          <a class="home-research-image-link" href="https://ruohanlixyf.github.io/Complete-Trip-Data-Explorer/explorer.html" target="_blank" rel="noopener noreferrer" aria-label="Open Complete Trip demo">
-            <img src="/images/CompleteTrip.png" alt="Complete Trip research preview">
-          </a>
-          <div class="home-research-content">
-            <div>
-              <div class="home-research-title-row">
-                <h3 class="home-research-name">Complete Trip</h3>
-                <span class="home-research-type home-research-type--dataset">Dataset</span>
-                <span class="home-research-type home-research-type--paper">Research Paper</span>
-              </div>
-              <p class="home-research-paper-title">Complete Trip: A Linked Multimodal Human Mobility Dataset</p>
-              <p class="home-research-venue">TRB2026 / AGU25 Presentation · Open Dataset · 2026</p>
-              <p class="home-research-description">The linked multimodal mobility dataset reconstructing complete journeys from passively collected LBS observations.</p>
-            </div>
-            <div class="home-research-links" aria-label="Complete Trip resources">
-              <a class="home-research-link--paper" href="https://arxiv.org/abs/2607.15436"><i class="fa fa-file-alt" aria-hidden="true"></i> arXiv</a>
-              <a class="home-research-link--data" href="https://github.com/villanova-transportation/Complete-Trip-Data" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> Data</a>
-              <a class="home-research-link--demo" href="https://ruohanlixyf.github.io/Complete-Trip-Data-Explorer/explorer.html" target="_blank" rel="noopener noreferrer"><i class="fa fa-chart-line" aria-hidden="true"></i> Explorer</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="home-research-item">
-          <a class="home-research-image-link" href="/transitdesert/" aria-label="Open Transit Mirage project page">
-            <img src="/images/TransitMirage.png" alt="Transit Mirage research preview">
-          </a>
-          <div class="home-research-content">
-            <div>
-              <div class="home-research-title-row">
-                <h3 class="home-research-name">Transit Mirage</h3>
-                <span class="home-research-type home-research-type--paper">Research Paper</span>
-              </div>
-              <p class="home-research-paper-title">Shifting Transit Deserts and Transit Mirages: Rethinking the Interpretation of Transit Demand-Supply Imbalance</p>
-              <p class="home-research-venue">Transportation Research Part A · 2026 · Revision · AGU25 / TRB2026 Oral Presentation</p>
-              <p class="home-research-description">High demand–supply imbalance does not necessarily indicate structural transit disadvantage.</p>
-            </div>
-            <div class="home-research-links" aria-label="Transit Mirage resources">
-              <a class="home-research-link--paper" href="/publications/"><i class="fa fa-file-alt" aria-hidden="true"></i> Paper</a>
-              <a class="home-research-link--project" href="/transitdesert/"><i class="fa fa-map" aria-hidden="true"></i> Project</a>
-              <a class="home-research-link--scholar" href="https://scholar.google.com/citations?hl=zh-CN&amp;user=aORBRHkAAAAJ" target="_blank" rel="noopener noreferrer"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Scholar</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="home-research-item home-research-item--horizontal">
-          <a class="home-research-image-link" href="/publications/" aria-label="View PM-Tree publication">
-            <img src="/images/pmtree/pmtree_build_animation.gif" alt="Animated visualization of the PM-Tree construction process">
-          </a>
-          <div class="home-research-content">
-            <div>
-              <div class="home-research-title-row">
-                <h3 class="home-research-name">PM-Tree</h3>
-                <span class="home-research-type home-research-type--algorithm">Algorithm</span>
-                <span class="home-research-type home-research-type--paper">Research Paper</span>
-              </div>
-              <p class="home-research-paper-title">How Much of a Trajectory Is Needed? PM-Tree: Priority-Guided Hierarchical Trajectory Representation</p>
-              <p class="home-research-venue">IEEE Transactions on Intelligent Transportation Systems · 2026 · Under Review</p>
-              <p class="home-research-description">Only 3% of trajectory observations can preserve over 96% of structural information.</p>
-            </div>
-            <div class="home-research-links" aria-label="PM-Tree resources">
-              <a class="home-research-link--paper" href="/publications/"><i class="fa fa-file-alt" aria-hidden="true"></i> Paper</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="home-research-item home-research-item--horizontal">
-          <a class="home-research-image-link" href="/publications/" aria-label="View Sup-HMM publication">
-            <img src="/images/suphmm/framework.png" alt="Sup-HMM framework">
-          </a>
-          <div class="home-research-content">
-            <div>
-              <div class="home-research-title-row">
-                <h3 class="home-research-name">Sup-HMM</h3>
-                <span class="home-research-type home-research-type--algorithm">Algorithm</span>
-                <span class="home-research-type home-research-type--paper">Research Paper</span>
-              </div>
-              <p class="home-research-paper-title">Taming Volatile Trajectories: Sup-HMM, a Bayesian-Optimized Hidden Markov Model for Map Matching of Location-Based Service Data</p>
-              <p class="home-research-venue">IEEE Transactions on Intelligent Transportation Systems · 2025 · Revision</p>
-              <p class="home-research-description">Bayesian optimization improves map matching under extremely sparse trajectories.</p>
-            </div>
-            <div class="home-research-links" aria-label="Sup-HMM resources">
-              <a class="home-research-link--paper" href="/publications/"><i class="fa fa-file-alt" aria-hidden="true"></i> Paper</a>
-            </div>
-          </div>
-        </article>
-      </div>
+      <a class="hs-more" href="/publications/">View All Publications <span aria-hidden="true">&rarr;</span></a>
+    </div>
+    <div class="sr-grid">
+      <article class="sr-card">
+        <span class="sr-status sr-status--published">Published</span>
+        <a class="sr-img" href="https://doi.org/10.1109/TITS.2026.3740031" target="_blank" rel="noopener noreferrer" aria-label="View Sup-HMM publication"><img src="/images/suphmm/framework.png" alt="Sup-HMM framework"></a>
+        <h3>Sup-HMM</h3>
+        <p class="sr-desc">Bayesian-optimized map matching for sparse and noisy LBS trajectories.</p>
+        <p class="sr-venue">IEEE Transactions on Intelligent Transportation Systems · 2026</p>
+        <div class="sr-topics"><span>Map Matching</span><span>Bayesian Optimization</span></div>
+        <div class="sr-links">
+          <a class="sr-link--paper" href="https://doi.org/10.1109/TITS.2026.3740031" target="_blank" rel="noopener noreferrer"><i class="fa fa-file-alt" aria-hidden="true"></i> Paper</a>
+        </div>
+      </article>
+      <article class="sr-card">
+        <span class="sr-status sr-status--review">Under Review</span>
+        <a class="sr-img" href="/publications/" aria-label="View PM-Tree publication"><img src="/images/pmtree/pmtree_build_animation.gif" alt="Animated visualization of the PM-Tree construction process"></a>
+        <h3>PM-Tree</h3>
+        <p class="sr-desc">Priority-guided hierarchical representation of sparse trajectories.</p>
+        <p class="sr-venue">IEEE T-ITS · Under Review</p>
+        <div class="sr-topics"><span>Trajectory Representation</span><span>Mobility Modeling</span></div>
+        <div class="sr-links">
+          <a class="sr-link--paper" href="/publications/"><i class="fa fa-file-alt" aria-hidden="true"></i> Paper</a>
+        </div>
+      </article>
+      <article class="sr-card">
+        <span class="sr-status sr-status--dataset">Dataset</span>
+        <a class="sr-img" href="https://ruohanlixyf.github.io/Complete-Trip-Data-Explorer/explorer.html" target="_blank" rel="noopener noreferrer" aria-label="Open Complete Trip explorer"><img src="/images/CompleteTrip.png" alt="Complete Trip research preview"></a>
+        <h3>Complete Trip</h3>
+        <p class="sr-desc">A linked multimodal human mobility dataset reconstructed from passive LBS observations.</p>
+        <p class="sr-venue">TRB 2026 / AGU25 · 2026</p>
+        <div class="sr-topics"><span>Mobility Dataset</span><span>Multimodal Data</span></div>
+        <div class="sr-links">
+          <a class="sr-link--paper" href="https://arxiv.org/abs/2607.15436" target="_blank" rel="noopener noreferrer"><i class="fa fa-file-alt" aria-hidden="true"></i> arXiv</a>
+          <a class="sr-link--data" href="https://github.com/villanova-transportation/Complete-Trip-Data" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> Data</a>
+          <a class="sr-link--scholar" href="https://ruohanlixyf.github.io/Complete-Trip-Data-Explorer/explorer.html" target="_blank" rel="noopener noreferrer"><i class="fa fa-external-link-alt" aria-hidden="true"></i> Explorer</a>
+        </div>
+      </article>
+      <article class="sr-card">
+        <span class="sr-status sr-status--revision">Under Revision</span>
+        <a class="sr-img" href="/transitdesert/" aria-label="Open Transit Mirage project page"><img src="/images/Transit_Desert/TD_Picture8.png" alt="Transit Mirage research preview"></a>
+        <h3>Transit Mirage</h3>
+        <p class="sr-desc">Rethinking the interpretation of transit demand-supply imbalance.</p>
+        <p class="sr-venue">Transportation Research Part A · Under Revision</p>
+        <div class="sr-topics"><span>Transit Analysis</span><span>Network Modeling</span></div>
+        <div class="sr-links">
+          <a class="sr-link--paper" href="/publications/"><i class="fa fa-file-alt" aria-hidden="true"></i> Paper</a>
+          <a class="sr-link--scholar" href="/transitdesert/"><i class="fa fa-external-link-alt" aria-hidden="true"></i> Explore</a>
+        </div>
+      </article>
     </div>
   </section>
 
-  <section class="home-news">
-      <div class="home-news-card">
-        <div class="home-news-content">
-          <div class="home-news-heading">
-            <h2>News</h2>
-            <span class="home-news-badge">Latest update &middot; 09/2026</span>
-          </div>
-
-          <div class="about-news-ticker" id="about-news-ticker">
-            <div class="about-news-ticker-viewport">
-              <div class="about-news-item">
-                <div class="about-news-entry"><strong>2027:</strong> Three of my papers have been accepted for presentation at the <strong>TRB 106th Annual Meeting</strong>! 🎉</div>
-                <div class="about-news-entry"><strong>2026:</strong> 🎉 My first paper from my Ph.D. journey, <em>Taming Volatile Trajectories: Sup-HMM, a Bayesian-Optimized Hidden Markov Model for Map Matching of Location-Based Service Data</em>, has been accepted as a regular paper by <strong>IEEE Transactions on Intelligent Transportation Systems (IEEE T-ITS)</strong> on 27-Sep-2026!</div>
-              </div>
-            </div>
-          </div>
-
-          <details class="about-news-archive" open>
-            <summary>Earlier News</summary>
-            <ul>
-              <li><strong>07/2026:</strong> Our lab's latest dataset paper, <strong>Complete Trip: A Linked Multimodal Human Mobility Dataset</strong>, is now publicly available on arXiv. <a href="https://arxiv.org/abs/2607.15436">arXiv</a>.</li>
-              <li><strong>10/2025:</strong> I will present my paper <em>Rethinking <strong>Transit Deserts</strong>: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data</em> at the <strong>TRB 105th Annual Meeting</strong>, as the <strong>first presenter</strong> in <strong>Lectern Session 4018: Evaluation of Non-Conventional Transit Impacts</strong> <span style="color:#32B5FF">(Wednesday, Jan 14, 8:00-9:45 AM, Room 150B, Convention Center)</span>. Welcome to attend and join the discussion!</li>
-              <li><strong>09/2025:</strong> My paper <em>Rethinking Transit Deserts: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data</em> has been accepted by TRB. Another paper, <em>Complete Trip: An Open and Privacy-Safe Dataset of Multimodal Travel Sequences for Urban Transportation Systems Analysis</em>, has also been accepted.</li>
-              <li><strong>08/2025:</strong> After the TRB deadline, I have been busy cleaning up my LBS map-matching code. Formatting code so that <em>other humans</em> can understand it feels like the hardest optimization problem ever.</li>
-              <li><strong>09/2024:</strong> The Computer Software Copyright Registration in China: Vision-Based Lane Detection System With Self-supervised Pre-training Through Masked Sequential Auto-encoders (VLD_SP-MSAE), granted on Sep. 11, 2024, Patent number 2024R11L1180902. We also published the <a href="https://github.com/RuohanLixyf/Lane-Detection-Self-Supervised-MSAE">open-source lane detection code</a> on GitHub.</li>
-              <li><strong>09/2024:</strong> I presented my recent work, <em>Sup-HMM Map-Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach</em>, at the TRC-30 conference in Crete.</li>
-              <li><strong>07/2024:</strong> My paper have been submitted and is currently under review by <a href="https://trb-annual-meeting.nationalacademies.org/">The Transportation Research Board (TRB) 104nd Annual Meeting</a>: <em>Sup-HMM Map-Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach.</em> Working on the map-matching continues. This work is part of our team's Complete Trips Project.</li>
-            </ul>
-
-            <div align="center">
-              Map-Matching Sample
-              <iframe src="/files/Hof_13.html" width="700" height="400" frameborder="1" name="Map-Matching-Sample_DC_10" scrolling="auto" style="display: block; margin: 0 auto;"></iframe>
-            </div>
-
-            <ul>
-              <li><strong>06/2024:</strong> My paper has been accepted by <a href="https://trc-30.epfl.ch/">Conference in Emerging Technologies in Transportation Systems (TRC-30)</a>: <em>Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach.</em> Very excited for the presentation in Crete, Greece, in September!</li>
-              <li><strong>06/2024:</strong> The computer software has been submitted and is currently under review by Computer Software Copyright Registration in China: <em>Lane Line Detection Software Based on Image Sequence Mask Pre-Training.</em></li>
-              <li><strong>04/2024:</strong> My paper has been submitted and is currently under review by <a href="https://trc-30.epfl.ch/">Conference in Emerging Technologies in Transportation Systems (TRC-30)</a>: <em>Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach.</em> I'm currently working on map matching for human mobility data.</li>
-              <li><strong>10/2023:</strong> Two of my TRB papers were accepted:
-                <ul>
-                  <li><a href="http://dx.doi.org/10.13140/RG.2.2.24853.50405">A Novel Highway Traffic Capacity Analyzing Method under Road Region Atmospheric Environment Constraints Based on Computational Fluid Dynamics Model</a>. The Transportation Research Board (TRB) 103rd Annual Meeting. 2023. [Accepted] <strong>Rank 1st.</strong></li>
-                  <li><a href="http://dx.doi.org/10.13140/RG.2.2.28243.35360">Intelligent Anomaly Detection for Lane Rendering Using Transformer with Self-Supervised Pre-Training and Customized Fine-Tuning</a>. The Transportation Research Board (TRB) 103rd Annual Meeting. 2023. [Accepted] Rank 3rd.</li>
-                </ul>
-              </li>
-              <li><strong>09/2023:</strong> The article, "The Highway Region Boundary Based on Multi-Environmental Factors," can now be accessed. View the article <a href="https://doi.org/10.1061/9780784484869.014">here</a>.</li>
-              <li><strong>09/2023:</strong> Starting my Ph.D. studies at Villanova University!</li>
-              <li><strong>08/2023:</strong> The article, "Robust Lane Detection Through Self Pre-Training With Masked Sequential Autoencoders and Fine-Tuning With Customized PolyLoss," has been finalized and posted in the "Early Access" area on IEEE Xplore. View the article <a href="https://ieeexplore.ieee.org/document/10226453">here</a>.</li>
-              <li><strong>07/2023:</strong> I received my Ph.D. offer from Villanova University! Looking forward to new research and life at Villanova!</li>
-              <li><strong>07/2023:</strong> My paper <a href="https://arxiv.org/abs/2305.17271">Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss</a> is accepted by the journal of <em>IEEE Transactions on Intelligent Transportation Systems</em>.</li>
-              <li><strong>06/2023:</strong> I received my M.Eng. degree in traffic and transportation from Lanzhou Jiaotong University!</li>
-            </ul>
-          </details>
+  <section class="hs hs--bottom" aria-label="Teaching and latest updates">
+    <div class="hb-grid">
+      <article class="hb-card hb-updates" id="latest-updates">
+        <div class="hb-updates-head">
+          <h3><span class="hb-live" aria-hidden="true"></span>Latest Updates</h3>
+          <button type="button" class="hb-viewall" aria-expanded="false" aria-controls="hb-updates-archive">View All <span aria-hidden="true">&rarr;</span></button>
         </div>
-
-
-        <!-- Visitor map temporarily disabled.
-        <div class="home-news-map-wrap">
-          <div class="home-visitor-map">
-            <a href='https://mapmyvisitors.com/web/1c6ne'  title='Visit tracker'><img src='https://mapmyvisitors.com/map.png?cl=0a2a66&w=a&t=tt&d=y0ANDnT92Jr7kSTOhpzObLiEJEHUAJs0Wv7TZPxy73g&co=ffffff&ct=32b5ff'/></a>
-          </div>
+        <ul class="hb-timeline">
+          <li>
+            <span class="hb-date">Oct 2026</span>
+            <span>
+              <a href="https://doi.org/10.1109/TITS.2026.3740031"
+                target="_blank" rel="noopener noreferrer">
+                Sup-HMM
+              </a> published in IEEE T-ITS (Early Access)!
+            </span>
+          </li>
+          <li><span class="hb-date">Sep 2026</span><span>Three papers accepted for presentation at TRB 2027 (106th Annual Meeting).</span></li>
+          <li><span class="hb-date">Jul 2026</span><span>Complete Trip dataset released as a <a href="https://arxiv.org/abs/2607.15436" target="_blank" rel="noopener noreferrer">preprint</a>.</span></li>
+          <li><span class="hb-date">Oct 2025</span><span>Presenting Transit Deserts work at TRB 2026, Lectern Session 4018.</span></li>
+        </ul>
+        <div class="hb-archive" id="hb-updates-archive" hidden>
+          <ul>
+            <li><strong>2026:</strong> 🎉 My first paper from my Ph.D. journey, <em>Taming Volatile Trajectories: Sup-HMM, a Bayesian-Optimized Hidden Markov Model for Map Matching of Location-Based Service Data</em>, has been accepted as a regular paper by <strong>IEEE Transactions on Intelligent Transportation Systems (IEEE T-ITS)</strong> on 27-Sep-2026!</li>
+            <li><strong>2027:</strong> Three of my papers have been accepted for presentation at the <strong>TRB 106th Annual Meeting</strong>! 🎉</li>
+            <li><strong>07/2026:</strong> Our lab's latest dataset paper, <strong>Complete Trip: A Linked Multimodal Human Mobility Dataset</strong>, is now publicly available on arXiv. <a href="https://arxiv.org/abs/2607.15436">arXiv</a>.</li>
+            <li><strong>10/2025:</strong> I will present my paper <em>Rethinking <strong>Transit Deserts</strong>: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data</em> at the <strong>TRB 105th Annual Meeting</strong>, as the <strong>first presenter</strong> in <strong>Lectern Session 4018: Evaluation of Non-Conventional Transit Impacts</strong> <span style="color:#32B5FF">(Wednesday, Jan 14, 8:00-9:45 AM, Room 150B, Convention Center)</span>. Welcome to attend and join the discussion!</li>
+            <li><strong>09/2025:</strong> My paper <em>Rethinking Transit Deserts: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data</em> has been accepted by TRB. Another paper, <em>Complete Trip: An Open and Privacy-Safe Dataset of Multimodal Travel Sequences for Urban Transportation Systems Analysis</em>, has also been accepted.</li>
+            <li><strong>08/2025:</strong> After the TRB deadline, I have been busy cleaning up my LBS map-matching code. Formatting code so that <em>other humans</em> can understand it feels like the hardest optimization problem ever.</li>
+            <li><strong>09/2024:</strong> The Computer Software Copyright Registration in China: Vision-Based Lane Detection System With Self-supervised Pre-training Through Masked Sequential Auto-encoders (VLD_SP-MSAE), granted on Sep. 11, 2024, Patent number 2024R11L1180902. We also published the <a href="https://github.com/RuohanLixyf/Lane-Detection-Self-Supervised-MSAE">open-source lane detection code</a> on GitHub.</li>
+            <li><strong>09/2024:</strong> I presented my recent work, <em>Sup-HMM Map-Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach</em>, at the TRC-30 conference in Crete.</li>
+            <li><strong>07/2024:</strong> My paper have been submitted and is currently under review by <a href="https://trb-annual-meeting.nationalacademies.org/">The Transportation Research Board (TRB) 104nd Annual Meeting</a>: <em>Sup-HMM Map-Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach.</em> Working on the map-matching continues. This work is part of our team's Complete Trips Project.</li>
+            <li><strong>06/2024:</strong> My paper has been accepted by <a href="https://trc-30.epfl.ch/">Conference in Emerging Technologies in Transportation Systems (TRC-30)</a>: <em>Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach.</em> Very excited for the presentation in Crete, Greece, in September!</li>
+            <li><strong>06/2024:</strong> The computer software has been submitted and is currently under review by Computer Software Copyright Registration in China: <em>Lane Line Detection Software Based on Image Sequence Mask Pre-Training.</em></li>
+            <li><strong>04/2024:</strong> My paper has been submitted and is currently under review by <a href="https://trc-30.epfl.ch/">Conference in Emerging Technologies in Transportation Systems (TRC-30)</a>: <em>Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach.</em> I'm currently working on map matching for human mobility data.</li>
+            <li><strong>10/2023:</strong> Two of my TRB papers were accepted: <a href="http://dx.doi.org/10.13140/RG.2.2.24853.50405">A Novel Highway Traffic Capacity Analyzing Method under Road Region Atmospheric Environment Constraints Based on Computational Fluid Dynamics Model</a> (<strong>Rank 1st</strong>) and <a href="http://dx.doi.org/10.13140/RG.2.2.28243.35360">Intelligent Anomaly Detection for Lane Rendering Using Transformer with Self-Supervised Pre-Training and Customized Fine-Tuning</a> (Rank 3rd), TRB 103rd Annual Meeting.</li>
+            <li><strong>09/2023:</strong> The article, "The Highway Region Boundary Based on Multi-Environmental Factors," can now be accessed. View the article <a href="https://doi.org/10.1061/9780784484869.014">here</a>.</li>
+            <li><strong>09/2023:</strong> Starting my Ph.D. studies at Villanova University!</li>
+            <li><strong>08/2023:</strong> The article, "Robust Lane Detection Through Self Pre-Training With Masked Sequential Autoencoders and Fine-Tuning With Customized PolyLoss," has been finalized and posted in the "Early Access" area on IEEE Xplore. View the article <a href="https://ieeexplore.ieee.org/document/10226453">here</a>.</li>
+            <li><strong>07/2023:</strong> I received my Ph.D. offer from Villanova University! Looking forward to new research and life at Villanova!</li>
+            <li><strong>07/2023:</strong> My paper <a href="https://arxiv.org/abs/2305.17271">Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss</a> is accepted by the journal of <em>IEEE Transactions on Intelligent Transportation Systems</em>.</li>
+            <li><strong>06/2023:</strong> I received my M.Eng. degree in traffic and transportation from Lanzhou Jiaotong University!</li>
+          </ul>
         </div>
-        -->
-
-      </div>
+      </article>
+    </div>
+    <script>
+      (function () {
+        var btn = document.querySelector('.hb-viewall');
+        var archive = document.getElementById('hb-updates-archive');
+        if (!btn || !archive) return;
+        btn.addEventListener('click', function () {
+          var open = archive.hidden;
+          archive.hidden = !open;
+          btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+          btn.firstChild.nodeValue = open ? 'Show Less ' : 'View All ';
+        });
+      })();
+    </script>
   </section>
 </div>
 

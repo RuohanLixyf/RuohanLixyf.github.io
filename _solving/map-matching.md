@@ -1,6 +1,10 @@
 ---
 title: "Map Matching..."
 excerpt: "some references"
+note_category: "Algorithms & Modeling"
+note_title: "Map Matching: Reading List"
+note_summary: "Curated references on HMM-based map matching for GPS data."
+note_year: 2024
 collection: solving
 layout: archive
 author_profile: true

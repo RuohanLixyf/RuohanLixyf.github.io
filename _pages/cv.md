@@ -33,6 +33,11 @@ Conference Reviewer
 
 Skills
 ======
+* Big Data & Research Computing Infrastructure
+  * **Distributed Computing:** Apache Spark (PySpark), parallel data processing, large-scale mobility data pipelines
+  * **Compute Infrastructure:** Linux/Windows compute cluster deployment, configuration, and administration
+  * **Storage & Networking:** NAS-based shared storage, NFS, large-scale data management, network configuration and switching
+  * **Containerization & Environments:** Docker, Linux environments, reproducible computational workflows
 * Programming & Frameworks:
   * Python (Advanced), data processing, scientific computing, custom algorithm development
   * PyTorch, deep learning models for segmentation, sequence modeling, and masked modeling
@@ -54,8 +59,10 @@ Skills
   * ENVI, remote sensing image analysis
   * Revit, AutoCAD, engineering modeling
   
-Fellowships & Honors
+Awards & Honors
 ======
+* Professional Development Grant, Villanova University Career Center, 2025
+* 2025 Entrepreneurs Next Star & Million Prize Global Challenge (Germany AI+ Deep-Tech) Third Prize ($7,400), 2025
 * Dean’s Fellowship, College of Engineering, Villanova University, 2023–2024
   
 <!-- 

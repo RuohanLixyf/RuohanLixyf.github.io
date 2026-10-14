@@ -1,6 +1,10 @@
 ---
 title: "CT_Sample"
 excerpt: ""
+note_category: "Data Engineering"
+note_title: "Complete Trip Samples"
+note_summary: "Interactive maps of sample multimodal complete trips."
+note_year: 2025
 collection: solving
 layout: archive
 author_profile: true

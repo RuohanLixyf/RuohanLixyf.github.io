@@ -1,6 +1,10 @@
 ---
 title: "MM_Sample"
 excerpt: ""
+note_category: "Data Engineering"
+note_title: "Map-Matching Samples"
+note_summary: "Interactive maps of map-matched trajectory samples."
+note_year: 2025
 collection: solving
 layout: archive
 author_profile: true

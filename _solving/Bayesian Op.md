@@ -1,6 +1,10 @@
 ---
 title: "Bayesian Optimization Package"
 excerpt: "some error when using pymc"
+note_category: "Algorithms & Modeling"
+note_title: "Bayesian Optimization with PyMC: Common Errors"
+note_summary: "Import pitfalls and tensor conversion errors when using PyMC."
+note_year: 2024
 collection: solving
 layout: archive
 author_profile: true
