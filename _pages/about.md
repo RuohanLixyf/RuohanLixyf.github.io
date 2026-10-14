@@ -415,6 +415,58 @@ redirect_from:
     color: rgba(10, 42, 102, 0.66);
   }
 
+  /* Desktop: scale the left column with the viewport so it shrinks in step
+     with the hero image and the avatar stays level with the image bottom. */
+  @media (min-width: 901px) {
+    /* Scale the whole homepage (all rem-based text) with the window width. */
+    html:has(.page--full-width-home) {
+      font-size: clamp(12px, 0.94vw, 17px);
+    }
+
+    .home-hero-copy {
+      font-size: 0.9rem;
+    }
+
+    .page__content .home-hero-copy .home-bio.home-bio--tagline {
+      max-width: none;
+      margin-bottom: 0.6em;
+      font-size: 1.32em;
+    }
+
+    .page__content .home-hero-copy .home-bio.home-bio--summary {
+      max-width: none;
+      margin-bottom: 1em;
+      font-size: 1em;
+    }
+
+    .home-hero-copy .home-profile img {
+      width: 7.4em;
+      height: 7.4em;
+      border-radius: 1.4em;
+    }
+
+    .home-hero-copy .home-profile-name {
+      font-size: 1.1em;
+    }
+
+    .home-hero-copy .home-profile-role,
+    .home-hero-copy .home-profile-line {
+      font-size: 1.05em;
+    }
+
+    .page__content .home-hero .home-identity-card {
+      gap: 0.6em 1em;
+      padding-top: 0.4em;
+      padding-bottom: 0.4em;
+    }
+
+    .home-hero-copy .home-links a {
+      width: 2.3em;
+      height: 2.3em;
+      font-size: 1em;
+    }
+  }
+
   .home-headline.home-headline--serif {
     grid-column: 1 / -1;
     max-width: 1100px;
@@ -477,7 +529,7 @@ redirect_from:
     -webkit-backdrop-filter: blur(10px);
     box-shadow: 0 6px 20px rgba(30, 70, 120, 0.1);
     color: #12305a;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 600;
     line-height: 1.2;
     white-space: nowrap;
@@ -507,7 +559,7 @@ redirect_from:
     position: absolute;
     top: calc(100% + 8px);
     left: 0;
-    width: 250px;
+    width: 15.6rem;
     padding: 0.8rem 0.9rem;
     border: 1px solid rgba(120, 160, 205, 0.28);
     border-radius: 14px;
@@ -516,7 +568,7 @@ redirect_from:
     -webkit-backdrop-filter: blur(12px);
     box-shadow: 0 14px 34px rgba(30, 70, 120, 0.16);
     color: #12305a;
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 1.45;
     text-align: left;
   }
@@ -549,7 +601,7 @@ redirect_from:
   .page__content .hf-card p.hf-card-q {
     margin: 0 0 0.45rem;
     font-family: "Source Serif 4", Georgia, serif;
-    font-size: 13.5px;
+    font-size: 0.84rem;
     font-weight: 600;
     line-height: 1.3;
   }
@@ -561,7 +613,7 @@ redirect_from:
 
   .page__content .hf-card li {
     margin: 0;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: rgba(18, 48, 90, 0.8);
   }
 
@@ -576,7 +628,7 @@ redirect_from:
     border-radius: 999px;
     background: rgba(50, 140, 230, 0.1);
     color: #1557b0;
-    font-size: 11px;
+    font-size: 0.69rem;
     font-weight: 600;
     text-decoration: none;
   }
@@ -2303,8 +2355,8 @@ redirect_from:
       <div class="am-text">
         <h2 class="hs-title" id="about-me-heading">About Me</h2>
         <p>Hi! I'm Ruohan! My research focuses on <strong>human mobility modeling, mobility data analytics, and computational methods</strong>. I enjoy developing algorithms such as <strong>Sup-HMM, PM-Tree, and HSMM-T</strong>, and building <a href="/novamatch/"><strong>NovaMatch</strong></a>, an integrated framework for large-scale mobility data processing, map matching, network representation, and analytics.</p>
-        <p>I aim to <strong>bridge methodological research with real-world transportation challenges</strong>. Through projects supported by <strong>FHWA/USDOT, VDOT, DVRPC, and PennDOT</strong>, I have contributed to applied mobility research and transportation planning. My experience also includes real-world airport traffic simulation and analysis using <strong>VISSIM</strong>.</p>
-        <p>My work includes <strong>two first-author publications in IEEE Transactions on Intelligent Transportation Systems</strong>, with <strong>five additional first-author manuscripts under review</strong>. My doctoral research, <em>From Observations to Mobility Representations</em>, explores overlooked challenges and limitations in mobility data, with the goal of developing <strong>robust, interpretable, and trustworthy methods</strong> for transportation and urban analysis.</p>
+        <p>I aim to bridge methodological research with real-world transportation challenges. Through projects supported by <strong>FHWA/USDOT, VDOT, DVRPC, and PennDOT</strong>, I have contributed to applied mobility research and transportation planning. My experience also includes real-world airport traffic simulation and analysis using <strong>VISSIM</strong>.</p>
+        <p>My work includes <strong>two first-author publications in IEEE Transactions on Intelligent Transportation Systems</strong>, with <strong>five additional first-author manuscripts under review</strong>.  My doctoral research, <em>From Observations to Mobility Representations</em>, explores overlooked challenges and limitations in mobility data, with the goal of developing <span style="color: #2474C7; font-weight: normal;">robust, interpretable, and trustworthy methods</span> for transportation and urban analysis.</p>
       </div>
       <a class="am-logo" href="/novamatch/" aria-label="Open NovaMatch"><img src="/images/NovaMatch%20log.png" alt="NovaMatch logo"></a>
     </div>
