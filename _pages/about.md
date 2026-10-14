@@ -394,7 +394,7 @@ redirect_from:
   }
 
   .home-hero-visual {
-    align-self: start;
+    align-self: center;
     min-width: 0;
   }
 
@@ -420,11 +420,61 @@ redirect_from:
   @media (min-width: 901px) {
     /* Scale the whole homepage (all rem-based text) with the window width. */
     html:has(.page--full-width-home) {
-      font-size: clamp(12px, 0.94vw, 17px);
+      font-size: clamp(15px, 1.05vw, 18px);
+    }
+
+    /* Keep the nav bar at its normal (18px-root) size on the homepage. */
+    html:has(.page--full-width-home) body.nav-flat .masthead__inner-wrap {
+      padding: 9px clamp(1.25rem, 4vw, 4rem) 7.5px !important;
+      min-height: 44px !important;
+    }
+
+    html:has(.page--full-width-home) body.nav-flat .greedy-nav .visible-links {
+      gap: 3px !important;
+    }
+
+    html:has(.page--full-width-home) body.nav-flat .greedy-nav a {
+      margin: 0 10px !important;
+      padding: 3.6px 0 !important;
+      font-size: 16.2px !important;
+    }
+
+    html:has(.page--full-width-home) body.nav-flat nav a.active,
+    html:has(.page--full-width-home) body.nav-flat .masthead a.active {
+      padding: 3.2px 8.3px !important;
+    }
+
+    html:has(.page--full-width-home) body.nav-flat .masthead__brand {
+      left: 18px !important;
+      gap: 10px !important;
+    }
+
+    html:has(.page--full-width-home) body.nav-flat .masthead__brand-text {
+      font-size: 17.1px !important;
+    }
+    /* Keep the footer at its normal (18px-root) size on the homepage. */
+    html:has(.page--full-width-home) .page__footer {
+      margin-top: 40px;
+      padding-top: 7px;
+      font-size: 13.5px;
+    }
+
+    html:has(.page--full-width-home) .page__footer footer {
+      padding: 18px 20px;
+    }
+
+    html:has(.page--full-width-home) .page__footer-copyright {
+      font-size: 13px;
+    }
+
+    html:has(.page--full-width-home) .page__footer .social-icons,
+    html:has(.page--full-width-home) .page__footer .social-icons li,
+    html:has(.page--full-width-home) .page__footer .social-icons a {
+      font-size: 13.5px;
     }
 
     .home-hero-copy {
-      font-size: 0.9rem;
+      font-size: 0.86rem;
     }
 
     .page__content .home-hero-copy .home-bio.home-bio--tagline {
@@ -472,7 +522,7 @@ redirect_from:
     max-width: 1100px;
     margin: 0 0 0.6rem;
     font-family: "Source Serif 4", "Source Serif Pro", Georgia, "Times New Roman", serif;
-    font-size: clamp(30px, 3.3vw, 52px);
+    font-size: clamp(26px, 2.75vw, 44px);
     font-weight: 700;
     line-height: 1.06;
     letter-spacing: -0.02em;
@@ -492,7 +542,7 @@ redirect_from:
   }
 
   .home-framework-shell.home-framework-shell--image {
-    margin: -3.2rem 0 0 -8%;
+    margin: -1rem 0 0 -8%;
     width: 112%;
     transform: none;
   }

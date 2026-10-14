@@ -215,6 +215,8 @@ page_class: page--full-research
     font-size: 0.72rem;
     white-space: nowrap;
   }
+  .rp-period--active { display: inline-flex; align-items: center; gap: 0.35rem; background: rgba(35, 164, 96, 0.12); color: #137044; font-weight: 600; }
+  .rp-period--active i { width: 6px; height: 6px; border-radius: 50%; background: #23a460; box-shadow: 0 0 0 3px rgba(35, 164, 96, 0.18); }
   .page__content .rp-card h3.rp-proj-title { margin-bottom: 0.45rem; font-size: 1rem; line-height: 1.3; }
   .page__content .rp-card p.rp-partner { margin: 0; font-size: 0.72rem; }
 
@@ -377,7 +379,7 @@ page_class: page--full-research
     </div>
     <div class="rp-projects">
       <article class="rp-card">
-        <div class="rp-proj-top"><img class="rp-logo" src="/images/logos/dvrpc.png" alt="DVRPC (Delaware Valley Regional Planning Commission)"><span class="rp-period">2026 – Present</span></div>
+        <div class="rp-proj-top"><img class="rp-logo" src="/images/logos/dvrpc.png" alt="DVRPC (Delaware Valley Regional Planning Commission)"><span class="rp-period rp-period--active" title="Ongoing project"><i aria-hidden="true"></i>2026 – Present</span></div>
         <h3 class="rp-serif rp-proj-title">Regional Land Use Modeling and Future-Year Scenario Development</h3>
         <ul>
           <li>Model development and project coordination</li>
@@ -388,7 +390,7 @@ page_class: page--full-research
         <p class="rp-partner rp-foot">Collaborating Organizations: DVRPC &amp; Univ. of Memphis</p>
       </article>
       <article class="rp-card">
-        <div class="rp-proj-top"><span class="rp-agency"><i class="fa fa-walking" aria-hidden="true"></i>Pedestrian Infrastructure</span><span class="rp-period">2026 – Present</span></div>
+        <div class="rp-proj-top"><span class="rp-agency"><i class="fa fa-walking" aria-hidden="true"></i></span><span class="rp-period rp-period--active" title="Ongoing project"><i aria-hidden="true"></i>2026 – Present</span></div>
         <h3 class="rp-serif rp-proj-title">From Data to Design: Enhancing Pedestrian Infrastructure for Well-Being</h3>
         <ul>
           <li>GPS trajectory processing and spatial analysis</li>
@@ -398,7 +400,7 @@ page_class: page--full-research
         <p class="rp-partner rp-foot">Collaborator: Human Centered Cities Lab (PI: Arash Tavakoli)</p>
       </article>
       <article class="rp-card">
-        <div class="rp-proj-top"><img class="rp-logo" src="/images/logos/penndot.png" alt="PennDOT (Pennsylvania Department of Transportation)"><span class="rp-period">2026 – Present</span></div>
+        <div class="rp-proj-top"><img class="rp-logo" src="/images/logos/penndot.png" alt="PennDOT (Pennsylvania Department of Transportation)"><span class="rp-period rp-period--active" title="Ongoing project"><i aria-hidden="true"></i>2026 – Present</span></div>
         <h3 class="rp-serif rp-proj-title">Enhanced Vehicle Inspection Station Research</h3>
         <ul>
           <li>Statewide spatial and data-driven analysis</li>
