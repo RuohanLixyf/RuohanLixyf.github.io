@@ -474,7 +474,7 @@ redirect_from:
     }
 
     .home-hero-copy {
-      font-size: 0.86rem;
+      font-size: max(0.86rem, 0.9vw);
     }
 
     .page__content .home-hero-copy .home-bio.home-bio--tagline {
@@ -522,7 +522,7 @@ redirect_from:
     max-width: 1100px;
     margin: 0 0 0.6rem;
     font-family: "Source Serif 4", "Source Serif Pro", Georgia, "Times New Roman", serif;
-    font-size: clamp(26px, 2.75vw, 44px);
+    font-size: clamp(26px, 2.75vw, 60px);
     font-weight: 700;
     line-height: 1.06;
     letter-spacing: -0.02em;
