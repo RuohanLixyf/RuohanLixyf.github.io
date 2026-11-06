@@ -24,12 +24,14 @@ Journal Reviewer
   * IEEE Transactions on Intelligent Transportation Systems (T-ITS)
   * Transportation Research Record (TRR)
   * PLOS ONE
+  * Tourism management
 
 Conference Reviewer
-  * TRB Transportation Research Board Annual Meeting
+  * Transportation Research Board (TRB) Annual Meeting
+  *The ACM Web Conference (WWW)
   * World Symposium on Transport and Land Use Research (WSTLUR)
   * Bridging Transportation Researchers (BTR) Online Conference
-  * COTA International Conference (CICTP)
+  * COTA International Conference of Transportation Professionals (CICTP)
 
 Skills
 ======
