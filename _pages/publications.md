@@ -9,7 +9,8 @@ header: false
 <div class="publications-content" markdown="1">
 
 ## Under Review
-* <span class="publication-new">NEW</span> **Ruohan Li**, Adriana Valentina Farias, Shanjiang Zhu, Chenfeng Xiong*. From Zone Connectors to Real Travel Paths: Empirical Evidence on Path-Level Inference Bias in Regional Planning Models. <var>Transportation Research Part A: Policy and Practice</var>. 2026. [Under Review] [Preprint](https://doi.org/10.2139/ssrn.7541649)
+* <span class="publication-new">NEW</span> **Ruohan Li**, Shanjiang Zhu, Chenfeng Xiong*. (2026). Selective Trajectory Translation for Transportation Planning Networks: A Hybrid Road–Zone Representation. Transportation Research Part C: Emerging Technologies. [Submitted]
+* <span class="publication-new">NEW</span> **Ruohan Li**, Adriana Valentina Farias, Shanjiang Zhu, Chenfeng Xiong*. From Zone Connectors to Real Travel Paths: Empirical Evidence on Path-Level Inference Bias in Regional Planning Models. <var>Transportmetrica A: Transport Science</var>. 2026. [Under Review] [Preprint](https://doi.org/10.2139/ssrn.7541649)
 * <span class="publication-new">NEW</span> **Ruohan Li#**, Weiyu Luo#, Xin Wu, Chenfeng Xiong*. Complete Trip: A Linked Multimodal Human Mobility Dataset. 2026. [Preprint](
 https://doi.org/10.48550/arXiv.2607.15436) [Dataset](https://github.com/villanova-transportation/Complete-Trip-Data) [Demo](https://ruohanlixyf.github.io/Complete-Trip-Data-Explorer/explorer.html)
 * <span class="publication-new">NEW</span> **Ruohan Li**, Xin Wu, Chenfeng Xiong*. How Much of a Trajectory Is Needed? PM-Tree: Priority-Guided Hierarchical Trajectory Representation. <var>IEEE Transactions on Intelligent Transportation Systems</var>. 2026. [Under Review]
