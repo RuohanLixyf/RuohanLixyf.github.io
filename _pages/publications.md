@@ -14,6 +14,8 @@ header: false
 * <span class="publication-new">NEW</span> **Ruohan Li#**, Weiyu Luo#, Xin Wu, Chenfeng Xiong*. Complete Trip: A Linked Multimodal Human Mobility Dataset. 2026. [Preprint](
 https://doi.org/10.48550/arXiv.2607.15436) [Dataset](https://github.com/villanova-transportation/Complete-Trip-Data) [Demo](https://ruohanlixyf.github.io/Complete-Trip-Data-Explorer/explorer.html)
 * <span class="publication-new">NEW</span> **Ruohan Li**, Xin Wu, Chenfeng Xiong*. How Much of a Trajectory Is Needed? PM-Tree: Priority-Guided Hierarchical Trajectory Representation. <var>IEEE Transactions on Intelligent Transportation Systems</var>. 2026. [Under Review]
+* Le-Le Zhang, Xin Wu, Alireza Ermagun, Kailun Liu, **Ruohan Li**, Chenfeng Xiong*. Quantifying extreme-weather disruptions to multimodal transit ridership and their operational implications. <var>Transportation Research Part D: Transport and Environment</var>. 2026. [Under Review] [Preprint](http://dx.doi.org/10.2139/ssrn.6904229)
+* Kailun Liu, Xin Wu, Meagan C. Fitzpatrick, Weiyu Luo, Olanrewaju Lawal, Natalia Blanco, Kristen Stafford, **Ruohan Li**, Lele Zhang, Alash'le Abimiku, Chenfeng Xiong*. Estimating the Impact of Human Mobility Restrictions on COVID-19 Transmission in Lagos, Nigeria: A Hybrid Simulation Framework Integrating Mobility and Epidemiological Data. <var>Scientific Reports</var>. 2026. [Under Review] [Preprint](https://doi.org/10.21203/rs.3.rs-8727309/v1)
 * **Ruohan Li**, Weiyu Luo, Xin Wu, Kailun Liu, Lele Zhang, Chenfeng Xiong*. Shifting Transit Deserts and Transit Mirages: Toward a Behavioral–Dynamic Framework for Transit Equity Measurement. <var>Transportation Research Part A: Policy and Practice</var>. 2025. [Revision]
 
 ## Journal Publications
