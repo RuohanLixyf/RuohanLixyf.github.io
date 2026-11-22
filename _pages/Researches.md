@@ -286,7 +286,7 @@ page_class: page--full-research
       </article>
       <article class="rp-card">
         <a class="rp-img" href="/images/HSMM-T.png" target="_blank" rel="noopener noreferrer"><img src="/images/HSMM-T.png" alt="HSMM-T cross-network mobility translation"></a>
-        <div class="rp-title-row"><h3 class="rp-serif">HSMM-T</h3><span class="rp-badge">Under Review</span></div>
+        <div class="rp-title-row"><h3 class="rp-serif">Selective Trajectory Translation</h3><span class="rp-badge">Under Review</span></div>
         <p class="rp-lead rp-serif">Cross-network mobility translation for planning applications.</p>
         <ul>
           <li>Translating observed trajectories to planning networks</li>
@@ -294,7 +294,7 @@ page_class: page--full-research
           <li>Supporting network-based analysis</li>
         </ul>
         <div class="rp-foot">
-          <span class="rp-venue">Transportation (Under Review)</span>
+          <span class="rp-venue">TR Part C (Under Review)</span>
           <div class="rp-links"><a href="/publications/">Paper</a></div>
         </div>
       </article>
