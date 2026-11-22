@@ -28,9 +28,9 @@ https://doi.org/10.48550/arXiv.2607.15436) [Dataset](https://github.com/villanov
 ---
 ## Conference
 ### Transportation Research Board (TRB)
-* <span class="publication-new">NEW</span> **2027**: **Ruohan Li**, Xin Wu, Chenfeng Xiong*. *How Much of a Trajectory Is Needed? PM-Tree: Priority-Guided Hierarchical Trajectory Representation*. *TRB 106th Annual Meeting*, 2027.
-* <span class="publication-new">NEW</span> **2027**: **Ruohan Li**, Adriana Valentina Farias, Shanjiang Zhu, Chenfeng Xiong*. *Do Observed Trips Follow Zone Connector Assumptions? Empirical Evidence on Path-Level Inference Bias in Regional Planning Models*. *TRB 106th Annual Meeting*, 2027.
-* <span class="publication-new">NEW</span> **2027**: Qingyuan Gao, Weiyu Luo, Xin Wu, **Ruohan Li**, Minghan Li, Yang Yang, Chenfeng Xiong*. *Measuring Tourism Visiting Pattern Using Location-Based Service (LBS) Data A Case Study of Utah Ski Resorts Spillover Effect*. *TRB 106th Annual Meeting*, 2027.
+* <span class="publication-new">NEW</span> **2027**: **Ruohan Li**, Xin Wu, Chenfeng Xiong*. *How Much of a Trajectory Is Needed? PM-Tree: Priority-Guided Hierarchical Trajectory Representation*. *TRB 106th Annual Meeting*, 2027. [Poster Presentation]
+* <span class="publication-new">NEW</span> **2027**: **Ruohan Li**, Adriana Valentina Farias, Shanjiang Zhu, Chenfeng Xiong*. *Do Observed Trips Follow Zone Connector Assumptions? Empirical Evidence on Path-Level Inference Bias in Regional Planning Models*. *TRB 106th Annual Meeting*, 2027. [Poster Presentation]
+* <span class="publication-new">NEW</span> **2027**: Qingyuan Gao, Weiyu Luo, Xin Wu, **Ruohan Li**, Minghan Li, Yang Yang, Chenfeng Xiong*. *Measuring Tourism Visiting Pattern Using Location-Based Service (LBS) Data A Case Study of Utah Ski Resorts Spillover Effect*. *TRB 106th Annual Meeting*, 2027. [Poster Presentation]
 * **2026**: **Ruohan Li**, Weiyu Luo, Chenfeng Xiong*. 
   *Rethinking Transit Deserts: Identifying Pseudo and Real Gaps through Trip-Level Mobility Data*.
   *TRB 105th Annual Meeting*, 2026. **[Lectern Presentation]** <span style="color:#32B5FF">Lectern Session 4018 — *Evaluation of Non-Conventional Transit Impacts* Wednesday, Jan 14, 2026, 8:00–9:45 AM </span>
@@ -41,6 +41,9 @@ https://doi.org/10.48550/arXiv.2607.15436) [Dataset](https://github.com/villanov
 
 ### TRC-30: Conference in Emerging Technologies in Transportation Systems
 * **2024**: **Ruohan Li**, Chenfeng Xiong*, Arash Tavakoli, C. Nataraja. *Map Matching of Location Data Trajectories: A Heterogeneous and Bayesian-Optimized Hidden Markov Approach*. *TRC-30*, 2024. **[Oral Presentation](https://trc-30.epfl.ch/wp-content/uploads/2024/09/TRC-30_paper_260.pdf)**
+
+### Modeling Mobility Conference (MoMo)
+* <span class="publication-new">NEW</span> **2027**: **Ruohan Li**, Shanjiang Zhu, Chenfeng Xiong*. Do Travelers Follow Zone Connectors? Empirical Evidence on Path-Level Inference Bias in Regional Planning Models. Modeling Mobility Conference, 2027.
 
 ### American Geophysical Union (AGU)
 * **2025**: **Ruohan Li**, Weiyu Luo, Chenfeng Xiong*. *Equity in Motion: Rethinking Transit Deserts through Complete Trip Data*. *AGU Fall Meeting*, 2025. **[Oral Presentation]**
